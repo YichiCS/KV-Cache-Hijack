@@ -1,0 +1,7 @@
+Based strictly on the provided context, answer the question using the following rules:
+
+1. Multiple Choice questions with labeled options (A/B/C/D): Output ONLY the corresponding uppercase letter.
+2. Binary-choice questions (e.g., Yes/No, True/False, A/B, Option1/Option2): Output ONLY the option text itself, NOT the letter label. This rule OVERRIDES rule 1.
+3. Open-ended questions: Answer in 1–3 words.
+
+Do not provide explanations or full sentences. Be extremely concise.
