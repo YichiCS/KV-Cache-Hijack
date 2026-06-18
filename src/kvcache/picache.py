@@ -83,7 +83,6 @@ def cache_merge(cache_a, cache_b, mask):
         )
     return merged_cache
 
-# TODO
 class PICacheManager:
     def __init__(self, sample, model, tokenizer, device, args):
         self.args = args

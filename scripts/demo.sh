@@ -1,6 +1,6 @@
 set -euo pipefail
 
-DATASET="/home/ymz5721/HijackKV/KV-Cache-Hijack/.data/datasets/hotpotqa_divaco_50.json"
+DATASET=".data/datasets/hotpotqa_200.json"
 OUTPUT_DIR=".data/results"
 RATIO=0.1
 METHODS=(vanilla random epic cacheblend)

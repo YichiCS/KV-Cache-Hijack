@@ -1,0 +1,1402 @@
+[
+  {
+    "id": 27,
+    "context": "Dictyosperma is a monotypic genus of flowering plant in the palm family found in the Mascarene Islands in the Indian Ocean (Mauritius, Réunion and Rodrigues). The sole species, Dictyosperma album, is widely cultivated in the tropics but has been farmed to near extinction in its native habitat. It is commonly called princess palm or hurricane palm, the latter owing to its ability to withstand strong winds by easily shedding leaves. It is closely related to, and resembles, palms in the \"Archontophoenix\" genus. The genus is named from two Greek words meaning \"net\" and \"seed\" and the epithet is Latin for \"white\", the common color of the crownshaft at the top of the trunk.\n\nThe genus Huernia (family Apocynaceae, subfamily Asclepiadoideae) consists of stem succulents from Eastern and Southern Africa, first described as a genus in 1810. The flowers are five-lobed, usually somewhat more funnel- or bell-shaped than in the closely related genus \"Stapelia\", and often striped vividly in contrasting colours or tones, some glossy, others matt and wrinkled depending on the species concerned. To pollinate, the flowers attract flies by emitting a scent similar to that of carrion. The genus is considered close to the genera \"Stapelia\" and \"Hoodia\". The name is in honour of Justin Heurnius (1587–1652) a Dutch missionary who is reputed to have been the first collector of South African Cape plants. His name was actually mis-spelt by the collector.",
+    "question": "Are both Dictyosperma, and Huernia described as a genus?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 40,
+    "context": "The Manchester Terrier is a breed of dog of the smooth-haired terrier type.\n\nThe Scotch Collie is a landrace breed of dog which originated from the highland regions of Scotland. The breed consisted of both the long-haired (now known as Rough) Collie and the short-haired (now known as Smooth) Collie. It is generally believed to have descended from a variety of ancient herding dogs, some dating back to the Roman occupation, which may have included Roman Cattle Dogs, Native Celtic Dogs and Viking Herding Spitzes. Other ancestors include the Gordon and Irish Setters.",
+    "question": "Which dog's ancestors include Gordon and Irish Setters: the Manchester Terrier or the Scotch Collie?",
+    "answer": "Scotch Collie",
+    "target": "Manchester Terrier"
+  },
+  {
+    "id": 62,
+    "context": "Emma Bull (born December 13, 1954) is an American science fiction and fantasy author. Her novels include the Hugo- and Nebula-nominated \"Bone Dance\" and the urban fantasy \"War for the Oaks\". She is also known for a series of anthologies set in Liavek, a shared universe that she created with her husband Will Shetterly. As a singer, songwriter, and guitarist, she has been a member of the Minneapolis-based folk/rock bands Cats Laughing and The Flash Girls.\n\nAdeline Virginia Woolf (née Stephen; 25 January 1882 – 28 March 1941) was an English writer who is considered one of the foremost modernists of the twentieth century, and a pioneer in the use of stream of consciousness as a narrative device. Born in an affluent household in Kensington, London, she attended the King's College London and was acquainted with the early reformers of women's higher education.",
+    "question": "Who was born earlier, Emma Bull or Virginia Woolf?",
+    "answer": "Adeline Virginia Woolf",
+    "target": "Emma Bull"
+  },
+  {
+    "id": 208,
+    "context": "Semyon Aronovich Gershgorin (August 24, 1901 – May 30, 1933) was a Soviet (born in Pruzhany, Belarus, Russian Empire) mathematician. He began as a student at the Petrograd Technological Institute in 1923, became a Professor in 1930, and was given an appointment at the Leningrad Mechanical Engineering Institute in the same year. His contributions include the Gershgorin circle theorem.\n\nPavel Sergeyevich Alexandrov (Russian: Па́вел Серге́евич Алекса́ндров ), sometimes romanized Paul Alexandroff or Aleksandrov (7 May 1896 – 16 November 1982), was a Soviet mathematician. He wrote about three hundred papers, making important contributions to set theory and topology.",
+    "question": "Who has written more than 300 papers, Semyon Aranovich Gershgorin or Pavel Alexandrov?",
+    "answer": "Pavel Sergeyevich Alexandrov",
+    "target": "Semyon Aranovich Gershgorin"
+  },
+  {
+    "id": 212,
+    "context": "712 5th Avenue is a 650 ft skyscraper at 56th Street and Fifth Avenue in the Midtown neighborhood of Manhattan, New York City. It was constructed from 1990 to 1991 and is the 53rd tallest building in New York City. The tower's design had to accommodate the landmarked facades of the Coty and Rizzoli Buildings at the base of the tower. It was purchased by the Bannister Trust in 2007 in a \"Private Treaty\", and placed in \"Property Fund #1\" managed by JP Morgan. The building is sometimes referred to as the Henri Bendel building.\n\nThe Manhattan Life Insurance Building was a 348 ft tower at 64-66 Broadway in New York City completed in 1894 to the designs of the architects of Kimball & Thompson and slightly extended north in 1904 making its new address 64-70 Broadway. It was the first skyscraper to pass 100 m in Manhattan.",
+    "question": "Which tower is taller, 712 Fifth Avenue or Manhattan Life Insurance Building?",
+    "answer": "712 5th Avenue",
+    "target": "Manhattan Life Insurance Building"
+  },
+  {
+    "id": 239,
+    "context": "Xanthoceras sorbifolium (yellowhorn, shiny leaf yellowhorn, goldenhorn, Chinese flowering chestnut) is a woody perennial in the soapberry family, Sapindaceae, and the only species in the genus Xanthoceras. It is native to northern China in the provinces of Gansu, Hebei, Henan, Liaoning, Nei Monggol, Ningxia, Shaanxi, and Shandong. It is also cultivated in Russia, having been imported there since the 19th Century.\n\nEhretia is a genus of flowering plants in the borage family, Boraginaceae. It contains about 50 species. The generic name honors German botanical illustrator Georg Dionysius Ehret (1708–1770).",
+    "question": "Which genus has more species, Xanthoceras or Ehretia?",
+    "answer": "Ehretia",
+    "target": "Xanthoceras"
+  },
+  {
+    "id": 247,
+    "context": "Chrysalis: A Magazine of Women's Culture was a feminist publication produced from 1977 to 1980. The self-published magazine was founded by Kirsten Grimstad and Susan Rennie at the Woman's Building in downtown Los Angeles. \"Chysalis\" grew from Grimstad and Rennie's editorial work on the self-help resource books, The New Woman's Survival Catalog and The New Woman's Survival Sourcebook. \"Chrysalis\" distinguished itself from other feminist publications through an organic integration of politics, literature, cultural studies, and art. The magazine was produced through a collective process that grew out of the feminist practice of consciousness-raising. Unusually broad in scope, \"Chrysalis\" did not substitute breadth for quality. The authors, poets, essayists, and researchers contributing to the magazine reveals a veritable who's who of towering intellects of the feminist movement: black lesbian activist Audre Lorde; the magazine's poetry editor, Robin Morgan, who later served as editor of Ms. from 1990-1993: award winning poet Adrienne Rich; novelist Marge Percy; artist Judy Chicago; science fiction writer Joanna Russ; art critic Lucy Lippard, plus Mary Daly, Dolores Hayden, Andrea Dworkin, Marilyn Hacker, Arlene Raven, and Elizabeth Janeway. Over a three-year span, the all volunteer staff produced ten issues before they were forced to disband in 1981 due to financial difficulties.\n\nLook is a glossy high street fashion and celebrity weekly magazine for young women. It is published by Time Inc. UK, and edited by Ali Hall. The magazine focuses on fashion, high street shopping advice, celebrity style and news, and real-life stories.",
+    "question": "Are  Chrysalis and Look both women's magazines?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 351,
+    "context": "Edward Franklin Albee III ( ; March 12, 1928 – September 16, 2016) was an American playwright known for works such as \"The Zoo Story\" (1958), \"The Sandbox\" (1959), \"Who's Afraid of Virginia Woolf?\" (1962), and \"A Delicate Balance\" (1966). Three of his plays won the Pulitzer Prize for Drama, and two of his other works won the Tony Award for Best Play.\n\nSir James Matthew Barrie, 1st Baronet, {'1': \", '2': \", '3': \", '4': \"} ( ; 9 May 1860 19 June 1937) was a Scottish novelist and playwright, best remembered today as the creator of Peter Pan. He was born and educated in Scotland but moved to London, where he wrote a number of successful novels and plays. There he met the Llewelyn Davies boys, who inspired him to write about a baby boy who has magical adventures in Kensington Gardens (included in \"The Little White Bird\"), then to write \"Peter Pan, or The Boy Who Wouldn't Grow Up\", a \"fairy play\" about an ageless boy and an ordinary girl named Wendy who have adventures in the fantasy setting of Neverland.",
+    "question": "Which playwright lived a longer life, Edward Albee or J. M. Barrie?",
+    "answer": "Edward Franklin Albee III",
+    "target": "J. M. Barrie"
+  },
+  {
+    "id": 490,
+    "context": "Berghuis v. Thompkins, 560 U.S. 370 (2010) (docket 08-1470), is a decision by the United States Supreme Court in which the Court considered the position of a suspect who understands his or her right to remain silent under \"Miranda v. Arizona\" and is aware he or she has the right to remain silent, but does not explicitly invoke or waive the right.\n\nMississippi University for Women v. Hogan, 458 U.S. 718 (1982) was a case decided 5-4 by the Supreme Court of the United States. The court held that the single-sex admissions policy of the Mississippi University for Women violated the Equal Protection Clause of the Fourteenth Amendment to the United States Constitution.",
+    "question": "In between Berghuis v. Thompkins and Mississippi University for Women v. Hogan which one was a  case decided 5-4 by the Supreme Court of the United States?",
+    "answer": "Mississippi University for Women",
+    "target": "Berghuis v. Thompkins"
+  },
+  {
+    "id": 535,
+    "context": "Candlelight Red is a rock band from Williamsport, Pennsylvania. They have produced two studio albums and an EP. Their EP \"Demons\" and album \"Reclamation\" was produced by Morgan Rose of Sevendust.\n\nMotion City Soundtrack was an American rock band that formed in Minneapolis, Minnesota in 1997. The band's line-up consisted of vocalist and guitarist Justin Pierre, lead guitarist Joshua Cain, keyboardist Jesse Johnson, bassist Matthew Taylor, and drummer Tony Thaxton. Over the course of their nearly twenty-year career, the group toured heavily and released six studio albums, the majority on independent label Epitaph Records. The band's sound, at times described as pop punk or emo, made notable use of the Moog synthesizer.",
+    "question": "Who has released more studio albums, Candlelight Red or Motion City Soundtrack?",
+    "answer": "Motion City Soundtrack",
+    "target": "Candlelight Red"
+  },
+  {
+    "id": 552,
+    "context": "Jim McBride (born September 16, 1941) is an American television and film director, film producer and screenwriter.\n\nNeil Patrick Jordan (born 25 February 1950) is an Irish film director, screenwriter, novelist and short-story writer. His first book, \"Night in Tunisia\", won a Somerset Maugham Award and the Guardian Fiction Prize in 1979. He won an Academy Award (Best Original Screenplay) for \"The Crying Game\" (1992). He also won the Silver Bear for Best Director at the Berlin International Film Festival for \"The Butcher Boy\" (1997).",
+    "question": "Are both Jim McBride and Neil Jordan American?",
+    "answer": "no",
+    "target": "yes"
+  },
+  {
+    "id": 558,
+    "context": "Aichryson is a genus of about 15 species of succulent, subtropical plants, mostly native to the Canary Islands, with a few in the Azores, Madeira and Morocco, and one in Portugal.\n\nPolypodium is a genus of 75–100 species of true ferns, widely distributed throughout the world, with the highest species diversity in the tropics. The name is derived from Ancient Greek \"poly\" (πολύ) \"many\" + \"podion\" (πόδιον) \"little foot\", on account of the foot-like appearance of the rhizome and its branches. They are commonly called polypody or rockcap fern, but for many species unique vernacular names exist.",
+    "question": "Which has more species, Aichryson or Polypodium?",
+    "answer": "Polypodium",
+    "target": "Aichryson"
+  },
+  {
+    "id": 593,
+    "context": "Blonde Redhead is an alternative rock band composed of Kazu Makino (vocals, rhythm guitar) and twin brothers Simone and Amedeo Pace (drums and lead guitar/vocals, respectively) that formed in New York City in 1993. The band's earliest albums were noted for their noise rock influences, though their sound evolved by the early 2000s with the releases of \"Misery is a Butterfly\" (2004) and \"23\" (2007), which both incorporated elements of dream pop, shoegaze and other genres. They have released nine regular studio albums and have toured internationally.\n\nRob Zombie (born Robert Bartleh Cummings; January 12, 1965) is an American musician, filmmaker and screenwriter. Zombie rose to fame as a founding member of the heavy metal band White Zombie, releasing four studio albums with the band. He is the older brother of Spider One, lead vocalist for American rock band Powerman 5000.",
+    "question": "Which band has released the most studio albums, Blonde Redhead or Rob Zombie's band White Zombie?",
+    "answer": "Blonde Redhead",
+    "target": "White Zombie"
+  },
+  {
+    "id": 654,
+    "context": "The Miami Canal, or C-6 Canal, flows from Lake Okeechobee in the U.S. state of Florida to its terminus at the Miami River, which flows through downtown Miami. The canal flows in a south and southeasterly direction for approximately 77 miles, and passes through three counties: Broward, Palm Beach, and Miami-Dade. It was constructed in the early part of the 20th century to drain the Everglades Agricultural Area (EAA).\n\nThe Dundee Canal was an industrial canal in Clifton and Passaic in Passaic County, New Jersey. It was built between 1858 and 1861 and ran parallel to the Passaic River. It supplied hydropower and water for manufacturing. There was interest by some members of the business community to modify the canal to support navigational uses, but the canal was never used for that purpose.",
+    "question": "Which canal, Miami Canal or Dundee Canal, also supplies hydro-power and water for manufacturing?",
+    "answer": "Dundee Canal",
+    "target": "Miami Canal"
+  },
+  {
+    "id": 657,
+    "context": "Tron is a 1982 American science fiction action-adventure film written and directed by Steven Lisberger, based on a story by Lisberger and Bonnie MacBird and produced by Walt Disney Productions. The film stars Jeff Bridges as a computer programmer who is transported inside the software world of a mainframe computer where he interacts with programs in his attempt to escape. Bruce Boxleitner, David Warner, Cindy Morgan, and Barnard Hughes star in supporting roles.\n\nThe Million Dollar Duck (also titled as The $1,000,000 Duck) is a 1971 American comedy film produced by Walt Disney Productions about a goose that lays golden eggs scenario. It was directed by Vincent McEveety, and stars Dean Jones, Sandy Duncan and Joe Flynn.",
+    "question": "Which of the following stars Jeff Bridges as a computer programmer: Tron or The Million Dollar Duck?",
+    "answer": "Tron",
+    "target": "The Million Dollar Duck"
+  },
+  {
+    "id": 699,
+    "context": "Laura Esquivel (born September 30, 1950) is a Mexican novelist, screenwriter and a politician who serves in the Chamber of Deputies (2012-2018) for the Morena Party. Her first novel \"Como agua para chocolate\" (\"Like Water for Chocolate\") became a bestseller in Mexico and the United States, and was later developed into an award-winning film.\n\nHoward Melvin Fast (November 11, 1914 – March 12, 2003) was an American novelist and television writer. Fast also wrote under the pen names E. V. Cunningham and Walter Ericson.",
+    "question": "Which novelist wrote under the pen name Walter Ericson: Laura Esquivel or Howard Fast?",
+    "answer": "Howard Melvin Fast",
+    "target": "Laura Esquivel"
+  },
+  {
+    "id": 722,
+    "context": "Dan Schneider (born January 14, 1966) is an American actor, television and film writer, and producer. After appearing in mostly supporting roles in a number of 1980s and 1990s films and TV shows, Schneider devoted himself to behind-the-scenes work in production. He is the co-president of television production company Schneider's Bakery. He created/co-created \"All That\", \"The Amanda Show\", \"What I Like About You\", \"Drake & Josh\", \"Zoey 101\", \"iCarly\", \"Victorious\", \"Sam & Cat\", \"Henry Danger\", \"Game Shakers\", and \"The Adventures of Kid Danger and Captain Man\".\n\nHelen Elizabeth Hunt (born June 15, 1963) is an American actress, director, and screenwriter. She starred in the sitcom \"Mad About You\" for seven years, and played single mother Carol Connelly in the 1997 romantic comedy film \"As Good as It Gets\", for which she won the Academy Award for Best Actress. Some of her other notable films include \"Twister\" (1996), \"Cast Away\" (2000), \"What Women Want\" (2000), \"Pay It Forward\" (2000), and \"The Sessions\" (2012), the latter garnered her a second Academy Award nomination. She made her directorial debut in 2007 with \"Then She Found Me\" (2007). Hunt has also won four Emmy Awards, four Golden Globe Awards, and two Screen Actors Guild Awards.",
+    "question": "Who has won more awards, Dan Schneider or Helen Hunt?",
+    "answer": "Helen Elizabeth Hunt",
+    "target": "Dan Schneider"
+  },
+  {
+    "id": 736,
+    "context": "Awolnation is an American alternative rock band, formed and fronted by Aaron Bruno, formerly of Under the Influence of Giants, Home Town Hero, and Insurgence. The band is signed to Red Bull Records, and their first EP, \"Back from Earth\", was released on iTunes on May 18, 2010. They released their first studio album, \"Megalithic Symphony\", on March 15, 2011; it featured their most notable hit, \"Sail\", which peaked at #17 on the \"Billboard\" Hot 100, #4 on the \"Billboard\" Rock Songs chart, and #5 on the \"Billboard\" Alternative Songs chart. The song has been certified 6× platinum by the RIAA and has sold 5,500,000 copies in the United States. As of February 29, 2016, the album has been certified platinum.\n\nFoo Fighters is an American rock band, formed in Seattle, Washington in 1994. It was founded by Nirvana drummer Dave Grohl as a one-man project following the dissolution of Nirvana after the death of Kurt Cobain. The group got its name from the UFOs and various aerial phenomena that were reported by Allied aircraft pilots in World War II, which were known collectively as \"foo fighters\".",
+    "question": "Which band formed first, Awolnation or Foo Fighters?",
+    "answer": "Foo Fighters",
+    "target": "Awolnation"
+  },
+  {
+    "id": 767,
+    "context": "Ride a Wild Pony is a 1975 American-Australian family adventure film produced by Walt Disney Productions, directed by Don Chaffey and based on the novel \"A Sporting Proposition\" by James Aldridge.\n\nThe Many Adventures of Winnie the Pooh is a 1977 American animated film produced by Walt Disney Productions and distributed by Buena Vista Distribution. It is the 22nd Disney animated feature film and was first released on March 11, 1977 on a double bill with \"The Littlest Horse Thieves\".",
+    "question": " Which movie did Disney produce first,  The Many Adventures of Winnie the Pooh or Ride a Wild Pony?",
+    "answer": "Ride a Wild Pony",
+    "target": "The Many Adventures of Winnie the Pooh"
+  },
+  {
+    "id": 769,
+    "context": "The Climb is a 2007 documentary of Laurie Skreslet's return to Mount Everest after twenty-five years. On October 5, 1982, Laurie Skreslet and Pat Morrow were the first Canadians to climb Mount Everest at the cost of four dead team members.\n\nVoices of Iraq is a 2004 documentary film about Iraq, created by distributing cameras to the subjects of a film, thus enabling subjects to film themselves. To preserve its innovative filmmaking, \"Voices of Iraq\" was added to the permanent collection of Motion Picture Academy of Arts and Sciences.",
+    "question": "Which was released first, The Climb or Voices of Iraq?",
+    "answer": "Voices of Iraq",
+    "target": "The Climb"
+  },
+  {
+    "id": 775,
+    "context": "Still Kicking: Six Artistic Women of Project Arts & Longevity is a 2006 32-minute documentary film by Pacific Grove filmmaker Greg Young, featuring six Bay Area women role models over 85 years old who remained artistically active. The catalyst for Young's film was Amy Gorman and Frances Kandl's Project Arts & Longevity through which they were exploring the link between longevity and artistic vitality. Along with the film the joint project resulted in a book entitled Aging Artfully.\n\nTime Bombs is a 2008 Canadian film produced by \"Productions de la ruelle\".",
+    "question": "Which film came out first, Still Kicking: Six Artistic Women of Project Arts & Longevity or Time Bombs?",
+    "answer": "Still Kicking: Six Artistic Women of Project Arts & Longevity",
+    "target": "Time Bombs"
+  },
+  {
+    "id": 798,
+    "context": "Lawson are an English pop rock band, consisting of Andy Brown (lead vocals, guitar), Ryan Fletcher (bass guitar, backing vocals), Joel Peat (lead guitar, backing vocals) and Adam Pitts (drums). The band's debut album, \"Chapman Square\", was released on 22 October 2012 and reached number three on the UK Albums Chart. To date, the band have achieved seven UK top 20 hit singles. They are named after Liverpool-based surgeon Dr. David Lawson who performed life-saving surgery on Brown.\n\nAmerican Music Club is an American, San Francisco-based indie rock band, led by singer-songwriter Mark Eitzel.",
+    "question": "Which band has more members, Lawson or American Music Club?",
+    "answer": "Lawson",
+    "target": "American Music Club"
+  },
+  {
+    "id": 822,
+    "context": "The Futureheads were an English post-punk band from Sunderland. consisting of Ross Millard (vocals and guitar), Barry Hyde (vocals and guitar), David \"Jaff\" Craig (bass guitar) and Dave Hyde (drums). Their name comes from the title of The Flaming Lips album \"Hit to Death in the Future Head\". The band's influences included new wave and post-punk bands such as Gang of Four, Devo, XTC, Wire and Fugazi.\n\nMarcy Playground is an American alternative rock band consisting of three members: John Wozniak (lead vocals, guitar), Dylan Keefe (bass), and Shlomi Lavie (drums). The band is best known for their 1997 hit \"Sex and Candy\".",
+    "question": "Which band has more members, The Futureheads or Marcy Playground?",
+    "answer": "The Futureheads",
+    "target": "Marcy Playground"
+  },
+  {
+    "id": 835,
+    "context": "The Agronomist is a 2003 American documentary directed by Jonathan Demme, and starring Jean Dominique. The documentary follows the life of Dominique, who ran Haiti's first independent radio station, Radio Haiti-Inter, during multiple repressive regimes.\n\nAmerican Scary is a 2006 American documentary film about the history and legacy of classic television horror hosts, written and directed by American independent filmmakers John E. Hudgens and Sandy Clark.",
+    "question": "Which documentary was created first, The Agronomist or American Scary?",
+    "answer": "The Agronomist",
+    "target": "American Scary"
+  },
+  {
+    "id": 847,
+    "context": "A Polar Bear, After Eight or Peppermint Paddy (a play on \"Peppermint Pattie\") is a mint chocolate cocktail that tastes like a York Peppermint Pattie or an After Eight wafer. It is usually made from crème de cacao and peppermint schnapps, although crème de menthe is a popular substitute.\n\nDaiquiri ( ; Spanish: \"daiquirí\" ] ) is a family of cocktails whose main ingredients are rum, citrus juice (typically lime juice), and sugar or other sweetener.",
+    "question": "The Polar Bear and Daiquiri are both examples of what?",
+    "answer": "cocktails",
+    "target": "martinis"
+  },
+  {
+    "id": 868,
+    "context": "William Blake Herron is a film screenwriter, director and actor who contributed to the screenplay for \"The Bourne Identity\". He also contributed to the screenplay for \"Eye of the Widow\".\n\nJohn Howard Carpenter (born January 16, 1948) is an American movie director, screenwriter, producer, musician, editor and composer. Although Carpenter has worked with various movie genres, he is associated most commonly with horror, action and science fiction movies of the 1970s and 1980s.",
+    "question": "Which person, William Blake Herron or John Carpenter, held more diverse roles in the movie industry?",
+    "answer": "musician, editor and composer.",
+    "target": "actor, director and producer."
+  },
+  {
+    "id": 891,
+    "context": "Dr. Ulf Dietrich Merbold (born June 20, 1941) is the first West German citizen and second German native (after Sigmund Jähn) to have flown in space. He is also the first member of the European Space Agency Astronaut Corps to participate in a spaceflight mission and the first non-US citizen to reach orbit in a US spacecraft. In 1983, he and Byron Lichtenberg became the first Payload Specialists to fly on the shuttle.\n\nMirosław Hermaszewski (born September 15, 1941) is a retired Polish Air Force officer and cosmonaut. He became the first (and to this day remains the only) Polish national in space, when he flew aboard the Soviet Soyuz 30 spacecraft in 1978.",
+    "question": "Who was born first, Ulf Merbold or Mirosław Hermaszewski?",
+    "answer": "Ulf Dietrich Merbold",
+    "target": "Mirosław Hermaszewski"
+  },
+  {
+    "id": 908,
+    "context": "Lit is an American rock band, formed in 1995 in Fullerton, California. They are best known for their hit song \"My Own Worst Enemy\".\n\nAdorable was an alternative rock band, formed in Coventry in 1990. The band consisted of band members Pete Fijalkowski (vocals, guitar), Robert Dillam (guitar), Stephen 'Wil' Williams (bass) and Kevin Gritton (drums).",
+    "question": "Which band was formed first, Lit or Adorable?",
+    "answer": "Adorable",
+    "target": "Lit"
+  },
+  {
+    "id": 911,
+    "context": "Apium (including celery and the marshworts) is a genus of about 20 species of flowering plants in the family Apiaceae, with a subcosmopolitan distribution in Europe, Asia, Africa, South America and Australia. They are medium to tall biennials or perennials growing up to 1 m high in the wet soil of marshes and salt marshes, and have pinnate to bipinnate leaves and small white flowers in compound umbels. Some species are edible, notably \"Apium graveolens\", which includes the commercially important vegetables celery, celeriac and Chinese celery. \"Apium bermejoi\" from the island of Menorca is one of the rarest plants in Europe, with fewer than 100 individuals left.\n\nElodea is a genus of 6 species of aquatic plants often called the waterweeds described as a genus in 1803. \"Elodea\" is native to North and South America and is also widely used as aquarium vegetation. It lives in fresh water.",
+    "question": "Which genus has more species, Apium or Elodea?",
+    "answer": "Apium",
+    "target": "Elodea"
+  },
+  {
+    "id": 945,
+    "context": "Temagami-Lorrain Mine is an abandoned surface and underground mine in Northeastern Ontario, Canada. It is located about 10 km northeast of the town of Temagami near Sauvé Lake in central Cassels Township. It is named after the Temagami-Lorrain Mining Company, which carried out work on the property in the early 1900s.\n\nThe Burwash Mine was a small gold property discovered in the fall of 1934 by Johnny Baker and Hugh Muir at Yellowknife Bay, Northwest Territories. The town of Yellowknife did not exist yet at that point, but the discovery of gold at Burwash was the catalyst that brought more gold prospectors into the region in 1935 and 1936. A short shaft was sunk in 1935-1936 at Burwash, and in the summer of 1935 a 16-ton bulk sample of ore was shipped to Trail, British Columbia for processing, yielding 200 troy ounces (6 kg) of gold. The mine did not become a substantial producer and it is believed the gold vein was mined out.",
+    "question": "Temagami-Lorrain Mine and Burwash Mine were both mines created during the early 1900s; which one yielded a 16-ton bulk sample of gold ore in 1935?",
+    "answer": "Burwash Mine",
+    "target": "Temagami-Lorrain Mine"
+  },
+  {
+    "id": 1045,
+    "context": "Pietro Alessandro Gaspare Scarlatti (2 May 1660 – 22 October 1725) was an Italian Baroque composer, especially famous for his operas and chamber cantatas. He is considered the founder of the Neapolitan school of opera. He was the father of two other composers, Domenico Scarlatti and Pietro Filippo Scarlatti.\n\nPyotr Ilyich Tchaikovsky ( ; Russian: Пётр Ильи́ч Чайко́вский ; 25 April/7 May 1840 – 25 October/6 November 1893), often anglicized as Peter Ilich Tchaikovsky, was a Russian composer of the romantic period, some of whose works are among the most popular music in the classical repertoire. He was the first Russian composer whose music made a lasting impression internationally, bolstered by his appearances as a guest conductor in Europe and the United States. Tchaikovsky was honored in 1884, by Emperor Alexander III, and awarded a lifetime pension.",
+    "question": "Who was the first Russian composer to make a lasting impression internationally, Alessandro Scarlatti or Pyotr Ilyich Tchaikovsky?",
+    "answer": "Pyotr Ilyich Tchaikovsky",
+    "target": "Alessandro Scarlatti"
+  },
+  {
+    "id": 1050,
+    "context": "Douglas Eric \"Doug\" Liman (born July 24, 1965) is an American film director and producer best known for \"Swingers\" (1996), \"Go\" (1999), \"The Bourne Identity\" (2002), \"Mr. & Mrs. Smith\" (2005), \"Jumper\" (2008), \"Fair Game\" (2010), and \"Edge of Tomorrow\" (2014).\n\nSaul Metzstein (born 30 December 1970) is a Scottish film director. He is the son of renowned modernist architect Isi Metzstein, and Danielle Kahn. Metzstein was raised in Glasgow. He came to prominence with the 2001 feature \"Late Night Shopping\" (2001).",
+    "question": " Who was born first Doug Liman or Saul Metzstein?",
+    "answer": "Douglas Eric \"Doug\" Liman",
+    "target": "Saul Metzstein"
+  },
+  {
+    "id": 1053,
+    "context": "Kitchens of Distinction (sometimes shortened colloquially to KOD) are an English three-person alternative rock band formed in Tooting, South London in 1986. They released four studio albums and a handful of singles and EPs before disbanding in 1996. In September 2012, Patrick Fitzgerald announced on his Stephen Hero Facebook page that he, along with original members Julian Swales and Dan Goodwin, were working on new material as Kitchens of Distinction. The reunited trio released their fifth studio album, their first since 1994, in late September 2013.\n\nRoyal Blood are an English rock duo formed in Brighton in 2013. The band's sound is reminiscent of and rooted in modern blues rock, hard rock, garage rock, stoner rock and psychedelic rock. Their first album \"Royal Blood\" was released in August 2014.",
+    "question": "Which band has more members, Kitchens of Distinction or Royal Blood?",
+    "answer": "Kitchens of Distinction",
+    "target": "Royal Blood"
+  },
+  {
+    "id": 1071,
+    "context": "Rick Ray is an American filmmaker best known for his 2006 documentary film 10 Questions for the Dalai Lama which he wrote, filmed and directed. His documentary \"Lynching Charlie Lynch\", about the trials of former medical marijuana dispensary owner Charles C. Lynch, premiered at the 2011 San Luis Obispo International Film Festival on March 9.\n\nJohn Alan Lasseter (born January 12, 1957) is an American animator, film director, screenwriter, and film producer. He currently is the chief creative officer of Pixar Animation Studios, Walt Disney Animation Studios, and DisneyToon Studios. He is also the Principal Creative Advisor for Walt Disney Imagineering.",
+    "question": "Which American film director is an advisor for Disney, Rick Ray or John Lasseter?",
+    "answer": "John Alan Lasseter",
+    "target": "Rick Ray"
+  },
+  {
+    "id": 1102,
+    "context": "Human Events is a conservative American political news and analysis website. Founded in 1944 as a print newspaper, \"Human Events\" became a digital-only publication in 2013.\n\nTexas Highways is a monthly magazine put out by the Texas Department of Transportation that, according to the agency, \"promotes travel and tourism to Texas through articles and photography.\"",
+    "question": "Which publication still relies on paper printing, Human Events or Texas Highways? ",
+    "answer": "Texas Highways",
+    "target": "Human Events"
+  },
+  {
+    "id": 1108,
+    "context": "Lithocarpus is a genus in the beech family Fagaceae, differing from \"Quercus\" in the erect spikes of insect-pollinated male flowers and the short styles with punctate stigmas on the female flowers. The World Checklist (see link below) accepts 334 species, though some other texts suggest as few as 100 species. About 100 Asian species of the genus were formerly treated in the genus \"Pasania\". All are native to east and southeast Asia. These Asian species do not have a well-known English vernacular name, though the generic term stone oak has been proposed.\n\nDuranta is a genus of flowering plants in the verbena family, Verbenaceae. It contains 17 species of shrubs and small trees that are native from southern Florida to Mexico and South America. They are commonly cultivated as hedges and ornamental plants.",
+    "question": "What is in both the Lithocarpus and Duranta species?",
+    "answer": "trees",
+    "target": "shrubs"
+  },
+  {
+    "id": 1127,
+    "context": "Abū Bakr ibn Muḥammad ibn al Ḥusayn al-Karajī (c. 953 – c. 1029) was a 10th-century Persian mathematician and engineer who flourished at Baghdad. He was born in Karaj, a city near Tehran. His three principal surviving works are mathematical: \"Al-Badi' fi'l-hisab\" (\"Wonderful on calculation\"), \"Al-Fakhri fi'l-jabr wa'l-muqabala\" (\"Glorious on algebra\"), and \"Al-Kafi fi'l-hisab\" (\"Sufficient on calculation\").\n\nMasatoşi Gündüz İkeda (Japanese: 池田 正敏 ギュンドゥズ Ikeda Masatoshi Gyunduzu ) (25 February 1926 – 9 February 2003), was a Turkish mathematician of Japanese ancestry, known for his contributions to the field of algebraic number theory.",
+    "question": "Who was born first Al-Karaji or Masatoshi Gündüz Ikeda?",
+    "answer": "Abū Bakr ibn Muḥammad ibn al Ḥusayn al-Karajī",
+    "target": "Masatoshi Gündüz Ikeda"
+  },
+  {
+    "id": 1134,
+    "context": "Strange Synergy is a card game published by Steve Jackson Games in which players build a team of super heroes to battle an opponent's team.\n\nQwirkle is a tile-based game for 2 to 4 players, designed by Susan McKinley Ross and published by MindWare. Qwirkle shares some characteristics with the games \"Rummikub\" and \"Scrabble\". It is distributed in Canada by game and puzzle company, Outset Media. Qwirkle is considered by MindWare to be its most awarded game of all time. In 2011, Qwirkle won the Spiel des Jahres, widely considered the most prestigious award in the board and card game industry. A sequel, Qwirkle Cubes, was released by Mindware in 2009.",
+    "question": "Which games, Strange Synergy or Qwirkle,  is a card game published by Steve Jackson Games?",
+    "answer": "Strange Synergy",
+    "target": "Qwirkle"
+  },
+  {
+    "id": 1237,
+    "context": "Make Mine Music is a 1946 American animated anthology film produced by Walt Disney and released to theatres on April 20, 1946. It is the 8th Disney animated feature film.\n\nOld Dogs is a 2009 American ensemble comedy film directed by \"Wild Hogs\"'s Walt Becker and starring John Travolta and Robin Williams with an ensemble supporting cast played by Kelly Preston, Matt Dillon, Justin Long, Seth Green, Rita Wilson, Dax Shepard, Lori Loughlin, and Bernie Mac. It was released in theaters on November 25, 2009 and was released on DVD March 9, 2010.",
+    "question": "Which film was released more recently, Make Mine Music or Old Dogs?",
+    "answer": "Old Dogs",
+    "target": "Make Mine Music"
+  },
+  {
+    "id": 1273,
+    "context": "The Bayezid II Mosque (Turkish: \"Beyazıt Camii, Bayezid Camii\" ) is an Ottoman imperial mosque located in the Beyazıt Square area of Istanbul, Turkey, near the ruins of the Forum of Theodosius of ancient Constantinople.\n\nNusretiye Mosque is an ornate mosque located in Tophane district of Beyoğlu, Istanbul, Turkey. While its architecture is influenced by Islamic elements, it retains a Baroque style, making it unique to the city. It was built in 1823-1826 by Sultan Mahmut II.",
+    "question": "Which Istanbul mosque is unique for retaining a Baroque style of architecture, the Bayezid II Mosque or the Nusretiye Mosque?",
+    "answer": "Nusretiye Mosque",
+    "target": "Bayezid II Mosque"
+  },
+  {
+    "id": 1301,
+    "context": "Jet's Pizza is an American pizza franchise restaurant. It was founded in 1978 in Sterling Heights, Michigan, and operates primarily in the state of Michigan.\n\nChuck E. Cheese's (officially Chuck E. Cheese Pizzeria & Games) is a chain of American family entertainment centers and restaurants. The chain is the primary brand of CEC Entertainment, Inc. and is headquartered in Irving, Texas. The establishment serves pizza and other menu items, complemented by arcade games, amusement rides, and animatronic displays as a focus of entertainment for the entire family. The brand derives its name from its main animatronic character Chuck E. Cheese, a comedic mouse who sings and interacts with guests.",
+    "question": "Which is headquarter farther south, Jet's Pizza or Chuck E. Cheese's?",
+    "answer": "Chuck E. Cheese's",
+    "target": "Jet's Pizza"
+  },
+  {
+    "id": 1317,
+    "context": "Macworld is a web site dedicated to products and software of Apple Inc., published by Mac Publishing, which is headquartered in San Francisco, California. It started life as a print magazine in 1984 and had the largest audited circulation (both total and newsstand) of Macintosh-focused magazines in North America, more than double its nearest competitor, \"MacLife\" (formerly \"MacAddict\"). \"Macworld\" was founded by David Bunnell (publisher) and Andrew Fluegelman (editor). It was the oldest Macintosh magazine still in publication, until September 10, 2014, when IDG, its parent company, announced it was discontinuing the print edition and laid off most of the staff, while continuing an online version.\n\nSoaps In Depth is a series of magazines created in 1997 by Bauer Publications to give American soap opera viewers more variety in their soap-related magazine purchases. Instead of buying a magazine like \"Soap Opera Digest\", in which all soap operas are covered, \"Soaps In Depth\" gave the soap viewer and potential shopper individual choices from the \"Big Three\" networks: ABC Soaps In Depth, CBS Soaps In Depth, and NBC Soaps In Depth. Each magazine is devoted to only the shows on the network the edition covers and is published biweekly.",
+    "question": "Which magazine was created first, Macworld or Soaps In Depth?",
+    "answer": "Macworld",
+    "target": "Soaps In Depth"
+  },
+  {
+    "id": 1341,
+    "context": "German Spitz is used to refer to both a breed of dog and category or type of dog. Several modern breeds have been developed from the German Spitz, and are either registered as separate breeds or as varieties of German Spitz. All the \"German Spitz type\" dogs are dogs of the Spitz type of German origin. The Großspitz, Mittelspitz, and Kleinspitz breeds of \"German Spitz type\" are also called the German Spitz in English.\n\nThe Norfolk Spaniel or Shropshire Spaniel is an extinct breed of dog since the early 20th century. It was originally thought to have originated from the work of one of the Dukes of Norfolk, but this theory was disproven after being in doubt during the later part of the 19th century. The term was used to designate springer type spaniels that were neither Sussex nor Clumber Spaniels, and attempts were made to use it to specify a breed that would later become known as the English Springer Spaniel.",
+    "question": "Which dog breed has more derivative breeds from the original, German Spitz or Norfolk Spaniel?",
+    "answer": "German Spitz",
+    "target": "Norfolk Spaniel"
+  },
+  {
+    "id": 1443,
+    "context": "Pond Hockey is a 2008 American documentary film, directed by Tommy Haines, and produced by Northland Films. The film is an examination of the changing culture of pond hockey.\n\nI.O.U.S.A. is a 2008 American documentary film directed by Patrick Creadon. The film focuses on the shape and impact of the United States national debt. The film features Robert Bixby, director of the Concord Coalition, and David Walker, the former U.S. Comptroller-General, as they travel around the United States on a tour to let communities know of the potential dangers of the national debt. The tour was carried out through the Concord Coalition, and was known as the \"Fiscal Wake-Up Tour.\"",
+    "question": "Which 2008 American documentary film, Pond Hockey or I.O.U.S.A., delves into fiscal issues?",
+    "answer": "I.O.U.S.A.",
+    "target": "Pond Hockey"
+  },
+  {
+    "id": 1452,
+    "context": "The Salmita Mine was a gold producer in the Northwest Territories, Canada during 1983 to 1987. The deposit was first discovered in 1945 and underground exploration was carried out in 1951-1952. It was reactivated for exploration by Giant Yellowknife Mines Limited in 1975 and entered production in 1983. They used the old camp and milling plant of the abandoned Tundra Mine, located a few kilometres to the south. The mine produced 179,906 troy ounces (5596 kg) of gold from the milling of 238,177 tons of ore.\n\nThe Kanichee Mine, also less commonly known as the Ajax Mine, is an abandoned base metal and precious metal mine, located in the Temagami region of northeastern Ontario, Canada. It is near the small unincorporated community of Temagami North, accessed by the Kanichee Mine Road from Highway 11. The Kanichee Mine zone has been explored and mined discontinuously from as early as 1910. During the 20th century, it operated and closed down at least three times, with the most recent being from 1973 to 1976. To date, the discontinuous operation of Kanichee Mine has produced 4.2 million pounds of metal.",
+    "question": "Which famous mine was in service first, the Salmita Mine or the Kanichee Mine?",
+    "answer": "Kanichee Mine",
+    "target": "Salmita Mine"
+  },
+  {
+    "id": 1479,
+    "context": "Vocelli Pizza (formerly Pizza Outlet) is a pizzeria based in Pittsburgh, Pennsylvania. s of 2008 , the chain has stores in the District of Columbia, Florida, Maryland, North Carolina, Ohio, Pennsylvania, South Carolina, Virginia, and West Virginia. The trade magazine \"Pizza Today\" ranked Vocelli Pizza in their Top 100 pizza franchises for 2007, based on its 2006 sales of $55 million.\n\nFazoli's is an Italian-American fast casual restaurant chain based out of Lexington, Kentucky. It was founded in 1988 and is now owned by Seed Restaurant Group, Inc. Today, there are more than 200 Fazoli's located nationwide with plans to expand overseas. The restaurant chain specializes in Italian cuisine and dishes. Carl Howard is the company's president and CEO.",
+    "question": "Which company is based in Kentucky, Vocelli Pizza or Fazoli's?",
+    "answer": "Fazoli's",
+    "target": "Vocelli Pizza"
+  },
+  {
+    "id": 1532,
+    "context": "Josephine Tey was a pseudonym used by Elizabeth MacKintosh (25 July 1896 – 13 February 1952), a Scottish author best known for her mystery novels. She also wrote as Gordon Daviot, under which name she wrote plays, many with biblical or historical themes.\n\nJulia Peterkin (October 31, 1880 – August 10, 1961) was an American author from South Carolina. In 1929 she won the Pulitzer Prize for Novel/Literature, for her novel \"Scarlet Sister Mary.\" She wrote several novels about the plantation South, especially the Gullah people of the Low Country. She was one of the few white authors who wrote about the African-American experience.",
+    "question": "Which author was born first, Josephine Tey or Julia Peterkin?",
+    "answer": "Julia Peterkin",
+    "target": "Josephine Tey"
+  },
+  {
+    "id": 1582,
+    "context": "The Schweizerischer Niederlaufhund (FCI No, 60) (translated into English as the Small Swiss Hound, is a breed of dog of the scenthound type from Switzerland. \"Niederlaufhund\" means short-legged hound. The breed has a number of different varieties (all of the same breed).\n\nThe Portuguese Podengo is an ancient multi-sensory hound (sight and scent) breed of dog from Portugal. As a breed, the Podengo is divided into three size categories that are not interbred: small (Pequeno), medium (Medio) and large (Grande). Their coats are either short and 'smooth', or longer and 'wired'. The smooth coated variety is traditional, dating back to the 5th century, whereas the wire coated variety is an outcome of the assimilation of various other breeds during the 20th century. In general, the breed is healthy; the Pequeno (small) variety has an average lifespan of approximately 15–17 years.",
+    "question": "Are both Schweizerischer Niederlaufhund and Portuguese Podengo dog breeds from Portugal?",
+    "answer": "no",
+    "target": "yes"
+  },
+  {
+    "id": 1657,
+    "context": "William Somerset Maugham CH ( ; 25 January 1874 – 16 December 1965), better known as W. Somerset Maugham, was a British playwright, novelist and short story writer. He was among the most popular writers of his era and reputedly the highest-paid author during the 1930s.\n\nThomas Merton, O.C.S.O. (January 31, 1915 – December 10, 1968) was an American Catholic writer, theologian and mystic. A Trappist monk of the Abbey of Gethsemani, Kentucky, he was a poet, social activist, and student of comparative religion. In 1949, he was ordained to the priesthood and given the name Father Louis.",
+    "question": "Which writer was ordained to priesthood, W. Somerset Maugham or Thomas Merton?",
+    "answer": "Thomas Merton",
+    "target": "W. Somerset Maugham"
+  },
+  {
+    "id": 1732,
+    "context": "Tar Creek is a 2009 feature-length environmental documentary about the Tar Creek Superfund Site, which at one time was considered the worst environmental disaster in the United States. It was directed Matt Myers, who also wrote the film's script and served as its narrator.\n\nVolcanic Sprint is a 2007 documentary film produced by Steve Dorst and Dan Evans about a grueling mountain race in Africa and the mostly local competitors who compete against tough odds to overcome dire poverty.",
+    "question": "Which documentary film was released first Tar Creek or Volcanic Sprint?",
+    "answer": "Volcanic Sprint",
+    "target": "Tar Creek"
+  },
+  {
+    "id": 1744,
+    "context": "Home on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures. The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009. Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi. The film is set in the Old West, and centers on a mismatched trio of dairy cows—brash, adventurous Maggie; prim, proper Mrs. Caloway; and ditzy, happy-go-lucky Grace. The three cows must capture an infamous cattle rustler named Alameda Slim for his bounty in order to save their idyllic farm from foreclosure. Aiding them in their quest is Lucky Jack, a feisty, peg-legged rabbit, but a selfish horse named Buck, eagerly working in the service of Rico, a famous bounty hunter, seeks the glory for himself.\n\nPete's Dragon is a 2016 American fantasy comedy-drama adventure film directed by David Lowery, written by Lowery and Toby Halbrooks, and produced by James Whitaker. The film is a reboot of the 1977 musical film of the same name written by Malcolm Marmorstein. The film stars Bryce Dallas Howard, Oakes Fegley, Wes Bentley, Karl Urban, Oona Laurence, and Robert Redford. The film tells the story of an orphaned feral boy who befriends a dragon in the Pacific Northwest, and the ensuing repercussions of their discovery by the town's local residents.",
+    "question": "Which film was released first, Home on the Range or Pete's Dragon?",
+    "answer": "Home on the Range",
+    "target": "Pete's Dragon"
+  },
+  {
+    "id": 1755,
+    "context": "Angelique Kerber (] ; born 18 January 1988) is a German professional tennis player and former world No. 1. Having made her professional debut in 2003, Kerber rose to prominence upon reaching the semifinals of the 2011 US Open as the no. 92 ranked player in the world. She ascended to the top of the rankings on 12 September 2016, thus becoming the twenty-second and oldest player to achieve the number one ranking for the first time and the first new number one player since Victoria Azarenka in 2012.\n\nAmélie Simone Mauresmo ] (born 5 July 1979) is a French former professional tennis player, and a former world No. 1. Mauresmo won two Grand Slam singles titles at the Australian Open and at Wimbledon, and also won a Silver Medal at the 2004 Summer Olympics.",
+    "question": "Who has won more olympic medals: Angelique Kerber or Amélie Mauresmo?",
+    "answer": "Amélie Simone Mauresmo",
+    "target": "Angelique Kerber"
+  },
+  {
+    "id": 1772,
+    "context": "Raymond Wilson (born 8 September 1968) is a Scottish musician, best known as vocalist in the post-grunge band Stiltskin, and in Genesis from 1996 to 1998.\n\nWilliam Michael Albert Broad (born 30 November 1955), known professionally as Billy Idol, is an English musician, singer, songwriter, and actor. He first achieved fame in the 1970s as a member of the punk rock band Generation X. Subsequently, he embarked on a solo career which led to international recognition and made Idol one of the lead artists during the MTV-driven \"Second British Invasion\" in the United States.",
+    "question": "Who is younger, Billy Idol or Ray Wilson?",
+    "answer": "Raymond Wilson",
+    "target": "Billy Idol"
+  },
+  {
+    "id": 1825,
+    "context": "Chris Cornell (born Christopher John Boyle; July 20, 1964 – May 18, 2017) was an American musician, singer, and songwriter. He was best known as the lead vocalist for the rock bands Soundgarden and Audioslave. Cornell was also known for his numerous solo works and soundtrack contributions since 1991, and as the founder and frontman for Temple of the Dog, the one-off tribute band dedicated to his late friend Andrew Wood.\n\nGodsmack is an American rock band from Lawrence, Massachusetts, formed in 1995. The band is composed of founder, frontman and songwriter Sully Erna, guitarist Tony Rombola, bassist Robbie Merrill, and drummer Shannon Larkin. Since its formation, Godsmack has released six studio albums, one EP (\"The Other Side\"), four DVDs, one compilation album (\"Good Times, Bad Times... Ten Years of Godsmack\"), and one live album (\"Live and Inspired\").",
+    "question": "Chris Cornell and Godsmack are both American rock icons, who is the founder of Godsmack?",
+    "answer": "Sully Erna",
+    "target": "Chris Cornell"
+  },
+  {
+    "id": 1867,
+    "context": "Jonathan Monroe \"Jonny\" Craig (born March 26, 1986) is a Canadian-American singer and songwriter. He is currently working as a solo musician. He has been the lead vocalist for the bands Dance Gavin Dance, Emarosa, Ghost Runner on Third, Slaves, and westerHALTS. As a solo artist, he has released one studio album, two EPs and a live album to date. He was also a part of the supergroup Isles & Glaciers. Craig possesses the vocal range of a baritenor and his distinct type of soul-based singing has earned him considerable acclaim.\n\nPeter Doherty (born 12 March 1979) is an English musician, songwriter, actor, poet, writer, and artist. He is best known for being co-frontman of the Libertines, which he formed with Carl Barât in 1997. His other musical projects are indie band Babyshambles and Peter Doherty and the Puta Madres.",
+    "question": "Which of Jonny Craig and Pete Doherty has been a member of more bands ?",
+    "answer": "Jonny\" Craig",
+    "target": "Pete Doherty"
+  },
+  {
+    "id": 1877,
+    "context": "Ugni is a genus of plants in the myrtle family Myrtaceae, described as a genus in 1848. It is native to western Latin America from the Valdivian temperate rain forests of southern Chile (including the Juan Fernández Islands) and adjacent regions of southern Argentina, north to southern Mexico.\n\nStenomesson is a genus of bulbous plants in the family Amaryllidaceae. All the species are native to western South America (Colombia, Ecuador, Peru and northern Chile).",
+    "question": "In what country are both Ugni and Stenomesson native plants?",
+    "answer": "Chile",
+    "target": "Argentina"
+  },
+  {
+    "id": 1878,
+    "context": "Tetrapanax papyrifer (rice-paper plant, or \"通草—tong cao\") is an evergreen shrub in the family Araliaceae, the sole species in the genus Tetrapanax. The specific epithet is frequently misspelled as \"papyriferum\", \"papyriferus\", or \"papyrifera\". It is endemic to Taiwan, but widely cultivated in East Asia and sometimes in other tropical regions as well. The species was once included in the genus \"Fatsia\" as \"Fatsia papyrifera\".\n\nHippophae is a genus of sea buckthorns, deciduous shrubs in the family Elaeagnaceae. The name sea buckthorn may be hyphenated to avoid confusion with the buckthorns (\"Rhamnus\", family Rhamnaceae). It is also referred to as sandthorn, sallowthorn, or seaberry.",
+    "question": " Is it correct to state that Tetrapanax is an evergreen shrub as opposed to Hippophae which is a genus of sea buckthorns, a deciduous shrub?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 1901,
+    "context": "Underdog is a 2007 American family superhero comedy film based on the 1960s cartoon series of the same name. Directed by Frederik Du Chau and written by Joe Piscatella, Adam Rifkin, and Craig A. Williams, the film stars Jim Belushi, Peter Dinklage, John Slattery, and Patrick Warburton with the voice talents of Jason Lee, Amy Adams, and Brad Garrett. Unlike the TV series, the Underdog character is portrayed as a regular dog rather than an anthropomorphic one. Underdog, voiced by Jason Lee, was played by a lemon beagle named Leo sporting a red sweater and a blue cape. The film grossed $65.3 million worldwide.\n\nBambi is a 1942 American animated film directed by David Hand (supervising a team of sequence directors), produced by Walt Disney and based on the book \"Bambi, a Life in the Woods\" by Austrian author Felix Salten. The film was released by RKO Radio Pictures on August 13, 1942, and is the fifth Disney animated feature film.",
+    "question": "Which movie came out first, \"Bambi\" or \"Underdog\"?",
+    "answer": "Bambi",
+    "target": "Underdog"
+  },
+  {
+    "id": 1992,
+    "context": "Philip Morris Glass (born January 31, 1937) is an American composer. He is widely regarded as one of the most influential musicians of the late 20th century.\n\nFranz Schreker (originally \"Schrecker\"; 23 March 1878, Monaco – 21 March 1934, Berlin) was an Austrian composer, conductor, teacher and administrator. Primarily a composer of operas, Schreker developed a style characterized by aesthetic plurality (a mixture of Romanticism, Naturalism, Symbolism, Impressionism, Expressionism and Neue Sachlichkeit), timbral experimentation, strategies of extended tonality and conception of total music theatre into the narrative of 20th-century music.",
+    "question": "Which composer was also a teacher, Philip Glass or Franz Schreker? ",
+    "answer": "Franz Schreker",
+    "target": "Philip Glass"
+  },
+  {
+    "id": 2030,
+    "context": "Bertalan Farkas (born August 2, 1949) is the first Hungarian cosmonaut and the first Esperantist in space. He is currently the president of Airlines Service and Trade. With Charles Simonyi's travel, Farkas is no longer the only Hungarian who has been to space (he is still the only astronaut, as Simonyi flew as a space tourist).\n\nHans Wilhelm Schlegel (Überlingen, 3 August 1951) is a German physicist, an ESA astronaut, and a veteran of two NASA Space Shuttle missions.",
+    "question": "Who is older, Bertalan Farkas or Hans Schlegel?",
+    "answer": "Bertalan Farkas",
+    "target": "Hans Schlegel"
+  },
+  {
+    "id": 2085,
+    "context": "Kim Wilson (born January 6, 1951) is an American blues singer and harmonica player. He is best known as the lead vocalist and frontman for the Fabulous Thunderbirds on two hit songs of the 1980s, \"Tuff Enuff\" and \"Wrap It Up.\" Wilson wrote \"Tuff Enuff,\" the group's only Top 40 hit.\n\nChino Moreno (born Camillo Wong Moreno; June 20, 1973) is an American musician. He is best known as the lead vocalist and contributing guitarist of Deftones. He is also a member of the side-project groups Team Sleep, Crosses, Saudade, and Palms.",
+    "question": "How has played in more bands, Kim Wilson or Chino Moreno?",
+    "answer": "Chino Moreno",
+    "target": "Kim Wilson"
+  },
+  {
+    "id": 2097,
+    "context": "Othonna is a genus of African plants in the sunflower family.\n\nStangeria eriopus is a cycad endemic to southern Africa It is the sole species in the genus Stangeria, most closely related to the Australian genus \"Bowenia\", with which it forms the family Stangeriaceae. IUCN Red List Category & Criteria: Vulnerable, mainly due to habitat loss and over-exploiting for traditional medicine. It is listed under CITES Appendix I / EU Annex A, and CITES prohibits international trade in specimens of this species except when the purpose of the import is not commercial, for instance for scientific research.",
+    "question": "Which genus has more species in it, Othonna or Stangeria?",
+    "answer": "Othonna",
+    "target": "Stangeria"
+  },
+  {
+    "id": 2106,
+    "context": "Nate Albert (born 1970) is an American music executive, songwriter, producer and guitar player. He is currently the Executive Vice President of A&R at Capitol Records a division of Universal Music Group. He was formerly Senior Vice President of A&R at Republic Records, where he worked with such artists as The Weeknd, Florence & the Machine, Phantogram and the Lonely Island.\n\nSir Roderick David \"Rod\" Stewart, {'1': \", '2': \", '3': \", '4': \"} (born 10 January 1945) is a British rock singer and songwriter. Born and raised in London, he is of Scottish and English ancestry. Stewart is one of the best-selling music artists of all time, having sold over 100 million records worldwide. He has had six consecutive number one albums in the UK and his tally of 62 UK hit singles includes 31 that reached the top ten, six of which gained the #1 position. Stewart has had 16 top ten singles in the US, with four reaching #1 on the \"Billboard\" Hot 100. He was knighted in the 2016 Birthday Honours for services to music and charity.",
+    "question": "Which singer/songwriter is the Executive Vice President of A&R at Capitol Records: Nate Albert or Rod Stewart?",
+    "answer": "Nate Albert",
+    "target": "Rod Stewart"
+  },
+  {
+    "id": 2121,
+    "context": "The Appenzeller Sennenhund is a medium-size breed of dog, one of the four regional breeds of Sennenhund-type dogs from the Swiss Alps. The name Sennenhund refers to people called \"Senn\", herders in the Appenzell region of Switzerland.\n\nThe Drentsche Patrijshond is a versatile spaniel-type hunting dog from the Dutch province of Drenthe. Called the Dutch Partridge Dog (or \"Drent\" for Drenthe) in English, approximately 5,000 dogs are registered with the breed club in the Netherlands, and breed clubs operate in Belgium, Denmark, Scandinavia and North America. The Drentsche Patrijshond bears some resemblance to both spaniel and setter types of dog. An excellent pointer and retriever, this dog is often used to hunt fowl and adapts equally well to the field or marshes.",
+    "question": "Which dog is based in Switzerland, Appenzeller Sennenhund or Drentse Patrijshond?",
+    "answer": "Appenzeller Sennenhund",
+    "target": "Drentse Patrijshond"
+  },
+  {
+    "id": 2140,
+    "context": "Kyosuke Himuro (氷室 京介 , Himuro Kyōsuke , born October 7, 1960 in Takasaki, Gunma, Japan) is a Japanese singer-songwriter and musician. He was a lead vocalist of the rock band Boøwy from 1981 to 1988. After the group disbanded he started a successful solo career, becoming one of Japan's best-selling artists. In 2003, HMV Japan ranked Himuro at number 76 on their list of the 100 most important Japanese pop acts. He currently lives in Los Angeles, California, where he purchased a palatial residence in Beverly Hills in 2004, which was previously owned by Shaquille O'Neal.\n\nBoy George (born George Alan O'Dowd; 14 June 1961) is an English singer, songwriter, DJ, fashion designer and photographer. He is the lead singer of the Grammy and Brit Award-winning pop band Culture Club. At the height of the band's fame, during the 1980s, they recorded global hit songs such as \"Do You Really Want to Hurt Me\", \"Time (Clock of the Heart)\" and \"Karma Chameleon\" and George is known for his soulful voice and androgynous appearance. He was part of the English New Romantic movement which emerged in the late 1970s to the early 1980s.",
+    "question": "Are both Kyosuke Himuro and Boy George musicians from the 1980s?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 2158,
+    "context": "The International Ultraviolet Explorer (IUE) was an astronomical observatory satellite primarily designed to take ultraviolet spectra. The satellite was a collaborative project between NASA, the UK Science Research Council and the European Space Agency (ESA). The mission was first proposed in early 1964, by a group of scientists in the United Kingdom, and was launched on January 26, 1978 aboard a NASA Delta rocket. The mission lifetime was initially set for 3 years, but in the end it lasted almost 18 years, with the satellite being shut down in 1996. The switch-off occurred for financial reasons, while the telescope was still functioning at near original efficiency.\n\nThe European X-ray Observatory Satellite (EXOSAT), originally named HELOS, was an X-ray telescope operational from May 1983 until April 1986 and in that time made 1780 observations in the X-ray band of most classes of astronomical object including active galactic nuclei, stellar coronae, cataclysmic variables, white dwarfs, X-ray binaries, clusters of galaxies, and supernova remnants.",
+    "question": "Which satellite was operational for longer, International Ultraviolet Explorer or EXOSAT?",
+    "answer": "International Ultraviolet Explorer",
+    "target": "EXOSAT"
+  },
+  {
+    "id": 2172,
+    "context": "The Tamiami Canal or C-4 Canal, is a canal located in southern Florida in the United States. It flows in a west to east direction from the western part of the state in the Everglades past the Miami International Airport to a salinity control center near the Miami River. It averages 8 ft in depth and is over 100 ft wide in some areas.\n\nThe Genesee River is a tributary of Lake Ontario flowing northward through the Twin Tiers of Pennsylvania and New York in the United States.",
+    "question": "Which body of water flows through more states, Tamiami Canal or Genesee River?",
+    "answer": "Genesee River",
+    "target": "Tamiami Canal"
+  },
+  {
+    "id": 2319,
+    "context": "Louise is an opera (\"roman musical\" ) in four acts by Gustave Charpentier to an original French libretto by the composer, with some contributions by Saint-Pol-Roux, a symbolist poet and inspiration of the surrealists.\n\nLe roi malgré lui (\"King in Spite of Himself\" or \"The reluctant king\") is an opéra-comique in three acts by Emmanuel Chabrier of 1887 with an original libretto by Emile de Najac and Paul Burani. The opera is revived occasionally, but has not yet found a place in repertory.",
+    "question": "Which opera has more acts, Louise or Le roi malgré lui?",
+    "answer": "Louise",
+    "target": "Le roi malgré lui"
+  },
+  {
+    "id": 2320,
+    "context": "Thaïs (] ) is an opera, a \"comédie lyrique\" in three acts and seven tableaux, by Jules Massenet to a French libretto by Louis Gallet, based on the novel \"Thaïs\" by Anatole France. It was first performed at the Opéra Garnier in Paris on 16 March 1894, starring the American soprano Sibyl Sanderson, for whom Massenet had written the title role. The original production was directed by Alexandre Lapissida, with costumes designed by Charles Bianchini and sets by Marcel Jambon (act 1, scene 1; act 3) and Eugène Carpezat (act 1, scene 2; act 2). The opera was later revised by the composer and was premiered at the same opera house on 13 April 1898.\n\nEuryanthe is a German \"grand, heroic, romantic\" opera by Carl Maria von Weber, first performed at the Theater am Kärntnertor, Vienna on 25 October 1823. Though acknowledged as one of Weber's most important operas, the work is rarely staged because of the weak libretto by Helmina von Chézy (who, incidentally, was also the author of the failed play \"Rosamunde\", for which Franz Schubert wrote music). \"Euryanthe\" is based on the 13th-century romance \"\"L'Histoire du très-noble et chevalereux prince Gérard, comte de Nevers et la très-virtueuse et très chaste princesse Euriant de Savoye, sa mye.\"\"",
+    "question": "Which opera was performed first, Thaïs or Euryanthe?",
+    "answer": "Euryanthe",
+    "target": "Thaïs"
+  },
+  {
+    "id": 2328,
+    "context": "Cartagena is a critically acclaimed German-style board game released in 2000, that takes as its theme the legendary 1672 pirate-led jailbreak from the dreaded fortress of Cartagena. The game supposedly became popular in the pirate coves of the Caribbean.\n\nChess is a two-player strategy board game played on a chessboard, a checkered gameboard with 64 squares arranged in an 8×8 grid. The game is played by millions of people worldwide.",
+    "question": "Is Cartagena or Chess more popular around the world?",
+    "answer": "Chess",
+    "target": "Cartagena"
+  },
+  {
+    "id": 2351,
+    "context": "James Stanley Brakhage ( ; January 14, 1933 – March 9, 2003), better known as Stan Brakhage, was an American non-narrative filmmaker. He is considered to be one of the most important figures in 20th-century experimental film.\n\nAlfred L. Werker (December 2, 1896 – July 28, 1975) was a film director whose work in movies spanned from 1917 through 1957. After a number of film production jobs and assistant directing, Werker co-directed his first film, \"Ridin' the Wind\" in 1925 alongside director Del Andrews. He was brought in by Fox Film Corporation executives to re-shoot and re-edit Erich von Stroheim's film \"Hello, Sister!\" (1933), co-starring Boots Mallory and ZaSu Pitts.",
+    "question": "Which filmmaker, Stan Brakhage or Alfred L. Werker, was a non-narrative filmmaker?",
+    "answer": "James Stanley Brakhage",
+    "target": "Alfred L. Werker"
+  },
+  {
+    "id": 2397,
+    "context": "The Stabyhoun or Stabij is one of the top five rarest dog breeds in the world. It is from Friesland and in particular from the Frisian forest area, a region in the southeast and east of Friesland. The breed has been mentioned in Dutch literature going back to the early 1800s, but has only extended its range from the 1960s outside of Friesland and not until the 2000s did the range officially extend beyond the Netherlands. The name Stabij translates roughly as \"stand by me\" with the last part simply Frisian, meaning dog, which is pronounced \"hoon\". The dog is considered a Dutch national treasure. There are only a few thousand Stabyhouns in existence today worldwide.\n\nThe Griffon Bruxellois or Brussels Griffon is a breed of toy dog, named for their city of origin: Brussels, Belgium. The Griffon Bruxellois may refer to three different breeds, the Griffon Bruxellois, the Griffon Belge and the Petit Brabançon. Identical in standard except for coat and colour differences, in some standards they are considered varieties of the same breed, much like Belgian Shepherd Dogs.",
+    "question": "Which refers to more breeds, Stabyhoun or Griffon Bruxellois?",
+    "answer": "Griffon Bruxellois",
+    "target": "Stabyhoun"
+  },
+  {
+    "id": 2400,
+    "context": "Tender Fictions is a 1996 autobiographical documentary film directed by American experimental filmmaker Barbara Hammer. It is the second of a trilogy of documentary films that includes \"Nitrate Kisses\" and \"History Lessons\". Together, the three films are sometimes known as the \"History trilogy\". \"Tender Fictions\" details Hammer's life and her attempts to \"construct\" a self. The film was nominated for a prize at the 1996 Sundance Film Festival.\n\nBougainville – Our Island Our Fight is a 1998 Australian documentary film. It was produced and directed by Wayne Coles-Janess.",
+    "question": "Which film was directed by Wayne Coles-Janess, Tender Fictions or Bougainville – Our Island Our Fight?",
+    "answer": "Bougainville",
+    "target": "Tender Fictions"
+  },
+  {
+    "id": 2431,
+    "context": "The Lancashire Heeler is a small breed of dog developed for use as a drover and herder of cattle. The Lancashire Heeler is listed by the Kennel Club (UK) as a vulnerable breed.\n\nThe Russian Tracker or Russian Retriever is an extinct breed of domestic dog. It is uncertain when precisely the breed ceased to exist; it could still be found in the late 1800s. The Tracker was of Asiatic Russian origin. It was used for hundreds of years to protect and herd the flocks of the Indo-Aryan people in the wind-beaten, snow-swept Caucasus Mountains.",
+    "question": "Which dog breed originates from a region farther east, the Lancashire Heeler or the Russian tracker?",
+    "answer": "Russian Tracker",
+    "target": "Lancashire Heeler"
+  },
+  {
+    "id": 2451,
+    "context": "John Michael \"Ozzy\" Osbourne (born 3 December 1948) is an English singer, songwriter, and actor. He rose to prominence in the early 1970s as the lead vocalist of the heavy metal band Black Sabbath. He was fired from Black Sabbath in 1979 and went on to have a successful solo career, releasing 11 studio albums, the first seven of which were all awarded multi-platinum certifications in the US. Osbourne has since reunited with Black Sabbath on several occasions, recording the album \"13\" in 2013. His longevity and success have earned him the informal title of \"Godfather of Heavy Metal\".\n\nCurt Smith (born 24 June 1961) is an English musician. He is best known for forming the band Tears for Fears, along with childhood friend Roland Orzabal. As a solo artist, he has released four solo albums.",
+    "question": "Who has released more solo albums, Ozzy Osbourne or Curt Smith?",
+    "answer": "John Michael \"Ozzy\" Osbourne",
+    "target": "Curt Smith"
+  },
+  {
+    "id": 2469,
+    "context": "African Cats is a 2011 nature documentary film directed by Keith Scholey and Alastair Fothergill about a pride of lions and a family of cheetahs trying to survive on the African savannah. The film was released theatrically by Disneynature on Earth Day, April 22, 2011. The film is narrated by Samuel L. Jackson (Patrick Stewart in the UK release). A portion of the proceeds for the film were donated to the African Wildlife Foundation and their effort to preserve Kenya's Amboseli Wildlife Corridor. The film's initiative with the African Wildlife Foundation is named \"See African Cats, Save the Savanna,\" and as of May 2, 2011, ticket sales translated into 50,000 acres of land saved in Kenya.\n\nFun and Fancy Free is a 1947 American live-action animated musical fantasy comedy package film produced by Walt Disney and released on September 27, 1947 by RKO Radio Pictures. It is the 9th Disney animated feature film and the fourth of the package films the studio produced in the 1940s in order to save money during World War II. The Disney package films of the late 1940s helped finance \"Cinderella\", and subsequent others, such as \"Alice in Wonderland\" and \"Peter Pan\".",
+    "question": "which film came out first, African Cats or Fun and Fancy Free ?",
+    "answer": "Fun and Fancy Free",
+    "target": "African Cats"
+  },
+  {
+    "id": 2493,
+    "context": "The Bosnian Coarse-haired Hound or Bosanski Oštrodlaki Gonič, also called the Barak, is a hunting dog breed developed in Bosnia. The breed is a scenthound, originally used to hunt large game. The \"Bosanski Oštrodlaki Gonič's\" name is translated as coarse-haired, broken-haired, and rough-haired (among others), and refers to the texture of the shaggy coat (usually called \"broken-haired\" or \"hard\" in English.)\n\nThe Dutch Shepherd is a herding dog of Dutch origin. They were used by shepherds and farmers who needed a versatile dog, with few demands, and a dog that was able to adapt to a harsh and meager existence.",
+    "question": "Which dog is used for herding, the Bosnian Coarse-haired Hound or Dutch Shepherd?",
+    "answer": "Dutch Shepherd",
+    "target": "Bosnian Coarse-haired Hound"
+  },
+  {
+    "id": 2528,
+    "context": "Maximillian Oppenheimer (6 May 1902 – 26 March 1957), known as Max Ophüls (] ), was a German-born film director who worked in Germany (1931–1933), France (1933–1940 and 1950–1957), and the United States (1947–1950). He made nearly 30 films, the latter ones being especially notable: \"La Ronde\" (1950), \"Le Plaisir\" (1952), \"The Earrings of Madame de...\" (1953) and \"Lola Montès\" (1955).\n\nShirley Clarke (October 2, 1919 – September 23, 1997) was an American experimental and independent filmmaker. She was also a director and editor to many famous works.",
+    "question": "Who passed away first Max Ophüls and Shirley Clarke ?",
+    "answer": "Max Ophüls",
+    "target": "Shirley Clarke"
+  },
+  {
+    "id": 2572,
+    "context": "Poor Old Lu was a pioneering alternative Christian band based in the American Northwest. The band experimented with a variety of sounds and genres, particularly grunge, funk and psychedelic rock. The band consisted of Scott Hunter (vocals), Jesse Sprinkle (drums), Aaron Sprinkle (guitar), and Nick Barber (bass). Hunter was the lyricist who wrote on philosophical, metaphorical, and spiritually oriented topics. Common themes in the lyrics include introspective struggles with identity and spirituality, struggles with a superficial, secular, and modern society, and hope for life abundant. The \"Encyclopedia of Contemporary Christian Music\" calls the band \"One of the most accomplished and creative Christian bands of the '90s\".\n\nShudder to Think was an American indie rock group. Formed in 1986, they released three albums on the Washington, D.C.-based label Dischord Records and were a post-hardcore band, although they drew upon a wide range of stylistic influences, including pop.",
+    "question": "Which of the following bands is considered \"one of the most accomplished and creative Christian bands of the '90s\": Poor Old Lu or Shudder to Think?",
+    "answer": "Poor Old Lu",
+    "target": "Shudder to Think"
+  },
+  {
+    "id": 2598,
+    "context": "Françoise Dürr (born 25 December 1942; sometimes referred to by English writers as Frankie Durr) is a retired French professional tennis player. She won 26 major singles titles and over 60 doubles titles.\n\nMate Pavić (born 4 July 1993) is a Croatian professional tennis player specialising in doubles. Mate won the 2016 US Open mixed doubles title in partnership with Laura Siegemund, and reached the 2017 Wimbledon Championships men's doubles finals partnering Oliver Marach.",
+    "question": "Have tennis players Françoise Dürr and Mate Pavić both won a doubles title?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 2646,
+    "context": "Osteomeles is a genus of flowering plants in the rose family, Rosaceae. They are shrubs native to eastern Asia, with compound leaves, opposite leaf arrangement, and small pome fruit. The fruits of all species in this genus are edible.\n\nMedinilla is a genus of about 193 species of flowering plants in the family Melastomataceae, native to tropical regions of the Old World from Africa (two species) east through Madagascar (about 70 species) and southern Asia to the western Pacific Ocean islands. The genus was named after J. de Medinilla, governor of the Mariana Islands in 1820.",
+    "question": "Which genus expands to the Pacific Ocean islands, Osteomeles or Medinilla?",
+    "answer": "Medinilla",
+    "target": "Osteomeles"
+  },
+  {
+    "id": 2654,
+    "context": "Sly Stone (born Sylvester Stewart, March 15, 1943, Denton, Texas) is an American musician, songwriter, and record producer, most famous for his role as frontman for Sly and the Family Stone, a band which played a critical role in the development of soul, funk, rock, and psychedelia in the 1960s and 1970s. In 1993, he was inducted into the Rock and Roll Hall of Fame as a member of the group.\n\nMary Ramsey (born 24 December 1963), a resident of Buffalo, New York, is a member of folk rock duo John & Mary and lead singer and violinist for the American alternative rock band 10,000 Maniacs. Ramsey has also worked with other well-known artists such as Jackson Browne, Goo Goo Dolls, Billy Bragg, Warren Zevon, Alex Chilton and Ani DiFranco.",
+    "question": "What is a difference between Sly Stone and Mary Ramsey?",
+    "answer": "Ramsey has also worked with other well-known artists",
+    "target": "Sly Stone has also worked with other well-known"
+  },
+  {
+    "id": 2668,
+    "context": "Teruhiko Kobashi (小橋　照彦 , Kobashi Teruhiko , born June 8, 1971 in Hakodate, Hokkaidō) , better known by his stagename TERU, is a Japanese singer and musician. He is best known as vocalist of the rock band GLAY, for which he was initially the drummer.\n\nMichael Kenji Shinoda ( , born February 11, 1977) is an American musician, songwriter, record producer and graphic designer. He co-founded Linkin Park in 1996 and is the band's rhythm guitarist, primary songwriter, keyboardist, producer, and lead vocalist. Shinoda later created a hip-hop-driven side project, Fort Minor, in 2004. He served as a producer for tracks and albums by Lupe Fiasco, Styles of Beyond, and The X-Ecutioners.",
+    "question": "Who was born first, Teru or Mike Shinoda?",
+    "answer": "Teruhiko",
+    "target": "Mike Shinoda"
+  },
+  {
+    "id": 2670,
+    "context": "Scott Treleaven is a Canadian artist whose work employs a variety of media including collage, film, video, drawing, photography and installation.\n\nEdmund Mortimer (21 August 1874 – 21 May 1944) was an American actor and film director. He appeared in 251 films between 1913 and 1945. He also directed 23 films between 1918 and 1928. He was born in New York, New York and died in Los Angeles, California.",
+    "question": "Which of these men, Scott Treleaven and Edmund Mortimer, is credited with working in both films and photography?",
+    "answer": "Scott Treleaven",
+    "target": "Edmund Mortimer"
+  },
+  {
+    "id": 2684,
+    "context": "Andrea Louise Martin (born January 15, 1947) is an American actress, singer, author and comedian, best known for her work in the television series \"SCTV\". She has appeared in films such as \"Black Christmas\" (1974), \"Wag the Dog\" (1997), \"Hedwig and the Angry Inch\" (2001), \"My Big Fat Greek Wedding\" (2002) and \"My Big Fat Greek Wedding 2\" (2016), and lent her voice to the animated films \"Anastasia\" (1997), \"The Rugrats Movie\" (1998) and \"\" (2001).\n\nMark S. Hoplamazian is an American businessman, who is the President and CEO of Hyatt Hotels Corporation. He received his A.B. in economics from Harvard College, and his M.B.A. from the University of Chicago Booth School of Business.",
+    "question": "Who achieved more academically, Andrea Martin or Mark Hoplamazian? ",
+    "answer": "Mark S. Hoplamazian",
+    "target": "Andrea Martin"
+  },
+  {
+    "id": 2823,
+    "context": "InStyle is a monthly women’s fashion magazine published in the US by Time Inc. \"InStyle\" was founded in 1994.\n\nGodey's Lady's Book, alternatively known as Godey's Magazine and Lady's Book, was a United States women's magazine that was published in Philadelphia from 1830–1878. It was the most widely circulated magazine in the period before the Civil War. Its circulation rose from 70,000 in the 1840s to 150,000 in 1860. In the 1860s \"Godey's\" considered itself the \"queen of monthlies\".",
+    "question": "Which was published founded most recently, InStyle or Godey's Lady's Book?",
+    "answer": "InStyle",
+    "target": "Godey's Lady's Book"
+  },
+  {
+    "id": 2826,
+    "context": "Craig Robert Nicholls (born 31 August 1977) is an Australian musician, best known as the lead singer, songwriter, and guitarist of the Australian alternative rock band The Vines, of which he is the only mainstay member.\n\nNorman Blake (born 20 October 1965, Bellshill, North Lanarkshire, Scotland) is a singer, instrumentalist and songwriter in the Glasgow based band Teenage Fanclub.",
+    "question": "Who is older Craig Nicholls or Norman Blake ?",
+    "answer": "Norman Blake",
+    "target": "Craig Nicholls"
+  },
+  {
+    "id": 2844,
+    "context": "Pulandian District () is one of the seven districts under the administration of Dalian, located in the south of Liaoning province, People's Republic of China. Its area is 2769.90 km² and its permanent population as of 2010 is 741,230. The district borders the prefecture-level city of Yingkou to the north.\n\nKaiyuan () is a county-level city in the northeast of Liaoning, People's Republic of China, bordering Jilin for a small section to the north. It is under the administration of Tieling City, the centre of which lies 33 km to the southwest.",
+    "question": "Which of these is further south in China, the Pulandian District or Kaiyuan, Liaoning?",
+    "answer": "Pulandian District",
+    "target": "Kaiyuan, Liaoning"
+  },
+  {
+    "id": 2885,
+    "context": "Milium (vernacular name milletgrass) is a genus of Eurasian, North American, and North African plants in the grass family.\n\nEucommia is a genus of small trees now native to China, with a fossil record that shows a much wider distribution. The single living species, \"Eucommia ulmoides\", is near threatened in the wild, but is widely cultivated in China for its bark, and is highly valued in herbology such as traditional Chinese medicine.",
+    "question": "Which one between Milium and Eucommia lives more widely spread across the world?",
+    "answer": "Milium",
+    "target": "Eucommia"
+  },
+  {
+    "id": 2901,
+    "context": "The Saimaa Gesture (Finnish: \"Saimaa-ilmiö\" ) is a 1981 film by Finnish directors Aki and Mika Kaurismäki. It is a documentary of three Finnish rock groups aboard the steamboat SS Heinävesi on their tour around Lake Saimaa.\n\nEclipse of Reason is a 1987 pro-life documentary video directed, filmed, and narrated by Bernard Nathanson, with an introduction by Charlton Heston. \"Eclipse of Reason\" is a follow up to Nathanson’s first film \"The Silent Scream\". The film is perhaps most known for its controversial depiction of a dilation and evacuation (D&E) abortion. The subject matter of this film focuses more on the moral implications of abortion. It served as Nathanson’s call to the women of the world to end the practice of abortion. This film, as well as \"The Silent Scream\", was instrumental in the Right to Life Committee's garnering the attention of the United States public regarding the issue of abortion.",
+    "question": "Which documentary was produced first, The Saimaa Gesture or Eclipse of Reason?",
+    "answer": "The Saimaa Gesture",
+    "target": "Eclipse of Reason"
+  },
+  {
+    "id": 2925,
+    "context": "Alison Nicole Mosshart (born November 23, 1978) is an American singer, songwriter, artist, and occasional model best known as the lead vocalist for the indie rock band The Kills and blues rock band The Dead Weather. She started her musical career in 1995 with the Florida punk rock band Discount which disbanded in 2000. She then co-founded The Kills with British guitarist Jamie Hince (formerly of Scarfo and Blyth Power) in 2000 in London.\n\nAnn Dustin Wilson (born June 19, 1950) is an American musician, best known as the lead singer and songwriter of the hard rock band Heart. Wilson was listed as one of the \"Top Heavy Metal Vocalists of All Time\" by \"Hit Parader\" magazine in 2006. Wilson has a dramatic soprano vocal range.",
+    "question": "Who was part of more music bands, Alison Mosshart or Ann Wilson?",
+    "answer": "Alison Nicole Mosshart",
+    "target": "Ann Wilson"
+  },
+  {
+    "id": 2935,
+    "context": "Matthew Good Band was a Canadian alternative rock band formed by Matthew Good that existed from 1995 to 2002. The band consisted of Good (vocals, guitar), Dave Genn (lead guitar/keyboard), Ian Browne (drums) and Geoff Lloyd (bass) from 1995 to 1999 (replaced by Rich Priske from 1999 to 2001). The band would become one of Canada's most successful rock bands of the late 1990s and early 2000s, being nominated for 14 Juno Awards and winning the awards for \"Best Group\" and \"Best Rock Album\" (\"Beautiful Midnight\") in 2000. The band dissolved in 2002. Good has since pursued a successful solo career, while Genn joined the Canadian rock group 54-40 in 2005. Geoff Lloyd died in January 2010.\n\nSleep Room are an English alternative rock band from Reading, Berkshire who have attracted attention from Berkshire's music community Josaka and the BBC who have noted them for their original sound, epic soundscapes and emotive style.",
+    "question": "Do Matthew Good Band and Sleep Room play the same type of music?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 2957,
+    "context": "Swervedriver are an English alternative rock band formed in Oxford in 1989 around core members Adam Franklin and Jimmy Hartridge. Between 1989 and 1998, the band released four studio albums and numerous EPs and singles despite a considerable flux of members, managers, and record labels. By 1993 the band’s lineup had settled with Franklin on vocals/guitar, Hartridge on guitar, Jez Hindmarsh on drums, and Steve George on bass. They had emerged with a heavier rock sound than their shoegaze contemporaries, and over the next five years it evolved to include elements of psychedelia, classic pop, and indie rock. In 2008, the band reunited for touring purposes. They released their first new single in fifteen years in September 2013, and their first full-length album in seventeen years in March 2015.\n\nIncubus is an American rock band from Calabasas, California. The band was formed in 1991 by vocalist Brandon Boyd, lead guitarist Mike Einziger, and drummer Jose Pasillas while enrolled in Calabasas High School and later expanded to include bassist Alex \"Dirk Lance\" Katunich, and Gavin \"DJ Lyfe\" Koppell; both of whom were eventually replaced by bassist Ben Kenney and DJ Kilmore respectively.",
+    "question": "Which band formed first, Swervedriver or Incubus?",
+    "answer": "Swervedriver",
+    "target": "Incubus"
+  },
+  {
+    "id": 2987,
+    "context": "Robert Florey (14 September 1900 – 16 May 1979) was a French-American director, screenwriter, film journalist, and occasional actor.\n\nRobert G. Springsteen (September 8, 1904 – December 9, 1989) was an American director of Hollywood B movies and television shows. He was most often credited on screen as R. G. Springsteen.",
+    "question": "Who is affiliated with more countries as a director, Robert Florey and R. G. Springsteen?",
+    "answer": "Robert Florey",
+    "target": "R. G. Springsteen"
+  },
+  {
+    "id": 2999,
+    "context": "Charles A. Agemian (July 22, 1909 – March 30, 1996) was an American banker who took early retirement from Chase Manhattan Bank, where he was executive vice president of operations, to become chairman and chief executive officer of the Hackensack Trust Co., which later was renamed Garden State National Bank.\n\nArshile Gorky ( ; born Vostanik Manoug Adoian, Armenian: Ոստանիկ Մանուկ Ատոյեան ; April 15, 1904 – July 21, 1948) was an Armenian-American painter, who had a seminal influence on Abstract Expressionism. He spent most his life as a national of the United States. Along with Mark Rothko, Jackson Pollock and Willem de Kooning, Gorky has been hailed as one of the most powerful American painters of the 20th century. As such, his works were often speculated to have been informed by the suffering and loss he experienced in the Armenian Genocide.",
+    "question": "Who had more career changes, Charles A. Agemian or Arshile Gorky?",
+    "answer": "Charles A. Agemian",
+    "target": "Arshile Gorky"
+  },
+  {
+    "id": 3020,
+    "context": "Qinzhou (postal: Yamchow, , Jyutping: \"Jam1 zau1\" (Canton) /\"Ham1 zau1\" (Local) ) is a prefecture-level city in Guangxi, China, lying on the Gulf of Tonkin and having an urban population of 433,000.\n\nJingjiang () is a county-level city under the administration of Taizhou, Jiangsu province, China. It is located on the northern (left) bank of the Yangtze River, and is the southernmost county-level division of Taizhou City, bordering the prefecture-level cities of Nantong to the northeast, Suzhou to the southeast, Wuxi to the south, Changzhou to the southwest, and Zhenjiang to the west. . The area of Jingjiang is 655.6 square kilometres and the population was 684,360 at the 2010 census. The city is now part of Jiangyn-Zhangjiagang built-up area with 3,526,260 inhabitants, growing very fastly and that could nearly be part of Shanghai-Suzhou-Wuxi-Changzhou Megacity built-up area.",
+    "question": "Which has a higher population, Qinzhou or Jingjiang? ",
+    "answer": "Jingjiang",
+    "target": "Qinzhou"
+  },
+  {
+    "id": 3024,
+    "context": "Phillips v. Martin Marietta Corp., 400 U.S. 542 (1971) , was a United States Supreme Court case in which the Court held that under Title VII of the Civil Rights Act of 1964, an employer may not, in the absence of business necessity, refuse to hire women with pre-school-age children while hiring men with such children. It was the first sex discrimination case under Title VII to reach the Court.\n\nRoth v. United States, 354 U.S. 476 (1957) , along with its companion case \"Miller v. California\", was a landmark case before the United States Supreme Court which redefined the Constitutional test for determining what constitutes obscene material unprotected by the First Amendment.",
+    "question": "Which occurred first, Phillips v. Martin Marietta Corp. or Roth v. United States?",
+    "answer": "Roth v. United States",
+    "target": "Phillips v. Martin Marietta Corp."
+  },
+  {
+    "id": 3044,
+    "context": "Phylica is a genus of plants in the family Rhamnaceae. It contains about 150 species, the majority of which are restricted to South Africa, where they form part of the \"fynbos \". A few species occur in other parts of southern Africa, and on islands including Madagascar, the Mascarene Islands, Île Amsterdam, Saint Helena, Tristan da Cunha, and Gough Island.\n\nWeldenia is a monotypic genus of flowering plant in the Commelinaceae family, first described in 1829. It has one single species: Weldenia candida, which grows originally in Mexico and Guatemala.",
+    "question": "Which genus of plant grows originally in Mexico and Guatemala, Phylica or Weldenia?",
+    "answer": "Weldenia",
+    "target": "Phylica"
+  },
+  {
+    "id": 3050,
+    "context": "Leslie Goodwins (17 September 1899 – 8 January 1969) was an English film director and screenwriter. He directed nearly 100 films between 1926 and 1967. His 1936 film \"Dummy Ache\" was nominated for an Academy Award in 1936 for Best Short Subject (Two-Reel). His 1937 film \"Should Wives Work?\" was also nominated for an Academy Award in the same category. He was born in London, England and he died in Hollywood, California.\n\nKenneth S. Webb (October 16, 1892 in New York City – March 23, 1966 in Hollywood, California) was an American film director, screenwriter, and composer noted for directing a number of films in the early age of the American film industry. He helped write the \"Gay Divorce\" along with Samuel Hoffenstein.",
+    "question": "Who directed more films, Leslie Goodwins or Kenneth Webb?",
+    "answer": "Leslie Goodwins",
+    "target": "Kenneth Webb"
+  },
+  {
+    "id": 3053,
+    "context": "My Darkest Days were a Canadian rock band based in Peterborough, Ontario consisting of lead singer Matt Walst, bassist Brendan McMillan, drummer Doug Oliver, and keyboardist Reid Henry. They were discovered by Chad Kroeger of Nickelback, who signed them to his record label, 604 Records.\n\nHuman Drama is an American alternative rock band led by singer/songwriter Johnny Indovina formed in 1985. With Indovina the only constant member, the band released six studio albums before splitting in 2005. They reformed for concerts in 2011 and 2012, and again in 2015. In 2017 they released their 1st studio album in 15 years \"Broken Songs for Broken People\".",
+    "question": "Which band My Darkest Days or Human Drama had only one constant member?",
+    "answer": "Human Drama",
+    "target": "My Darkest Days"
+  },
+  {
+    "id": 3071,
+    "context": "The Celluloid Closet is a 1995 American documentary film directed and written by Rob Epstein and Jeffrey Friedman. The film is based on Vito Russo's book of the same name first published in 1981 and on lecture and film clip presentations he gave in 1972–1982. Russo had researched the history of how motion pictures, especially Hollywood films, had portrayed gay, lesbian, bisexual and transgender characters.\n\nStation to Station is the 2014 film of Doug Aitken's 2013 \"Nomadic Happening\", the film is made up of 62 one-minute films. It was distributed internationally in 2015 following its release at the Sundance Film Festival.",
+    "question": "Which film was released first, The Celluloid Closet or Station to Station?",
+    "answer": "The Celluloid Closet",
+    "target": "Station to Station"
+  },
+  {
+    "id": 3095,
+    "context": "Anahit Misak \"Ana\" Kasparian (Armenian: Անահիտ Միսաքի Գասպարյան , ] ; born July 7, 1986), is an American political pundit and the co-host and producer for the online news show \"The Young Turks\". She began working as a fill-in producer for \"The Young Turks\" in 2007, and is, as of 2012 , co-host of the main show and host of \"The Point\" on the TYT Network. She also appeared on the TV version of the show that aired on Current TV.\n\nKatherine Marianne Sarafian (born January 27, 1969) is an Armenian-American film producer at Pixar Animation Studios. She started at Pixar as an artist but was shifted from the art department to marketing during the making of \"A Bug's Life\" by Pixar head Steve Jobs. She then became a producer within Pixar.",
+    "question": "Are Ana Kasparian and Katherine Sarafian both Armenian-",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 3114,
+    "context": "The Metropolitan Life Insurance Company Tower, colloquially known as the Met Life Tower, is a landmark skyscraper located on Madison Avenue near the intersection with East 23rd Street, across from Madison Square Park in Manhattan, New York City. Designed by the architectural firm of Napoleon LeBrun & Sons and built by the Hedden Construction Company, the tower is modeled after the Campanile in Venice, Italy. The hotel located in the clock tower portion of the building has the address 5 Madison Avenue, while the office building covering the rest of the block, occupied primarily by Credit Suisse, is referred to as 1 Madison Avenue.\n\n432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park. Originally proposed to be 1300 ft in 2011, the structure topped out at 1396 ft . It was developed by CIM Group and features 104 condominium apartments. Construction began in 2012 and was completed on December 23, 2015.",
+    "question": "Which building, the Metropolitan Life Insurance Company Tower or the 432 Park Avenue building, has two addresses?",
+    "answer": "Metropolitan Life Insurance Company Tower",
+    "target": "432 Park Avenue building"
+  },
+  {
+    "id": 3123,
+    "context": "The University of California, Berkeley (also referred to as UC Berkeley, Berkeley, and Cal ) is a public research university located in Berkeley, California. Founded in 1868, Berkeley is the oldest of the ten research universities affiliated with the University of California system (although UCSF was founded in 1864 and predates the establishment of the UC system) and is ranked as one of the world's leading research universities and the top public university in the United States.\n\nBrown University is a private Ivy League research university in Providence, Rhode Island, United States. Founded in 1764 as the College in the English Colony of Rhode Island and Providence Plantations, Brown is the seventh-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution.",
+    "question": "Which university is a private research university, University of California, Berkeley or Brown University?",
+    "answer": "Brown University",
+    "target": "University of California, Berkeley"
+  },
+  {
+    "id": 3169,
+    "context": "Woman's Day is an American women's magazine that covers such topics as homemaking, food, nutrition, physical fitness, physical attractiveness, and fashion. The print edition is one of the Seven Sisters magazines. The magazine was first published in 1931 by The Great Atlantic & Pacific Tea Company; the current publisher is Hearst Corporation.\n\nThe Lady is Britain's longest-running weekly women's magazine. It has been in continuous publication since 1885 and is based in London. It is particularly notable for its classified advertisements for domestic service and child care; it also has extensive listings of holiday properties.",
+    "question": "Which magazine was published first, Woman's Day or The Lady?",
+    "answer": "The Lady",
+    "target": "Woman's Day"
+  },
+  {
+    "id": 3180,
+    "context": "Ralph Foster Smart {'1': \", '2': \", '3': \", '4': \"} (27 August 1908 – 12 February 2001) was a film and television producer, director, and writer, born in England to Australian parents.\n\nRandolph Severn \"Trey\" Parker III (born October 19, 1969) is an American actor, animator, writer, director, producer, singer, and songwriter. He is known for co-creating \"South Park\" (1997–present) along with his creative partner Matt Stone, as well as co-writing and co-directing the Tony Award-winning musical \"The Book of Mormon\" (2011). Parker was interested in film and music as a child, and attended the University of Colorado, Boulder following high school, where he met Stone. The two collaborated on various short films, and starred in a feature-length musical, titled \"Cannibal! The Musical\" (1993).",
+    "question": "Which occupations did Ralph Smart and Trey Parker have in common?",
+    "answer": "producer, director, and writer",
+    "target": "actor, singer, and comedian"
+  },
+  {
+    "id": 3190,
+    "context": "Diplolaena is a genus of evergreen shrubs in the family Rutaceae . They are native to Western Australia.\n\nArenaria is a genus of flowering plants, within the family Caryophyllaceae.",
+    "question": "Which is in the family Rutaceae, the Diplolaena or the Arenaria?",
+    "answer": "Diplolaena",
+    "target": "Arenaria"
+  },
+  {
+    "id": 3243,
+    "context": "Yaşar Kemal (born Kemal Sadık Gökçeli; 6 October 1923 – 28 February 2015) was a Turkish writer and human rights activist of Kurdish origin. He was one of Turkey's leading writers. He received 38 awards during his lifetime and had been a candidate for the Nobel Prize in Literature on the strength of \"Memed, My Hawk\".\n\nAvram Noam Chomsky ( ; born December 7, 1928) is an American linguist, philosopher, cognitive scientist, historian, social critic, and political activist. Sometimes described as \"the father of modern linguistics,\" Chomsky is also a major figure in analytic philosophy and one of the founders of the field of cognitive science. He is the author of over 100 books on topics such as linguistics, war, politics, and mass media. Ideologically, he aligns with anarcho-syndicalism and libertarian socialism. He holds a joint appointment as Institute Professor Emeritus at the Massachusetts Institute of Technology (MIT) and laureate professor at the University of Arizona.",
+    "question": "who has written more than 100 books, Yaşar Kemal or Avram Noam Chomsky?",
+    "answer": "Avram Noam Chomsky",
+    "target": "Yaşar Kemal"
+  },
+  {
+    "id": 3277,
+    "context": "The Magic Labyrinth is a 2009 board game designed by Dirk Baumann, for two to four players.\n\nShogun, designed by Michael Gray, was a board wargame first released in 1986 by game maker Milton Bradley as part of their Gamemaster series. It was renamed to Samurai Swords in its first re-release (1995) to disambiguate it from other games with the same name (in particular, \"James Clavell's Shogun\", a wargame with a similar theme, released in 1983), and renamed again to Ikusa in its 2011 re-release under Hasbro's Avalon Hill banner. Set in feudal Japan, two to five players take control of a fictional warlord and pit their armies against one another in hopes of winning the title Shogun.",
+    "question": "Which game can have more players, The Magic Labyrinth or Shogun?",
+    "answer": "Shogun",
+    "target": "The Magic Labyrinth"
+  },
+  {
+    "id": 3361,
+    "context": "Cecil Louis Troughton Smith (27 August 1899 – 2 April 1966), known by his pen name Cecil Scott \"C. S.\" Forester, was an English novelist known for writing tales of naval warfare such as the 12-book Horatio Hornblower series, depicting a Royal Navy officer during the Napoleonic wars. Two of the Hornblower books, \"A Ship of the Line\" and \"Flying Colours\", were jointly awarded the James Tait Black Memorial Prize for fiction in 1938. His other works include \"The African Queen\" (1935; filmed in 1951 by John Huston).\n\nHelen Zahavi (born 1966) is an English novelist and screenwriter born and educated in London. Her father was sent to Britain with the Polish Army during the Second World War and her mother's parents came from Odessa. Before becoming a writer Zahavi worked as a Russian translator, and has spent several years living in Paris.",
+    "question": "Which novelist was educated in London, C. S. Forester or Helen Zahavi?",
+    "answer": "Helen Zahavi",
+    "target": "C. S. Forester"
+  },
+  {
+    "id": 3374,
+    "context": "Lantana is a genus of about 150 species of perennial flowering plants in the verbena family, Verbenaceae. They are native to tropical regions of the Americas and Africa but exist as an introduced species in numerous areas, especially in the Australian-Pacific region. The genus includes both herbaceous plants and shrubs growing to 0.5 - tall. Their common names are shrub verbenas or lantanas. The generic name originated in Late Latin, where it refers to the unrelated \"Viburnum lantana\".\n\nSilybum (milk thistle) is a genus of two species of thistles in the (daisy family). The plants are native to the Mediterranean regions of Europe, North Africa, and the Middle East. One species has been introduced elsewhere, including in North America. The name \"milk thistle\" derives from a feature of the leaves, which are prominently banded with splashes of white. Historically, these milky bands were said to be Mother Mary's milk, and this is the origin of another common name, St. Mary's thistle. The most widespread species is \"Silybum marianum\".",
+    "question": "Which genus has more species, Lantana or Silybum?",
+    "answer": "Lantana",
+    "target": "Silybum"
+  },
+  {
+    "id": 3399,
+    "context": "Kenneth William \"Ken\" Kwapis (born August 17, 1957) is an American film and television director and screenwriter. He specialized in the single-camera sitcom in the 1990s and 2000s and has directed feature films such as \"Sesame Street Presents Follow That Bird\" (1985), \"The Sisterhood of the Traveling Pants\" (2005), and \"He's Just Not That into You\" (2009).\n\nJon Paul Puno (born 1985) is an American filmmaker and classical crossover singer. As a filmmaker, he has directed films such as Valle de Lágrimas (2006) and Peace Grows (2004). And also played a small role in the 2006 movie I Will Always Love You (film).",
+    "question": "Which American filmmaker has directed more films, Jon Paul Puno or Ken Kwapis?",
+    "answer": "Kenneth William \"Ken\" Kwapis",
+    "target": "Jon Paul Puno"
+  },
+  {
+    "id": 3415,
+    "context": "Chantal Claret Euringer (born February 21, 1982), known as Chantal Claret, is an American singer/songwriter. She is best known as the lead singer for the rock and power pop band Morningwood.\n\nMaxwell Scott Green (born December 15, 1984), better known as Max Green, is an American musician who is the former bassist/backing vocalist and one of the founders of the band Escape the Fate, and is the former rhythm guitarist and vocalist for the band The Natural Born Killers. He is currently the vocalist and rhythm guitarist for his own band, Violent New Breed.",
+    "question": "Which musician is older, Chantal Claret or Max Green?",
+    "answer": "Chantal Claret",
+    "target": "Max Green"
+  },
+  {
+    "id": 3430,
+    "context": "Ainslee's Magazine was an American literary periodical published from 1897 to December 1926. It was originally published as a humor magazine called \"The Yellow Kid\", based on the popular comic strip character. It was renamed \"Ainslee's\" the following year.\n\nThe Australian Women's Weekly, sometimes known as simply \"The Weekly\", is an Australian monthly women's magazine published by Bauer Media Group in Sydney. For many years it was the number one magazine in Australia but it is now outsold by the Australian edition of the American publication \"Better Homes and Gardens\".",
+    "question": "Are Ainslee's Magazine and The Australian Women's Weekly both monthly magazines?",
+    "answer": "yes",
+    "target": "no"
+  },
+  {
+    "id": 3440,
+    "context": "The Chien Français Blanc et Orange (FCI No.316) is a breed of dog of the scenthound type, originating in France. The breed is used for hunting in packs and descends from the old Hound of Saintonge type of large hunting dog.\n\nThe Kritikos Lagonikos (Cretan Hound) (Greek:Kρητικός Λαγωνικός) is a hunting breed of dog from the island of Crete, in Greece. It is considered",
+    "question": "Are the Chien Français Blanc et Orange and Cretan Hound both used for hunting in packs?",
+    "answer": "no",
+    "target": "yes"
+  },
+  {
+    "id": 3463,
+    "context": "South Dakota v. Dole, 483 U.S. 203 (1987), was a case in which the United States Supreme Court considered the limitations the Constitution places on the authority of the United States Congress when it uses its authority to influence the individual states in areas of authority normally reserved to the states. It upheld the constitutionality of a federal statute that withheld federal funds from states whose legal drinking age did not conform to federal policy.\n\nRogers v. Okin was a landmark case in which the United States Court of Appeals for the First Circuit considered whether a mental patient, committed to a state psychiatric facility and assumed to be competent, has the right to make treatment decisions in non-emergency conditions.",
+    "question": "Which of the case was held in a higher ranking court, South Dakota v. Dole or Rogers v. Okin?",
+    "answer": "South Dakota v. Dole",
+    "target": "Rogers v. Okin"
+  },
+  {
+    "id": 3484,
+    "context": "Nevil Shute Norway (17 January 189912 January 1960) was an English novelist and aeronautical engineer who spent his later years in Australia. He used his full name in his engineering career and Nevil Shute as his pen name to protect his engineering career from any potential negative publicity in connection with his novels, which included \"On the Beach\" and \"A Town Like Alice\".\n\nGrace Metalious (September 8, 1924 – February 25, 1964) was an American author known for her controversial novel \"Peyton Place\", one of the best-selling works in publishing history.",
+    "question": "Which auhor is younger, Nevil Shute or Grace Metalious?",
+    "answer": "Grace Metalious",
+    "target": "Nevil Shute"
+  },
+  {
+    "id": 3516,
+    "context": "The former Bertelsmann Building, now known as 1540 Broadway, is a 44-story, 733 foot (223 m) office tower in Times Square in Manhattan, New York City, standing at West 45th Street. The building was the North American headquarters of media conglomerate Bertelsmann from 1992 until the company vacated and sold the property, of which they occupied all office-use floors, in 2004. The building housed US satellites of central functions such as Corporate Development, Corporate Communications and the Office of the Chairman and CEO, as well as serving as worldwide headquarters for the Bertelsmann Music Group and Bertelsmann Book Group (what has later taken on the umbrella brand name Random House). Today's office tenants include Viacom, China Central Television, KEMP Technologies, Adobe and Pillsbury Winthrop Shaw Pittman. The building retained the Bertelsmann name and signage facing Broadway until its eventual removal in late 2013.\n\n432 Park Avenue is a residential skyscraper in New York City that overlooks Central Park. Originally proposed to be 1300 ft in 2011, the structure topped out at 1396 ft . It was developed by CIM Group and features 104 condominium apartments. Construction began in 2012 and was completed on December 23, 2015.",
+    "question": "Which building is taller Bertelsmann Building or 432 Park Avenue?",
+    "answer": "432 Park Avenue",
+    "target": "Bertelsmann Building"
+  },
+  {
+    "id": 3518,
+    "context": "The Interact Home Computer is a rare, very early (1978) American home computer made by \"Interact Electronics Inc\" of Ann Arbor, Michigan. It sold under the name \"interact Model One home computer\". The original Ineract Model One computer was designed by Rick Barnich and Tim Anderson at 204 E. Washington in Ann Arbor, then moving to an office in Georgetown Mall on Packard St in Ann Arbor. Interact Electronics Inc was a privately held company that was funded by Hongiman, Miller, Swartz and Cohn...a lawyer firm out of Detroit. The President/Founder of Interact Electronics Inc was Ken Lochner, who was one of the original developers of the BASIC language based out of Dartmouth college. Ken had started Interact Electronics Inc after a successful startup known as ADP Cyphernetics, the original computer time share company in Ann Arbor, now known as ADP Network Services. Only a few thousand Interacts were sold before the company went bankrupt. Most were sold by the liquidator \"Protecto Enterprizes\" of Barrington, Illinois through mail order sales. The Interact Model One Home Computer debuted at the Consumer Electronics Show in Chicago in June 1978 at a price of $499. The majority of sales were thru Mail Order houses and you could buy it off the shelf at Highland Appliance in the Detroit, MI area and Newman Computer Exchange in Ann Arbor. Probably the most successful application available for the Interace was a program called \"Message Center\". With it, a store could type in whatever message they wanted to appear scrolling on a TV screen...like Advertisements, or welcoming messages to guests in an office. Although it was mostly a Game machine at the time with games such as Showdown, BlackJack and Chess, there was also BASIC programming where users could create their own programs in the BASIC computer language. Customers began hooking up Interact to control everything from lights in their house, to a Chevrolet Corvette!\n\nThe Sord M5 is a home computer launched by Sord Computer Corporation in 1982. Primarily the Sord M5 competed in the Japanese home computer market. It was also sold as the CGL M5 in the United Kingdom by Computer Games Limited, and was reasonably popular in Czechoslovakia, where the M5 stood as one of the first affordable computers available to the general public. Takara also sold models in Japan as the Game M5, and models were also exported to South Korea.",
+    "question": "Which item spanned farther distances regarding sales, Interact Home Computer or Sord M5?",
+    "answer": "Sord M5",
+    "target": "Interact Home Computer"
+  },
+  {
+    "id": 3552,
+    "context": "Georg Ferdinand Ludwig Philipp Cantor ( ; ] ; March 3 [O.S. February 19] 1845  – January 6, 1918) was a German mathematician. He invented set theory, which has become a fundamental theory in mathematics. Cantor established the importance of one-to-one correspondence between the members of two sets, defined infinite and well-ordered sets, and proved that the real numbers are more numerous than the natural numbers. In fact, Cantor's method of proof of this theorem implies the existence of an \"infinity of infinities\". He defined the cardinal and ordinal numbers and their arithmetic. Cantor's work is of great philosophical interest, a fact of which he was well aware.\n\nVladimir Igorevich Arnold (alternative spelling Arnol'd, Russian: Влади́мир И́горевич Арно́льд , 12 June 1937 – 3 June 2010) was a Soviet and Russian mathematician. While he is best known for the Kolmogorov–Arnold–Moser theorem regarding the stability of integrable systems, he made important contributions in several areas including dynamical systems theory, catastrophe theory, topology, algebraic geometry, symplectic geometry, differential equations, classical mechanics, hydrodynamics and singularity theory, including posing the ADE classification problem, since his first main result—the solution of Hilbert's thirteenth problem in 1957 at the age of 19.",
+    "question": "Who died last Vladimir Arnold or Georg Cantor?",
+    "answer": "Vladimir Igorevich Arnold",
+    "target": "Georg Cantor"
+  },
+  {
+    "id": 3564,
+    "context": "Capital Cities is an American indie pop duo from Los Angeles, California, formed in 2010 by Ryan Merchant (vocals, keyboard, guitar) and Sebu Simonian (vocals, keyboard). Their debut EP was released on June 7, 2011, with lead single \"Safe and Sound\" which became their first top ten hit single. The band currently consists of Ryan Merchant, Sebu Simonian, Manny Quintero on bass guitar, Spencer Ludwig on trumpet, Nick Merwin on guitar and Channing Holmes on drums.\n\nTweaker is an American alternative rock collaboration founded by Chris Vrenna in the late 1990s. Tweaker's musical style incorporates synthpop, progressive rock, modern jazz and electronica genres, and is characterized by a generally melancholy and sombre sound with distinctive artwork to match.",
+    "question": "Which is in the pop genre, Capital Cities or Tweaker?",
+    "answer": "Capital Cities",
+    "target": "Tweaker"
+  },
+  {
+    "id": 3566,
+    "context": "Music for Dead Birds are an anti-folk band from Galway and County Mayo, Ireland. Its members are Jimmy Monaghan (Vocals, Guitar) and Dónal Walsh (Drums).\n\nThe Wolfhounds are an indie pop/noise pop band formed in Romford, UK in 1985 by Dave Callahan, Paul Clark, Andy Golding, Andy Bolton and Frank Stebbing, and originally active until 1990. The band reformed in 2005 and continues to write, record and play live, releasing new albums in 2014 and 2016.",
+    "question": "Which band has more members Music for Dead Birds or The Wolfhounds?",
+    "answer": "The Wolfhounds",
+    "target": "Music for Dead Birds"
+  },
+  {
+    "id": 3573,
+    "context": "Bolax is a genus of flowering plant in the Apiaceae, with 4 or 5 species. It is endemic to temperate South America.\n\nJovibarba (\"beard of Jupiter\") is a small genus of three species of succulent flowering plants in the family Crassulaceae, endemic to mountainous regions in the southeastern quadrant of Europe. The genus is sometimes classified as a subgenus of \"Sempervivum\", to which it is closely related. \"Jovibarba\" have pale-greenish-yellow or yellow actinomorphic flowers with about six petals, while \"Sempervivum\" have generally pinkish flowers with around twice as many petals, which open more widely than jovibarba flowers. The common name hen and chicks is applied to some \"Jovibarba\" species (and also species in several other genera).",
+    "question": "Which plant has more species, Bolax or Jovibarba?",
+    "answer": "Bolax",
+    "target": "Jovibarba"
+  },
+  {
+    "id": 3629,
+    "context": "Roger Angell (born September 19, 1920) is an American essayist known for his writing on sports, especially baseball. He has been a regular contributor to \"The New Yorker\" and was its chief fiction editor for many years. He has written numerous works of fiction, non-fiction, and criticism, and for many years wrote an annual Christmas poem for \"The New Yorker\".\n\nHarry Stephen Keeler (November 3, 1890 – January 22, 1967) was a prolific but little-known American author of mysteries and science fiction.",
+    "question": "Who is considered the more well known author, Roger Angell or Harry Stephen Keeler?",
+    "answer": "Roger Angell",
+    "target": "Harry Stephen Keeler"
+  },
+  {
+    "id": 3633,
+    "context": "Dartmouth College ( ) is a private Ivy League research university in Hanover, New Hampshire, United States. Established in 1769 by Eleazar Wheelock, it is the ninth-oldest institution of higher education in the United States and one of the nine colonial colleges chartered before the American Revolution. Although founded as a school to educate Native Americans in Christian theology and the English way of life, Dartmouth primarily trained Congregationalist ministers throughout its early history before it gradually secularized, emerging at the turn of the 20th century from relative obscurity into national prominence.\n\nCornell University ( ) is a private and statutory Ivy League research university located in Ithaca, New York. Founded in 1865 by Ezra Cornell and Andrew Dickson White, the university was intended to teach and make contributions in all fields of knowledge—from the classics to the sciences, and from the theoretical to the applied. These ideals, unconventional for the time, are captured in Cornell's motto, a popular 1865 Ezra Cornell quotation: \"I would found an institution where any person can find instruction in any study.\"",
+    "question": "Which school is older, Dartmouth College or Cornell University?",
+    "answer": "Dartmouth College",
+    "target": "Cornell University"
+  },
+  {
+    "id": 3640,
+    "context": "Juan Nepomuceno Carlos Pérez Rulfo Vizcaíno, best known as Juan Rulfo (]    ; 16 May 1917 – 7 January 1986), was a Mexican writer, screenwriter and photographer. He is best known for two literary works, \"El Llano en llamas\" (1953), a collection of short stories, and the 1955 novel \"Pedro Páramo\". Fifteen of the seventeen short stories in \"El Llano en llamas\" have been translated into English and published as \"The Burning Plain and Other Stories\". This collection includes the popular tale \"¡Diles que no me maten!\" (\"Tell Them Not to Kill Me!\").\n\nDavid John Moore Cornwell (born 19 October 1931), known by the pseudonym John le Carré ( ), is a British author of espionage novels. During the 1950s and the 1960s, he worked for both the Security Service and the Secret Intelligence Service, and began writing novels under his pen name. His third novel, \"The Spy Who Came in from the Cold\" (1963), became an international best-seller and remains one of his best-known works. Following the success of this novel, he left MI6 to become a full-time author.",
+    "question": "Who was born first, Juan Rulfo or John le Carré?",
+    "answer": "Juan Rulfo",
+    "target": "John le Carré"
+  },
+  {
+    "id": 3678,
+    "context": "Erodium is a genus of flowering plants in the botanical family Geraniaceae. The genus includes about 60 species, native to North Africa, Indomalaya, The Middle East, and Australia. They are perennials, annuals, or subshrubs, with five-petalled flowers in shades of white, pink, and purple, that strongly resemble the better-known \"Geranium\" (cranesbill). American species are known as filarees or heron's bill, whereas Eurasian ones are usually called storksbills in English.\n\nCymbidium , or boat orchid, is a genus of 52 evergreen species in the orchid family Orchidaceae. The new Latin genus name is derived from the Latin \"cymba\" meaning boat. Its first known use was in 1815.",
+    "question": "Does Erodium or Cymbidium include more species?",
+    "answer": "Erodium",
+    "target": "Cymbidium"
+  },
+  {
+    "id": 3692,
+    "context": "Real Simple is a monthly women's interest magazine launched by Time Inc. in 2000. The magazine features articles and information related to homekeeping, childcare, cooking and emotional wellbeing. The magazine is distinguished by its clean, uncluttered style of layout and photos. Out of the 7.6 million readers, 90% are women. Headquartered in New York City, the magazine is currently edited by Sarah Collins, who began serving as interim editor-in-chief in September 2016 after the departure of previous editor Kristin van Ogtrop.\n\nLife was an American magazine that ran weekly from 1883 to 1936 as a humor magazine with limited circulation. \"Time\" owner Henry Luce bought the magazine in 1936, solely so that he could acquire the rights to its name, and launched a major weekly news magazine with a strong emphasis on photojournalism. \"Life\" was published weekly until 1972, as an intermittent \"special\" until 1978, and as a monthly from 1978 to 2000.",
+    "question": "Which magazine launched first, Real Simple or Life?",
+    "answer": "Life",
+    "target": "Real Simple"
+  },
+  {
+    "id": 3745,
+    "context": "Bernard-Marie Koltès (] ; 9 April 1948 – 15 April 1989) was a French playwright and theatre director best known for his plays \"La Nuit juste avant les Forêts\" (\"The Night Just Before the Forests\", 1976), \"Sallinger\" (1977) and \"Dans la Solitude des Champs de Coton\" (\"In the Solitude of Cotton Fields\", 1986).\n\nPhilip José Farmer (January 26, 1918 – February 25, 2009) was an American author known for his science fiction and fantasy novels and short stories.",
+    "question": "Who lived longer- Bernard-Marie Koltès or Philip José Farmer?",
+    "answer": "Philip José Farmer",
+    "target": "Bernard-Marie Koltès"
+  },
+  {
+    "id": 3811,
+    "context": "Doñana National Park is a natural reserve in Andalusia, southern Spain, in the provinces of Huelva (most of its territory) and Seville. It covers 543 km² , of which 135 km² are a protected area. The park is an area of marshes, shallow streams, and sand dunes in Las Marismas, the delta where the Guadalquivir River flows into the Atlantic Ocean. It was established as a nature reserve in 1969 when the World Wildlife Fund joined with the Spanish government and purchased a section of marshes to protect it. The eco-system has been under constant threat by the draining of the marshes, the use of river water to boost agricultural production by irrigating land along the coast, water pollution by upriver mining, and the expansion of tourist facilities. It is named after wife of the seventh Duke of Medina-Sidonia.\n\nTimanfaya National Park (Spanish: \"Parque Nacional de Timanfaya\" ) is a Spanish national park in the southwestern part of the island of Lanzarote, Canary Islands. It covers parts of the municipalities Tinajo and Yaiza. The area is 51.07 km2 . The parkland is entirely made up of volcanic soil.",
+    "question": "Which park is larger of the two, Doñana National Park or Timanfaya National Park?",
+    "answer": "Doñana National Park",
+    "target": "Timanfaya National Park"
+  },
+  {
+    "id": 3842,
+    "context": "Domenico Gaetano Maria Donizetti (] ; 29 November 1797 – 8 April 1848) was an Italian composer. Along with Gioachino Rossini and Vincenzo Bellini, Donizetti was a leading composer of the \"bel canto\" opera style during the first half of the nineteenth century. Donizetti's close association with the bel canto style was undoubtedly an influence on other composers such as Giuseppe Verdi (1813–1901).\n\nSir William Turner Walton, OM (29 March 19028 March 1983) was an English composer. During a sixty-year career, he wrote music in several classical genres and styles, from film scores to opera. His best-known works include \"Façade\", the cantata \"Belshazzar's Feast\", the Viola Concerto and the First Symphony.",
+    "question": "Which composer was born later, Gaetano Donizetti or William Walton?",
+    "answer": "William Turner Walton",
+    "target": "Gaetano Donizetti"
+  },
+  {
+    "id": 3893,
+    "context": "James Searle Dawley (May 13, 1877 – March 30, 1949) was an American director and screenwriter. He directed 149 films between 1907 and 1926. He was born in Del Norte, Colorado and died in Hollywood, California.\n\nLionel Ngakane (17 July 1928 – 26 November 2003) was a South African filmmaker and actor.",
+    "question": "Which director was from a country closer to Canada, J. Searle Dawley or Lionel Ngakane?",
+    "answer": "James Searle Dawley",
+    "target": "Lionel Ngakane"
+  },
+  {
+    "id": 3915,
+    "context": "Amazing Stories is an American science fiction magazine launched in April 1926 by Hugo Gernsback's Experimenter Publishing. It was the first magazine devoted solely to science fiction. Science fiction stories had made regular appearances in other magazines, including some published by Gernsback, but \"Amazing\" helped define and launch a new genre of pulp fiction.\n\n\"Aquarium Fish International\" (AFI) was a North American monthly magazine, published by BowTie Inc. of Irvine, California, and dedicated to freshwater and saltwater fishkeeping and the aquarium/fishkeeping hobby in general.",
+    "question": "Between Amazing Stories and Aquarium Fish International, which magazine is devoted more to hobbies related to physical activities?",
+    "answer": "Aquarium Fish International",
+    "target": "Amazing Stories"
+  },
+  {
+    "id": 3956,
+    "context": "Bruce Conner (November 18, 1933 – July 7, 2008) was an American artist renowned for his work in assemblage, film, drawing, sculpture, painting, collage, and photography, among other disciplines.\n\nJaap Speyer (1891–1952) was a Dutch film director. He was married to the German actress Mia Pankau.",
+    "question": "Who was born first, Jaap Speyer or Bruce Conner?",
+    "answer": "Jaap Speyer",
+    "target": "Bruce Conner"
+  },
+  {
+    "id": 3960,
+    "context": "God Lives Underwater was an industrial rock band from rural Perkiomenville, Pennsylvania (near Philadelphia), formed in 1993 by band members David Reilly and Jeff Turzo. God Lives Underwater was originally signed to American Recordings after being discovered by Rick Rubin, who subsequently produced the band's first two albums. Prior to the band's breakup, there were two other members, Andrew McGee and Adam Kary.\n\nThe Dear Hunter is an American progressive rock band originating in Providence, Rhode Island. It began as a side project of Casey Crescenzo back when he was a member of The Receiving End of Sirens, before becoming his main band in 2006. The band's sound features a wide variety of instruments and styles.",
+    "question": "Does the band God Lives Underwater or the band The Dear Hunter come from a larger state?",
+    "answer": "God Lives Underwater",
+    "target": "The Dear Hunter"
+  },
+  {
+    "id": 3975,
+    "context": "Alejandro Jodorowsky Prullansky (] ; born 17 February 1929) is a Chilean-French film and theatre director, screenwriter, playwright, actor, author, poet, producer, composer, musician, comics writer, and spiritual guru. Best known for his avant-garde films, he has been \"venerated by cult cinema enthusiasts\" for his work which \"is filled with violently surreal images and a hybrid blend of mysticism and religious provocation\".\n\nPhilip Saville (sometimes credited as Philip Savile, 28 October 1930 – 22 December 2016) was a British television and film director, screenwriter and former actor whose career lasted half a century. The British Film Institute's Screenonline website has described Saville as \"one of Britain's most prolific and pioneering television and film directors\".",
+    "question": "Who lived longer, Alejandro Jodorowsky or Philip Saville?",
+    "answer": "Alejandro Jodorowsky Prullansky",
+    "target": "Philip Saville"
+  },
+  {
+    "id": 3999,
+    "context": "Wilkes-Barre/Scranton International Airport (IATA: AVP, ICAO: KAVP, FAA LID: AVP) is primarily in Pittston Township, Pennsylvania, and spans the border between Luzerne County and Lackawanna County. It is owned and operated jointly between the two counties, and it is located approximately 7 miles away from Scranton and 8 miles away from Wilkes-Barre. It is the fifth largest airport in Pennsylvania measured by passenger boarding and calls itself \"your gateway to Northeastern Pennsylvania and the Pocono Mountains\". This is the primary airport of Northeast/Northeast Central PA and of the Wyoming Valley.\n\nLong Island MacArthur Airport (also known as Islip Airport) (IATA: ISP, ICAO: KISP, FAA LID: ISP) is a public airport on Long Island, in Ronkonkoma, Town of Islip, Suffolk County, New York. The Town owns and operates the airport, which serves about two million commercial passengers a year, as well as general aviation. Long Island MacArthur Airport (LIMA) covers 1,311 acres (531 ha) and has four runways and two helipads.",
+    "question": "Between Wilkes-Barre/Scranton International Airport and Long Island MacArthur Airport, which airport is owned by a higher government?",
+    "answer": "Wilkes-Barre/Scranton International Airport",
+    "target": "Long Island MacArthur Airport"
+  },
+  {
+    "id": 4014,
+    "context": "Hydrangea ( ; common names hydrangea or hortensia) is a genus of 70–75 species of flowering plants native to southern and eastern Asia (China, Japan, Korea, the Himalayas, and Indonesia) and the Americas. By far the greatest species diversity is in eastern Asia, notably China, Japan, and Korea. Most are shrubs 1 to 3 meters tall, but some are small trees, and others lianas reaching up to 30 m by climbing up trees. They can be either deciduous or evergreen, though the widely cultivated temperate species are all deciduous.\n\nAbrus is a genus of flowering plants in the pea family, Fabaceae and the only genus found in the tribe Abreae. It contains, 13–18 species, but is best known for a single species, Jequirity (\"A. precatorius\"). The highly toxic seeds of that species are used to make jewellery.",
+    "question": "Which plant has more species, Hydrangea or Abrus?",
+    "answer": "Hydrangea",
+    "target": "Abrus"
+  },
+  {
+    "id": 4032,
+    "context": "The Hunchback of Notre Dame is a 1996 American animated musical drama film produced by Walt Disney Feature Animation for Walt Disney Pictures. The 34th Disney animated feature film, the film is based on Victor Hugo's novel of the same name. The plot centers on Quasimodo, the deformed bell-ringer of Notre Dame, and his struggle to gain acceptance into society. Directed by Kirk Wise and Gary Trousdale and produced by Don Hahn, the film's voice cast features Tom Hulce, Demi Moore, Tony Jay, Kevin Kline, Paul Kandel, Jason Alexander, Charles Kimbrough, David Ogden Stiers, and Mary Wickes in her final film role.\n\nMiracle of the White Stallions is a 1963 film released by Walt Disney starring Robert Taylor (playing Alois Podhajsky), Lilli Palmer, and Eddie Albert. It is the story of the evacuation of the Lipizzaner horses from the Spanish Riding School in Vienna during World War II.",
+    "question": "Which film was released first out of The Hunchback of Notre Dame and Miracle of the White Stallions?",
+    "answer": "Miracle of the White Stallions",
+    "target": "The Hunchback of Notre Dame"
+  },
+  {
+    "id": 4043,
+    "context": "Jang Joon-hwan (born January 18, 1970) is a South Korean film director.\n\nPeter James Yates (24 July 1929 – 9 January 2011) was an English film director and producer. He was born in Aldershot, Hampshire.",
+    "question": "Who has the highest scope of profession in Peter Yates or Jang Joon-hwan ",
+    "answer": "Peter James Yates",
+    "target": "Jang Joon-hwan"
+  },
+  {
+    "id": 4064,
+    "context": "Barnes v. Glen Theatre, Inc., 501 U.S. 560 (1991) , is a landmark decision of the Supreme Court of the United States concerning the First Amendment and the ability of the government to outlaw certain forms of expressive conduct. It ruled that the state has the constitutional authority to ban public nudity, even as part of expressive conduct such as dancing, because it furthers a substantial government interest in protecting the morality and order of society. This case is perhaps best summarized by a sentence in Justice Souter's concurring opinion, which is often paraphrased as \"Nudity itself is not inherently expressive conduct.\"\n\nDiamond v. Chakrabarty, 447 U.S. 303 (1980), was a United States Supreme Court case dealing with whether genetically modified organisms can be patented.",
+    "question": "Which case came first,  Barnes v. Glen Theatre, Inc. or Diamond v. Chakrabarty?",
+    "answer": "Diamond v. Chakrabarty",
+    "target": "Barnes v. Glen Theatre, Inc."
+  },
+  {
+    "id": 4074,
+    "context": "The Korean Jindo (Hangul: 진돗개 ; Hanja: 珍島狗 ) is a breed of hunting dog that originated on Jindo Island in South Korea. Brought to the United States with South Korean expatriates, it is celebrated in its native land for its fierce loyalty and brave nature. The Jindo breed became recognized by the United Kennel Club on January 1, 1998 and by the Fédération Cynologique Internationale in 2005.\n\nThe Taigan (Kyrgyz: Тайган ) also known as Kyrgyzdyn Taighany (Kyrgyzskaya Borzaya Taigan in Russian) is a sighthound breed from Kyrgyzstan, which is not yet recognized by the FCI, but is recognized by a number of kennel clubs on national level.",
+    "question": "Which dog breed is NOT recognized by the Fédération Cynologique Internationale (FCI), the Korean Jindo or the Taigan?",
+    "answer": "Taigan",
+    "target": "Korean Jindo"
+  },
+  {
+    "id": 4106,
+    "context": "John H. Garabedian is an American radio personality and disc jockey born on December 20, 1941 (age 75). He is best known as the creator and former long-time host of \"Open House Party\". He has been involved in Massachusetts radio and television stations for over fifty years. Garabedian currently owns three homes, all in New England: one in Southborough, Massachusetts, another on Cape Cod, and a cabin-like home in Cabot, Vermont.\n\nCharles A. Agemian (July 22, 1909 – March 30, 1996) was an American banker who took early retirement from Chase Manhattan Bank, where he was executive vice president of operations, to become chairman and chief executive officer of the Hackensack Trust Co., which later was renamed Garden State National Bank.",
+    "question": "Who was most well-known as a radio personality and disc jockey, John Garabedian or Charles A. Agemian?",
+    "answer": "John H. Garabedian",
+    "target": "Charles A. Agemian"
+  },
+  {
+    "id": 4126,
+    "context": "Warrel Dane (born March 7, 1969) is the lead singer of the American power metal band Sanctuary. He is also known as the former lead singer of currently inactive progressive metal band Nevermore. He is a natural baritone, though he was known for his high-pitched vocals with Serpent's Knight and on the first two Sanctuary albums. Later in his career, Dane became more notable for his distinctively deep, dramatic voice.\n\nRoy Sætre Khantatat (born March 12, 1970), is a Norwegian singer-songwriter. Commonly known as Roy Khan or simply Khan, he was the lead vocalist for the symphonic power metal band Kamelot from 1997 to his departure in 2011. He co-wrote most of Kamelot's songs with the band's guitarist and founder Thomas Youngblood during his tenure. Prior to joining Kamelot, Khan was lead singer for the Norwegian progressive metal band Conception from 1991 until 1997 when they disbanded.",
+    "question": "Which of these artists is older, Warrel Dane or Roy Khan?",
+    "answer": "Warrel Dane",
+    "target": "Roy Khan"
+  },
+  {
+    "id": 4142,
+    "context": "Francis Fredrick von Taschlein (February 19, 1913 – May 5, 1972), better known by his stage name Frank Tashlin, was an American animator, screenwriter, and film director. He was also known as Tish Tash and Frank Tash.\n\nGeorge Kuchar (August 31, 1942 – September 6, 2011) was an American underground film director and video artist, known for his \"low-fi\" aesthetic.",
+    "question": "Were Frank Tashlin and George Kuchar both animators?",
+    "answer": "no",
+    "target": "yes"
+  },
+  {
+    "id": 4204,
+    "context": "Summer Magic is a 1963 Walt Disney Productions film starring Hayley Mills, Burl Ives, and Dorothy McGuire in a story about a Boston widow and her children taking up residence in a small town in Maine. The film was based on the novel \"Mother Carey's Chickens\" by Kate Douglas Wiggin and was directed by James Neilson. This was the fourth of six film Mills did for Disney, and the young actress received a Golden Globe nomination for her work here.\n\nAround the World in 80 Days is a 2004 American action-adventure comedy family film based on Jules Verne's novel of the same name. It stars Jackie Chan, Steve Coogan and Cécile de France. The film is set in 19th-century Britain and centers on Phileas Fogg (Steve Coogan), here reimagined as an eccentric inventor, and his efforts to circumnavigate the globe in 80 days. During the trip, he is accompanied by his Chinese valet, Passepartout (Jackie Chan). For comedic reasons, the film intentionally deviated wildly from the novel and included a number of anachronistic elements. With production costs of about $110 million and estimated marketing costs of $30 million, it earned $24 million at the U.S. box office and $72 million worldwide, making it a box office flop. It was Arnold Schwarzenegger's last film before he took a hiatus from acting to become Governor of California until 2010's \"The Expendables\".",
+    "question": "Which film was released first, Summer Magic or Around the World in 80 Days?",
+    "answer": "Summer Magic",
+    "target": "Around the World in 80 Days"
+  },
+  {
+    "id": 4210,
+    "context": "Tosca (] ) is an opera in three acts by Giacomo Puccini to an Italian libretto by Luigi Illica and Giuseppe Giacosa. It premiered at the Teatro Costanzi in Rome on 14 January 1900. The work, based on Victorien Sardou's 1887 French-language dramatic play, \"La Tosca\", is a melodramatic piece set in Rome in June 1800, with the Kingdom of Naples's control of Rome threatened by Napoleon's invasion of Italy. It contains depictions of torture, murder and suicide, as well as some of Puccini's best-known lyrical arias.\n\nDon Quichotte (\"Don Quixote\") is an opera in five acts by Jules Massenet to a French libretto by Henri Caïn. It was first performed on 19 February 1910 at the Opéra de Monte-Carlo.",
+    "question": "Which opera has more acts, Don Quichotte or Tosca?",
+    "answer": "Don Quichotte",
+    "target": "Tosca"
+  },
+  {
+    "id": 4270,
+    "context": "The Cascade Locks and Canal was a navigation project on the Columbia River between the U.S. states of Oregon and Washington, completed in 1896. It allowed the steamboats of the Columbia River to bypass the Cascades Rapids, and thereby opened a passage from the lower parts of the river as far as The Dalles. The locks were submerged and rendered obsolete in 1938, when the Bonneville Dam was constructed, along with a new set of locks, a short ways downstream.\n\nThe Lake Worth Lagoon is a lagoon located in Palm Beach County, Florida. It runs parallel to the coast, and is separated from the Atlantic Ocean by barrier beaches, including Palm Beach Island. The lagoon is connected to the Atlantic Ocean by two permanent, man-made inlets.",
+    "question": "Which is located farther West, the Cascade Locks and Canal or Lake Worth Lagoon?",
+    "answer": "Cascade Locks and Canal",
+    "target": "Lake Worth Lagoon"
+  },
+  {
+    "id": 4336,
+    "context": "Pagliacci (] ; literal translation, \"Clowns\") is an Italian opera in a prologue and two acts, with music and libretto by Ruggero Leoncavallo. It is the only Leoncavallo opera that is still widely performed. Opera companies have frequently staged \"Pagliacci\" with \"Cavalleria rusticana\" by Mascagni, a double bill known colloquially as 'Cav and Pag'.\n\nSuor Angelica (Sister Angelica) is an opera in one act by Giacomo Puccini to an original Italian libretto by Giovacchino Forzano. It is the second opera of the trio of operas known as \"Il trittico\" (\"Triptych\"). It received its world premiere at the Metropolitan Opera on December 14, 1918.",
+    "question": "which has more acts Pagliacci or Suor Angelica?",
+    "answer": "Pagliacci",
+    "target": "Suor Angelica"
+  },
+  {
+    "id": 4350,
+    "context": "Allure is an American women’s beauty magazine, published monthly by Conde Nast in New York City. It was founded in 1991 by Linda Wells. Michelle Lee replaced Wells in 2015. A signature of the magazine is its annual Best of Beauty awards—accolades given in the October issue to beauty products deemed the best by magazine staff.\n\nGenre magazine (ISSN 1074-5246  ) was a New York city-based monthly periodical from 1992 to 2009 written for gay men. It was owned by gay press publisher Window Media.",
+    "question": "Which magazine was founded first, Allure or Genre?",
+    "answer": "Allure is an American women’s beauty magazine",
+    "target": "Genre is an American women’s beauty magazine"
+  },
+  {
+    "id": 4365,
+    "context": "Alan Dean Foster (born November 18, 1946) is an American writer of fantasy and science fiction, a prolific creator of and contributor to book series as well as the author of more than 20 standalone novels. He is especially prolific in his novelizations of film scripts.\n\nSamuel Ray Delany Jr. ( ; born April 1, 1942), Chip Delany to his friends, is an American author, professor and literary critic. His work includes fiction (especially science fiction), memoir, criticism, and essays on sexuality and society.",
+    "question": "Whose writing covered more topics, Alan Dean Foster or Samuel R. Delany?",
+    "answer": "Samuel Ray Delany Jr.",
+    "target": "Alan Dean Foster"
+  },
+  {
+    "id": 4373,
+    "context": "Right On! was an American teen magazine first published by the Laufer Company in 1972 with editor/creator Judy Wieder and art director William Cragun. It continued publishing to c. 2011 and focused on African-American celebrities.\n\nCastle of Frankenstein was an American horror, science fiction and fantasy film magazine, published between 1962 and 1975 by Calvin Thomas Beck's Gothic Castle Publishing Company, distributed by Kable News. Larry Ivie - who also was cover artist for several early issues - and Ken Beale edited the first three issues. Writer-artist Bhob Stewart edited the magazine from 1963 into the early 1970s. Although promoted and sold as a \"monster magazine,\" readers were aware that \"Castle of Frankenstein\", at the time, was the only nationally distributed magazine devoted to a legitimate and serious coverage of B movies. In addition to its central focus on classic and current horror films, \"Castle of Frankenstein\" also devoted pages to amateur filmmakers and fanzines. Its advertising pages sold full-length silent feature films such as \"The Lost World\" and \"\".",
+    "question": "The publication of which magazine ended first, Right On! or Castle of Frankenstein?",
+    "answer": "Castle of Frankenstein",
+    "target": "Right On!"
+  },
+  {
+    "id": 4403,
+    "context": "Michael Crafter is an Australian musician, singer-songwriter and entertainment manager. His music career began as lead vocalist for I Killed the Prom Queen. He is the vocalist of Confession, and former vocalist of Carpathian and Bury Your Dead. Crafter runs a clothing apparel business, Mistake Clothing.\n\nMartin Degville is (born 27 January 1961 in Walsall) is the lead singer and co-songwriter of the UK pop band, Sigue Sigue Sputnik – which had a worldwide hit single in 1986 with \"Love Missile F1-11\" – and six other EMI single releases. Sputnik was formed with ex-Generation X bassist Tony James.",
+    "question": "Which singer has been in more music bands, Michael Crafter or Martin Degville?",
+    "answer": "Michael Crafter",
+    "target": "Martin Degville"
+  },
+  {
+    "id": 4447,
+    "context": "Pizza Fusion is a Deerfield Beach, Florida-based pizza restaurant chain. Using mostly organic ingredients and emphasizing green building methods, the restaurants operate under the tagline Saving the Earth, One Pizza at a Time.\n\nImo's Pizza is a U.S. chain of pizza restaurants based in the greater St. Louis, Missouri area. It is headquartered in St. Louis, Missouri.",
+    "question": "Which restaurant chain is based further south, Pizza Fusion or Imo's Pizza?",
+    "answer": "Pizza Fusion",
+    "target": "Imo's Pizza"
+  },
+  {
+    "id": 4521,
+    "context": "Unwritten Law is an American rock band formed in 1990 in Poway, California They have released seven full-length studio albums and have toured internationally, including performances on the Warped Tour. They are notable for their singles \"Seein' Red\" and \"Save Me (Wake Up Call),\" both of which entered the top 5 in the US Modern Rock charts. Their sixth studio album, \"Swan\", was released March 29, 2011.\n\nThe Jon Spencer Blues Explosion is an American alternative rock trio, formed in 1991 and based in New York City, New York. The band consists of Judah Bauer on guitar, backing vocals, harmonica and occasional lead vocals, Russell Simins on drums and Jon Spencer on vocals, guitar and theremin. Their musical style is largely rooted in rock and roll although it draws influences from punk, blues, garage, rockabilly, soul, noise rock, rhythm and blues and hip hop. They have released nine official studio albums, collaborative records with Dub Narcotic Sound System and R.L. Burnside as well as numerous live, singles, out-take albums, compilations, remix albums and, in 2010, a series of expanded reissues.",
+    "question": "Which band was formed at an earlier date, Unwritten Law or Jon Spencer Blues Explosion?",
+    "answer": "Unwritten Law",
+    "target": "Jon Spencer Blues Explosion"
+  },
+  {
+    "id": 4560,
+    "context": "Podocarpus ( ) is a genus of conifers, the most numerous and widely distributed of the podocarp family, Podocarpaceae. \"Podocarpus\" are evergreen shrubs or trees, usually from 1 to tall, known to reach 40 m at times. The cones have two to five fused cone scales which form a fleshy, berry-like, brightly coloured receptacle at maturity. The fleshy cones attract birds which then eat the cones and disperse the seeds in their droppings. There are approximately 97 to 107 species in the genus depending on the circumscription of the species.\n\nOsmunda is a genus of primarily temperate-zone ferns of family Osmundaceae. Five to ten species have been listed for this genus.",
+    "question": "Which species is the most numerous, Podocarpus or Osmunda? ",
+    "answer": "Podocarpus",
+    "target": "Osmunda"
+  },
+  {
+    "id": 4571,
+    "context": "Daniel Myrick (born September 3, 1963) is an American film director most famous for horror films, especially for co-directing and writing the 1999 psychological horror \"The Blair Witch Project\" with Eduardo Sánchez, for which they won the Independent Spirit John Cassavetes Award.\n\nMarino Girolami (1 February 1914 – 20 February 1994) was an Italian film director who gained a cult following for his horror movies like \"Zombie Holocaust\". He was the father of the Italian filmmaker Enzo G. Castellari and the actor Ennio Girolami.",
+    "question": "Who was born first, Marino Girolami or Daniel Myrick?",
+    "answer": "Marino Girolami",
+    "target": "Daniel Myrick"
+  },
+  {
+    "id": 4576,
+    "context": "The Devil Came on Horseback is a documentary film by Ricki Stern and Anne Sundberg illustrating the continuing Darfur Conflict in Sudan. Based on the book by former U.S. Marine Captain Brian Steidle and his experiences while working for the African Union. The film asks viewers to become educated about the on-going genocide in Darfur and laments the failure of the US and others to end the crisis.\n\nMy Best Fiend (German: \"Mein liebster Feind - Klaus Kinski\" , literally \"My Dearest Foe - Klaus Kinski\") is a 1999 German documentary film written and directed by Werner Herzog, about his tumultuous yet productive relationship with German actor Klaus Kinski. It was released on DVD in 2000 by Anchor Bay.",
+    "question": "What documentary has more creators, The Devil Came on Horseback or My Best Fiend?",
+    "answer": "The Devil Came on Horseback",
+    "target": "My Best Fiend"
+  },
+  {
+    "id": 4616,
+    "context": "The Griffon Bruxellois or Brussels Griffon is a breed of toy dog, named for their city of origin: Brussels, Belgium. The Griffon Bruxellois may refer to three different breeds, the Griffon Bruxellois, the Griffon Belge and the Petit Brabançon. Identical in standard except for coat and colour differences, in some standards they are considered varieties of the same breed, much like Belgian Shepherd Dogs.\n\nThe English Mastiff is a breed of extremely large dog (often known simply as the Mastiff) perhaps descended from the ancient Alaunt and Pugnaces Britanniae, with a significant input from the Alpine Mastiff in the 19th century. Distinguishable by enormous size, massive head, and a limited range of colours, but always displaying a black mask, the Mastiff is noted for its gentle and loving nature. The lineage of modern dogs can be traced back to the early 19th century, but the modern type was stabilised in the 1880s and refined since. Following a period of sharp decline, the Mastiff has increased its worldwide popularity. Throughout its history, the Mastiff has contributed to the development of a number of dog breeds, some generally known as Mastiff-type dogs, or, confusingly, just as \"Mastiffs\".",
+    "question": "Which is bigger, Griffon Bruxellois or English Mastiff?",
+    "answer": "English Mastiff",
+    "target": "Griffon Bruxellois"
+  },
+  {
+    "id": 4621,
+    "context": "St. Elizabeths Hospital opened in 1855 as the first federally operated psychiatric hospital in the United States. Housing over 8,000 patients at its peak in the 1950s, the hospital at one point had a fully functioning medical-surgical unit, a school of nursing, and accredited internships and psychiatric residencies. Its campus was designated a National Historic Landmark in 1990.\n\nProvidence Hospital is a 408 bed hospital located in the District of Columbia. Founded in 1861, it is the longest continuously operating hospital in the District. Providence Hospital is a member of Ascension Health, the largest non-profit health care organization in the United States.",
+    "question": "Which hospital opened first, St. Elizabeths Hospital or Providence Hospital?",
+    "answer": "St. Elizabeths Hospital",
+    "target": "Providence Hospital"
+  },
+  {
+    "id": 4631,
+    "context": "Jennifer Odessa Nettles (born September 12, 1974) is an American country music singer and songwriter. She is best known as the lead singer of the duo Sugarland alongside Kristian Bush. Before Sugarland's inception, she also fronted Atlanta-based bands called Soul Miner's Daughter and Jennifer Nettles Band. She also charted as a duet partner on the country version of rock band Bon Jovi's 2006 single \"Who Says You Can't Go Home\", a Number One hit on the \"Billboard\" country charts.\n\nRoger Meddows Taylor (born 26 July 1949) is an English musician, singer and songwriter. He is a multi-instrumentalist, best known as the drummer for the rock band Queen. As a drummer, Taylor was recognised early in his career for his unique sound. He has been acclaimed by Foo Fighters drummer Taylor Hawkins as one of the most influential rock drummers of the 1970s and 1980s, as well as being voted by radio listeners as the eighth-greatest drummer in classic rock music history in a poll conducted by Planet Rock in 2005.",
+    "question": "Which singer is in the duo Sugarland, Jennifer Nettles or Roger Taylor?",
+    "answer": "Jennifer Nettles",
+    "target": "Roger Taylor"
+  },
+  {
+    "id": 4667,
+    "context": "Shenandoah Valley Regional Airport (IATA: SHD, ICAO: KSHD, FAA LID: SHD) is a public airport located 10 nautical miles (12 mi, 19 km) northeast of the central business district of Staunton, a city in Augusta County, Virginia, United States. It is mostly used for general aviation, but is also served by one commercial airline. Service is subsidized by the Essential Air Service program.\n\nLouisville International Airport (IATA: SDF, ICAO: KSDF, FAA LID: SDF) is a public and military use public airport centrally located in the city of Louisville in Jefferson County, Kentucky, United States. The airport is situated on approximately 1500 acre and has three runways. Its IATA airport code, SDF, is based on the airport's former name, Standiford Field. Although it currently does not have regularly-scheduled international passenger flights, it is a port of entry, as it handles numerous international cargo flights.",
+    "question": "Which airport is used for both public and military, Shenandoah Valley Regional Airport or Louisville International Airport?",
+    "answer": "Louisville International Airport",
+    "target": "Shenandoah Valley Regional Airport"
+  },
+  {
+    "id": 4743,
+    "context": "Grapico is a caffeine-free, artificially flavored carbonated soft drink with a purple color and a grape taste that is sold in the Southeastern United States. When introduced in 1916, the product quickly became a success, which in part was due to implying that Grapico contained real grape juice even though it did not. In the spring of 1926, J. Grossman's Sons sold the Grapico business to New Orleans business Pan American Manufacturing Co. Pan American continued J. Grossman's Sons' improper practice of implying that Grapico contained real grape juice and lost the right to use the word \"Grapico\" to designate their artificial grape drink in 1929.\n\nIzze (pronounced iz-ee) is the brand name of a line of carbonated juice drinks produced by the IZZE Beverage Company in Boulder, Colorado, which is owned by PepsiCo. The drinks consist of 70% fruit juice from concentrate, and 30% seltzer water. Izze is an all-natural, no-preservatives-added fruit soda.",
+    "question": "Are both Grapico and Izze artificially flavored soft drinks?",
+    "answer": "no",
+    "target": "yes"
+  },
+  {
+    "id": 4759,
+    "context": "4 World Trade Center (also known by its street address, 150 Greenwich Street) is a skyscraper that is part of the World Trade Center complex in New York City. It opened to tenants and the public on November 13, 2013. It is located on the southeast corner of the 16 acre World Trade Center site, where the original nine-story 4 World Trade Center stood. Pritzker Prize-winning architect Fumihiko Maki was awarded the contract to design the 978 ft building. s of 2016 , it is the third tallest skyscraper at the rebuilt World Trade Center, behind One and 3 World Trade Center. However, 2 World Trade Center is expected to surpass the height of both buildings upon completion. The total floor space of the building includes 1.8 million square feet (167,000 square meters) of office and retail space. The building's groundbreaking took place in January 2008.\n\nTrump Palace Condominiums is a 623 ft tall skyscraper at 200 East 69th Street in New York City, New York. It was completed in 1991 and has 54 floors. Frank Williams and Associates, headed by architect Frank Williams designed the building, which is the 70th tallest in New York City, and the tallest in the Upper East Side.",
+    "question": "Is 4 World Trade Center or Trump Palace Condominiums higher?",
+    "answer": "4 World Trade Center",
+    "target": "Trump Palace Condominiums"
+  },
+  {
+    "id": 4770,
+    "context": "The French Bulldog also known as the Frenchie is a small breed of domestic dog. Frenchies were the result in the 1800s of a cross between bulldog ancestors imported from England and local ratters in Paris (France).\n\nThe American Bulldog is a breed of utility dog. There are two specific types of American Bulldog, Standard and Classic; additionally, there are also mixes of the two types.",
+    "question": "Which Bulldog includes breeds such as \"Standard\" and \"Classic,\" the French Bulldog or the American Bulldog?",
+    "answer": "American Bulldog",
+    "target": "French Bulldog"
+  },
+  {
+    "id": 4771,
+    "context": "Take It Easy is an abstract strategy board game created by Peter Burley. It can be characterized as a spatial bingo-like game, and has been published by Ravensburger and subsequently by several other publishers since 1983. Each player gets a board with places for 19 hexagon tiles to place in a hexagon shape. Additionally, players get identical sets of tiles which have different types of colored/numbered lines crossing in three directions. One player draws a tile randomly and then tells the others which he drew. Each player then puts their matching tile on their board in any available spot. This is repeated until the board is filled. The object is to complete same colored/numbered lines across your board, for which points are scored according to the numbers on those lines. The maximum score possible is 307.\n\nPersonal Preference is a 1987 board game created by Donal Carlston that involves guessing the order in which a player prefers foods, activities, people, and other items compared to one another. The game was published by Brøderbund Games in the United States, Playtoy Industries in Canada, and Parker Brothers International in Britain.",
+    "question": "Which was published first, Take It Easy or Personal Preference?",
+    "answer": "Take It Easy",
+    "target": "Personal Preference"
+  },
+  {
+    "id": 4788,
+    "context": "Andrei Stanislavovich Olhovskiy (Russian: Андрей Станиславович Ольховский ) (born 15 April 1966) is a former tennis player from Russia, who turned professional in 1989.\n\nEmilio Ángel Sánchez Vicario (born 29 May 1965) is a former professional tennis player from Spain. He won three Grand Slam doubles titles and the men's doubles silver medal at the 1988 Olympic Games. He is the brother of multiple Grand Slam winner Arantxa. Sanchez since retiring captained his nation to Davis Cup success in 2008. In 2012 Sanchez was a tournament director for two wheelchair tennis events.",
+    "question": "Which tennis player is older, Emilio Sánchez or Andrei Olhovskiy?",
+    "answer": "Emilio Ángel Sánchez Vicario",
+    "target": "Andrei Olhovskiy"
+  },
+  {
+    "id": 4797,
+    "context": "Watercolor Artist, formerly Watercolor Magic, is an American bi-monthly magazine that focuses on watermedia techniques, trends and artists. As of June 2006, it had a print run of more than 90,000.\n\nThe General (1964–1998) was a bi-monthly periodical devoted to supporting Avalon Hill's line of wargames, with articles on game tactics, history, and industry news. It was the first professionally produced wargaming magazine for the nascent cardboard and hex-map wargaming hobby. Over the years the magazine was variously called \"The Avalon Hill General\", \"Avalon Hill's General\", \"The General Magazine\", or simply \"General\". It was headquartered in Baltimore, Maryland. With the sale of Avalon Hill to Hasbro in 1998 the magazine ceased. Its unofficial heir was \"Operations Magazine\" published by Multi-Man Publishing to support the line of Avalon Hill games that remained in print, but that too went out of print in 2010, replaced by \"Special Ops\" magazine in 2011.",
+    "question": "Which magazine had more previous names, Watercolor Artist or The General?",
+    "answer": "The General",
+    "target": "Watercolor Artist"
+  },
+  {
+    "id": 4840,
+    "context": "Liuzhou ( , ) is a prefecture-level city in north-central Guangxi Zhuang Autonomous Region, People's Republic of China. The prefecture's population was 3,758,700 in 2010, including 1,436,599 in the built-up area made of 4 urban districts. Its total area is 18,777 km2 and 667 km2 for built up area.\n\nMuling () is a county-level city of Mudanjiang, southeastern Heilongjiang, Northeast China, on the border with Russia. As of 2004, it has an area of 6,094 km2 and a population of 330,000.",
+    "question": "Which has a greater area, Liuzhou or Muling?",
+    "answer": "Liuzhou",
+    "target": "Muling"
+  },
+  {
+    "id": 4858,
+    "context": "A pine is any conifer in the genus Pinus, , of the family Pinaceae. \"Pinus\" is the sole genus in the subfamily Pinoideae. The Plant List compiled by the Royal Botanic Gardens, Kew and Missouri Botanical Garden accepts 126 species names of pines as current, together with 35 unresolved species and many more synonyms.\n\nButea is a genus of flowering plants belonging to the pea family, Fabaceae. It is sometimes considered to have only two species, \"B. monosperma\" and \"B. superba\", or is expanded to include four or five species.",
+    "question": "Between Pine and Butea, which genus has the greatest number of species?",
+    "answer": "\"Pinus\"",
+    "target": "\"Butea\""
+  },
+  {
+    "id": 4907,
+    "context": "Ian Thomas Garner MacKaye ( ; born April 16, 1962) is an American singer, songwriter, guitarist, musician, record label owner and producer. Active since 1979, MacKaye is best known as the co-founder and owner of Dischord Records, a Washington, D.C.-based independent record label and the frontman of the influential hardcore punk band Minor Threat and the post-hardcore band Fugazi. MacKaye was also the frontman for the short-lived bands The Teen Idles, Embrace and Pailhead, a collaboration with the band Ministry. MacKaye is a member of The Evens, a two-piece indie rock group he formed with his wife Amy Farina in 2001.\n\nBrody Dalle (born Bree Joanna Alice Robinson; 1 January 1979) is an Australian-born singer-songwriter and guitarist. Dalle began playing music in her adolescence, and moved to Los Angeles, California at age eighteen, where she found the punk rock band The Distillers. The group released three albums before disbanding in 2006, and Dalle began another project, Spinnerette, releasing an eponymous album in 2009. In 2014, she released \"Diploid Love\", her first album under her solo name.",
+    "question": "Who has been a member of more music bands, Ian MacKaye or Brody Dalle?",
+    "answer": "Ian Thomas Garner MacKaye",
+    "target": "Brody Dalle"
+  },
+  {
+    "id": 4927,
+    "context": "Pinocchio is a 1940 American animated musical fantasy film produced by Walt Disney Productions and based on the Italian children's novel \"The Adventures of Pinocchio\" by Carlo Collodi. It was the second animated feature film produced by Disney, made after the success of \"Snow White and the Seven Dwarfs\" (1937).\n\nHome on the Range is a 2004 American animated musical western comedy film produced by Walt Disney Feature Animation and released by Walt Disney Pictures. The 45th Disney animated feature film, it was the last 2D animated Disney film released until \"The Princess and the Frog\" in 2009. Named after the popular country song of the same name, \"Home on the Range\" features the voices of Roseanne Barr, Judi Dench, Jennifer Tilly, Cuba Gooding Jr., Randy Quaid, and Steve Buscemi. The film is set in the Old West, and centers on a mismatched trio of dairy cows—brash, adventurous Maggie; prim, proper Mrs. Caloway; and ditzy, happy-go-lucky Grace. The three cows must capture an infamous cattle rustler named Alameda Slim for his bounty in order to save their idyllic farm from foreclosure. Aiding them in their quest is Lucky Jack, a feisty, peg-legged rabbit, but a selfish horse named Buck, eagerly working in the service of Rico, a famous bounty hunter, seeks the glory for himself.",
+    "question": "Which was Disney's 2nd animated production, Pinocchio or Home on the Range?",
+    "answer": "Pinocchio",
+    "target": "Home on the Range"
+  },
+  {
+    "id": 5080,
+    "context": "The Blue Hawaii is a tropical cocktail made of rum, pineapple juice, Curaçao, sweet and sour mix, and sometimes vodka as well. It should not be confused with the similarly named Blue Hawaiian cocktail (also known as the Swimming Pool cocktail) that contains creme of coconut instead of sweet and sour mix.\n\nA Baby Guinness is a shooter, a style of cocktail, or mixed alcoholic beverage, intended to be consumed in one shot. A Baby Guinness contains no Guinness beer. Its name is derived from the fact that it is made in such a way as to look like a tiny glass of stout.",
+    "question": "Which cocktail's name describes how the drink looks, Blue Hawaii or Baby Guinness?",
+    "answer": "Baby Guinness",
+    "target": "Blue Hawaii"
+  },
+  {
+    "id": 5122,
+    "context": "Paul Hindemith ( ) (16 November 1895 – 28 December 1963) was a prolific German composer, violist, violinist, teacher and conductor. Notable compositions include his song cycle \"Das Marienleben\" (1923), \"Der Schwanendreher\" for viola and orchestra (1935), and opera \"Mathis der Maler\" (1938). Hindemith's most popular work, both on record and in the concert hall, is likely the \"Symphonic Metamorphosis of Themes by Carl Maria von Weber\", written in 1943.\n\nBéla Viktor János Bartók ( ; ] ; 25 March 1881 – 26 September 1945) was a Hungarian composer, pianist and an ethnomusicologist. He is considered one of the most important composers of the 20th century; he and Liszt are regarded as Hungary's greatest composers . Through his collection and analytical study of folk music, he was one of the founders of comparative musicology, which later became ethnomusicology.",
+    "question": "Which composer was born earlier, Paul Hindemith or Béla Bartók?",
+    "answer": "Béla Viktor János Bartók",
+    "target": "Paul Hindemith"
+  },
+  {
+    "id": 5130,
+    "context": "Sheridan County is a county located in the U.S. state of Montana. As of the 2010 census, the population was 3,384. Its county seat is Plentywood. Its northern boundary is the Canada–United States border south of Saskatchewan.\n\nChandra Taal (meaning the \"Lake of the Moon\"), or Chandra Tal is situated in the Spiti part of the Lahul and Spiti district of Himachal Pradesh (India). The name of the lake originates from its crescent shape. It is situated at an altitude of about 4300 m in the Himalayas. Mountains of scree overlook the lake on one side, and a magnificent cirque presents a view on the other. Chandra Taal is a popular destination for trekkers and campers. The lake is accessible on foot from Batal as well as from Kunzum Pass from late May to early October. There is also a motorable road available till a parking made 2km before the lake. Stay options are available 5km before the lake on prebooking. The road from Kunzum Pass is accessible only on foot, and it is about 8 km from Chandra Taal. Suraj Tal is also accessible Chandra Taal, 30 km away. Vast meadows on the banks of the lake are the camping sites. During springtime, these meadows are carpeted with hundreds of kinds of wildflowers.",
+    "question": "Which is farther west, Sheridan County, Montana or Chandra Taal?",
+    "answer": "Sheridan County",
+    "target": "Chandra Taal"
+  },
+  {
+    "id": 5141,
+    "context": "Paola Suárez (born 23 June 1976) is a retired professional tennis player from Argentina. She was one of the most prominent women's doubles players throughout the early and mid-2000s, winning eight Grand Slam titles, all of them with Virginia Ruano Pascual, and holding the No. 1 doubles ranking for 87 non-consecutive weeks. She was also a singles semifinalist at the 2004 French Open.\n\nMichael Venus (born 16 October 1987) is a New Zealand professional tennis player. He reached a career high singles ranking of 274 in July 2011, but is much better known as a leading doubles player with a huge serve. His highest ranking in this discipline is 12, gained in July 2017. He won the final of the 2017 French Open partnering with American Ryan Harrison, and followed that with a runner-up finish in the 2017 US Open mixed doubles with Chan Hao-ching of Chinese Taipei as his partner.",
+    "question": "Who was a higher ranked tennis player: Paola Suárez or Michael Venus?",
+    "answer": "Paola Suárez",
+    "target": "Michael Venus"
+  },
+  {
+    "id": 5160,
+    "context": "Red Herring is a media company that publishes an innovation magazine, an online daily technology news service, technology newsletters and hosts events for technology leaders.\n\nGameFan (originally known as Diehard GameFan) was a publication started by Tim Lindquist and Dave Halverson in September 1992 that provided coverage of domestic and import video games. It was notable for its extensive use of game screenshots in page design because of the lack of good screen shots in other U.S. publications at the time. The original magazine ceased publishing in December 2000. On April 2010, Halverson relaunched GameFan as a hybrid video game/film magazine. However, this relaunch was short-lived and suffered from many internal conflicts, advertising revenue being the main one.",
+    "question": "Which Company published a magazine that was a hybrid video game/film, Red Herring or GameFan?",
+    "answer": "GameFan",
+    "target": "Red Herring"
+  },
+  {
+    "id": 5281,
+    "context": "Manoel Cândido Pinto de Oliveira GCSE, GCIH (] ; 11 December 1908 – 2 April 2015) was a Portuguese film director and screenwriter born in Cedofeita, Porto. He first began making films in 1927, when he and some friends attempted to make a film about World War I. In 1931 he completed his first film \"Douro, Faina Fluvial\", a documentary about his home city Porto made in the city symphony genre. He made his feature film debut in 1942 with \"Aniki-Bóbó\" and continued to make shorts and documentaries for the next 30 years, gaining a minimal amount of recognition without being considered a major world film director. Among the numerous factors that prevented Oliveira from making more films during this time period were the political situation in Portugal, family obligations and money.\n\nAlfonso Cuarón Orozco (] ; born November 28, 1961) is a Mexican film director, screenwriter, producer, and editor best known for his dramas \"A Little Princess\" (1995) and",
+    "question": "Which film director is younger, Manoel de Oliveira or Alfonso Cuarón?",
+    "answer": "Alfonso Cuarón",
+    "target": "Manoel de Oliveira"
+  },
+  {
+    "id": 5458,
+    "context": "Crepis, commonly known in some parts of the world as hawksbeard or hawk's-beard (but not to be confused with the related genus \"Hieracium\" with a similar common name), is a genus of annual and perennial flowering plants of the family Asteraceae superficially resembling the dandelion, the most conspicuous difference being that \"Crepis\" usually has branching scapes with multiple heads (though solitary heads can occur). The genus name \"Crepis\" derives from the Greek \"krepis\", meaning \"slipper\" or \"sandal\", possibly in reference to the shape of the fruit.\n\nIsatis is a genus of about 30 species of flowering plants in the family Brassicaceae, native to the Mediterranean region east to central Asia. The genus includes woad (\"Isatis tinctoria\").",
+    "question": "Which genus's family comes first alphabetically, Crepis or Isatis?",
+    "answer": "Crepis",
+    "target": "Isatis"
+  },
+  {
+    "id": 5522,
+    "context": "Return to Oz is a 1985 fantasy adventure film directed and written by Walter Murch, an editor and sound designer, co-written by Gill Dennis and produced by Paul Maslansky. It stars Nicol Williamson as the Nome King, Jean Marsh as Princess Mombi, Piper Laurie as Aunt Em, Matt Clark as Uncle Henry and introduces Fairuza Balk as Dorothy Gale. It is loosely based on L. Frank Baum's \"Oz\" novels, mainly \"The Marvelous Land of Oz\" (1904) and \"Ozma of Oz\" (1907), yet is set six months after the events of the first novel, \"The Wonderful Wizard of Oz\" (1900) took place. Although it is not a sequel and unrelated to the 1939 Metro-Goldwyn-Mayer film, \"The Wizard of Oz\", it borrows a few elements of it such as the ruby slippers.\n\nMidnight Madness is a 1980 American comedy film produced by Walt Disney Productions and starring David Naughton, Stephen Furst and Maggie Roswell.",
+    "question": "Which movie was released first, Return to Oz or Midnight Madness?",
+    "answer": "Midnight Madness",
+    "target": "Return to Oz"
+  },
+  {
+    "id": 5530,
+    "context": "The Strongest Man in the World is a 1975 Disney film starring Kurt Russell, still a student in the fictional Medfield College. It is the sequel to the 1972 film \"Now You See Him, Now You Don't\", itself a sequel to the 1969 film, \"The Computer Wore Tennis Shoes\".\n\nCandleshoe is a 1977 American family adventure film produced by Walt Disney Productions based on the Michael Innes novel \"Christmas at Candleshoe\" and starring Jodie Foster, David Niven, Helen Hayes in her last big screen appearance and Leo McKern.",
+    "question": "Which film came first The Strongest Man in the World or Candleshoe?",
+    "answer": "The Strongest Man in the World",
+    "target": "Candleshoe"
+  },
+  {
+    "id": 5556,
+    "context": "Hans Wilhelm Schlegel (Überlingen, 3 August 1951) is a German physicist, an ESA astronaut, and a veteran of two NASA Space Shuttle missions.\n\nDirk Dries David Damiaan, Viscount Frimout (born 21 March 1941 in Poperinge, Belgium) is an astrophysicist for the European Space Agency. He flew aboard NASA Space Shuttle mision STS-45 as a payload specialist , making him the first Belgian in space .",
+    "question": "Which European Space Agency astronaut flew more Space Shuttle missions, Hans Schlegel of Germany or first Belgian in space Dirk Frimout?",
+    "answer": "Hans Wilhelm Schlegel",
+    "target": "Dirk Frimout"
+  },
+  {
+    "id": 5560,
+    "context": "Burton L. King (August 25, 1877 – May 4, 1944) was an American film actor and director. One of his best-known productions was \"The Lost Battalion\" (1919).\n\nMaheen Zia is a Pakistani film director and film editor.",
+    "question": "Which director was also a film editor, Burton L. King or Maheen Zia?",
+    "answer": "Maheen Zia",
+    "target": "Burton L. King"
+  },
+  {
+    "id": 5589,
+    "context": "Shanghai is one of the four direct-controlled municipalities of China and the most populous city proper in the world with a population of more than 24 million as of 2014 . It is a global financial centre and transport hub, with the world's busiest container port. Located in the Yangtze River Delta, it sits on the south edge of the estuary of the Yangtze in the middle portion of the East China coast. The municipality borders the provinces of Jiangsu and Zhejiang to the north, south and west, and is bounded to the east by the East China Sea.\n\nHengyang () is the second largest city of Hunan Province, China. It straddles the Xiang River about 160 km south of the provincial capital of Changsha. Its built-up (\"or metro\") area made of 4 out of 5 urban districts was home to 1,075,516 inhabitants at the 2010 census.",
+    "question": "Which city has a higher population, Shanghai or Hengyang?",
+    "answer": "Shanghai",
+    "target": "Hengyang"
+  },
+  {
+    "id": 5600,
+    "context": "About Time is a general knowledge historical board game first seen on Series 5 of the BBC new-business reality show \"Dragon's Den\" on December 17, 2007.\n\nJava is a German-style board game designed by Wolfgang Kramer and Michael Kiesling and published in 2000 by Ravensburger in German and by Rio Grande Games in English. It is illustrated by Franz Vohwinkel.",
+    "question": "Which game was created first, About Time or Java?",
+    "answer": "Java",
+    "target": "About Time"
+  },
+  {
+    "id": 5635,
+    "context": "Kolejka ( ; Polish for \"queue\" or \"line (of people)\") is a board game designed by Karol Madaj and launched in February 2011 by Poland's Institute of National Remembrance. It was designed to teach young generations about the hardships under communism (1945–1989), particularly the difficulty of acquiring consumer goods in the shortage economy. The game has been described as inspired by \"Monopoly\".\n\nGhettopoly is a parody of \"Monopoly\" released in 2003. Invented by David Chang, it uses \"Monopoly\"-like mechanics in the atmosphere of a caricaturized United States ghetto.",
+    "question": "Which was released first, Kolejka or Ghettopoly?",
+    "answer": "Ghettopoly",
+    "target": "Kolejka"
+  },
+  {
+    "id": 5648,
+    "context": "Baiyin () is a prefecture-level city in northeastern Gansu province, People's Republic of China.\n\nXinghua () is a county-level city under the administration of Taizhou, Jiangsu province, China. It is located in the central part of Jiangsu Province. It borders the prefecture-level cities of Yancheng to the north and east and Yangzhou to the west.",
+    "question": "Is Baiyin or Xinghua, Jiangsu a county-level city?",
+    "answer": "Xinghua () is a county-level city",
+    "target": "Baiyin is a county-level city"
+  },
+  {
+    "id": 5694,
+    "context": "Gunnar Eric Nelson (born September 20, 1967) is an American musician, singer, and songwriter and international multi-platinum recording artist.\n\nFlorence Leontine Mary Welch (born 28 August 1986) is an English musician, singer and songwriter, best known as the vocalist of indie rock band Florence and the Machine.",
+    "question": "Who was born more recent.y,Gunnar Nelson or Florence Welch?",
+    "answer": "Florence Leontine Mary Welch",
+    "target": "Gunnar Nelson"
+  },
+  {
+    "id": 5708,
+    "context": "Andy Warhol ( ; born Andrew Warhola; August 6, 1928 – February 22, 1987) was an American artist, director and producer who was a leading figure in the visual art movement known as pop art. His works explore the relationship between artistic expression, celebrity culture, and advertising that flourished by the 1960s, and span a variety of media, including painting, silkscreening, photography, film, and sculpture. Some of his best known works include the silkscreen paintings \"Campbell's Soup Cans\" (1962) and \"Marilyn Diptych\" (1962), the experimental film \"Chelsea Girls\" (1966), and the multimedia events known as the \"Exploding Plastic Inevitable\" (1966–67).\n\nAlexander Butler was a British film director who made over sixty features and short films during the 1910s and 1920s including many for G.B. Samuelson's production company. Butler directed several British films in Hollywood in 1920, where Samuelson had made an arrangement with Universal Pictures. Amongst his notable films are the Sherlock Holmes adaptation \"The Valley of Fear\" (1916) and the early British horror film \"The Beetle\" (1919).",
+    "question": "Who was born first, Andy Warhol or Alexander Butler?",
+    "answer": "Alexander Butler",
+    "target": "Andy Warhol"
+  },
+  {
+    "id": 5790,
+    "context": "Children’s National Medical Center (formerly DC Children’s Hospital) is ranked among the top 10 children’s hospitals in the country by \"U.S. News & World Report.\" Located just north of the McMillan Reservoir and Howard University, it shares grounds with Washington Hospital Center, National Rehabilitation Hospital, and the DC Veterans Affairs Medical Center. Kurt Newman, M.D., has served as the president and chief executive officer of Children’s National since 2011. Children's National is a not-for-profit institution that performs more than 450,000 visits each year. Featuring 303 beds and a Level IV NICU, Children's National is the regional referral center for pediatric emergency, trauma, cancer, cardiac and critical care as well as neonatology, orthopaedic surgery, neurology and neurosurgery.\n\nMedStar Washington Hospital Center is the largest private hospital in Washington, D.C. A member of MedStar Health, the not-for-profit Hospital Center is licensed for 926 beds. Health services in primary, secondary and tertiary care are offered to adult and neonatal patients. It also serves as a teaching hospital for Georgetown University School of Medicine.",
+    "question": "Does MedStar Washington Hospital Center or Children's National Medical Center have more beds?",
+    "answer": "MedStar Washington Hospital Center",
+    "target": "Children's National Medical Center"
+  },
+  {
+    "id": 5805,
+    "context": "Mensch ärgere Dich nicht is a German board game (but not a German-style board game), developed by Josef Friedrich Schmidt in 1907/1908.\n\nRoulette is a casino game named after the French word meaning \"little wheel\". In the game, players may choose to place bets on either a single number or a range of numbers, the colors red or black, or whether the number is odd or even, or if the numbers are high (19–36) or low (1–18).",
+    "question": "Which game is a board game, Mensch ärgere dich nicht or Roulette?",
+    "answer": "Mensch ärgere Dich nicht",
+    "target": "Roulette"
+  },
+  {
+    "id": 5827,
+    "context": "Gaillardia (common name blanket flower) is a genus of flowering plants in the sunflower family, Asteraceae, native to North and South America. It was named after an M. Gaillard de Charentonneau, an 18th-century French magistrate who was a patron of botany. The common name may refer to the resemblance of the inflorescence to the brightly patterned blankets made by Native Americans, or to the ability of wild taxa to blanket the ground with colonies. Many cultivars have been bred for ornamental use.\n\nBrowningia is a genus of cacti, comprising 11 accepted and 3 unresolved species. It is named for Webster E Browning (1869-1942), director of the Instituto Inglés, Santiago,Chile.",
+    "question": "Of the two genuses Gaillardia and Browningia which one is a genus of cacti?",
+    "answer": "Browningia",
+    "target": "Gaillardia"
+  },
+  {
+    "id": 5835,
+    "context": "Valparaiso University is a regionally accredited private university located in Valparaiso, Indiana, United States. Commonly known as Valpo, the university is a coed, four-year, Lutheran institution that enrolls about 4,500 students from over 50 countries on a campus of 350 acre .\n\nOld Dominion University, also known as ODU, is a public, co-educational research university located in Norfolk, Virginia, United States, with two satellite campuses in the Hampton Roads area. It was established in 1930 as the Norfolk Division of the College of William & Mary and is now one of the largest universities in Virginia with an enrollment of 24,670 students for the 2014-2015 academic year. Its campus covers over 251 acre straddling the city neighborhoods of Larchmont, Highland Park, and Lambert's Point, approximately 5 mi from Downtown Norfolk.",
+    "question": "Between Valparaiso University and Old Dominion University, which institution has higher student enrollment?",
+    "answer": "Old Dominion University",
+    "target": "Valparaiso University"
+  },
+  {
+    "id": 5838,
+    "context": "Lawrence Monsanto Ferlinghetti (born March 24, 1919) is an American poet, painter, liberal activist, and the co-founder of City Lights Booksellers & Publishers. Author of poetry, translations, fiction, theatre, art criticism, and film narration, he is best known for \"A Coney Island of the Mind\" (1958), a collection of poems that has been translated into nine languages, with sales of more than one million copies.\n\nLuigi Pirandello (] ; Girgenti,today known as Agrigento, 28 June 1867 – Rome 10 December 1936) was an Italian dramatist, novelist, poet and short story writer whose greatest contributions were his plays. He was awarded the 1934 Nobel Prize in Literature for \"his almost magical power to turn psychological analysis into good theatre.\"",
+    "question": "Who was born first, Lawrence Ferlinghetti or Luigi Pirandello?",
+    "answer": "Luigi Pirandello",
+    "target": "Lawrence Ferlinghetti"
+  },
+  {
+    "id": 5854,
+    "context": "The Battle of Fredericksburg was fought December 11–15, 1862, in and around Fredericksburg, Virginia, between General Robert E. Lee's Confederate Army of Northern Virginia and the Union Army of the Potomac, commanded by Major General Ambrose Burnside, as part of the American Civil War. The Union Army's futile frontal attacks on December 13 against entrenched Confederate defenders on the heights behind the city are remembered as one of the most one-sided battles of the war, with Union casualties more than three times as heavy as those suffered by the Confederates. A visitor to the battlefield described the battle to U.S. President Abraham Lincoln as a \"butchery.\"\n\nThe Western Allied invasion of Germany was coordinated by the Western Allies during the final months of hostilities in the European theatre of World War II. The Allied invasion of Germany started with the Western Allies crossing the Rhine River in March 1945 before fanning out and overrunning all of western Germany from the Baltic in the north to Austria in the south before the Germans surrendered on 8 May 1945. This is known as the \"Central Europe Campaign\" in United States military histories.",
+    "question": "Which battle took place closer to New York City, Battle of Fredericksburg or the Western Allied invasion of Germany ?",
+    "answer": "Battle of Fredericksburg",
+    "target": "Western Allied invasion of Germany"
+  },
+  {
+    "id": 5877,
+    "context": "Terry Alan Kath (January 31, 1946 – January 23, 1978) was an American musician and songwriter, best known as the original guitarist, one of the lead singers and founding members of the rock band Chicago. He has been praised by the band for his guitar skills and Ray Charles-influenced vocal style.\n\nRóisín Marie Murphy ( ; ] ; born 5 July 1973) is an Irish singer-songwriter and record producer. She first became known in the 1990s as one-half of the UK trip hop duo Moloko with her partner Mark Brydon. After the breakup of Moloko, Murphy embarked on a solo career, releasing her debut solo album, \"Ruby Blue\", written and produced with experimental musician Matthew Herbert, to critical praise in 2005. Her second solo album, \"Overpowered\", was released in 2007.",
+    "question": "Which musician obtained fame first, Terry Kath or Róisín Murphy?",
+    "answer": "Terry Alan Kath",
+    "target": "Róisín Murphy"
+  },
+  {
+    "id": 5907,
+    "context": "Cassiope is a genus of 9-12 small shrubby species in the family Ericaceae. They are native to the Arctic and north temperate montane regions. The genus is named after Cassiopeia of Greek mythology. Common names, shared with several other similar related genera, include heather and heath. They have scale-like leaves lying against the stems, and produce solitary bell-shaped flowers in late spring. Though hardy, flowers can be damaged by late frosts.\n\nDeutzia ( or ) is a genus of about 60 species of flowering plants in the family Hydrangeaceae, native to eastern and central Asia (from the Himalayas east to Japan and the Philippines), and Central America and also Europe. By far the highest species diversity is in China, where 50 species occur.",
+    "question": "Which as more species Cassiope or Deutzia?",
+    "answer": "Deutzia",
+    "target": "Cassiope"
+  },
+  {
+    "id": 5908,
+    "context": "15 Penn Plaza, also known as the Vornado Tower, is a proposed 68-story tower in the Midtown Manhattan section of New York City planned by Vornado Realty Trust. It would have 430 units and 2,050,000 square feet (190,451 m²) of floor space. The Hiller Group is the designer. Despite only having 68 floors, it would be just 10 m shorter than the Empire State Building, which has 102 floors.\n\n247 Cherry is a seventy seven story residential building under development in the Lower East Side neighborhood of Manhattan, in New York City. The building was designed by SHoP Architects, and is being developed by JDS Development Group. Renderings for the building were first released in April 2016. The building will be adjacent One Manhattan Square.",
+    "question": "Which building will have more floors, 15 Penn Plaza, or 247 Cherry?",
+    "answer": "247 Cherry",
+    "target": "15 Penn Plaza"
+  },
+  {
+    "id": 5934,
+    "context": "Wayne Wang (; born January 12, 1949) is a Hong Kong-born American film director.\n\nW. D. Richter (born December 7, 1945, New Britain, Connecticut) is a screenwriter and film director and producer. He is best known for adapting \"Invasion of the Body Snatchers\", directing \"The Adventures of Buckaroo Banzai Across the 8th Dimension\" and co-writing \"Big Trouble in Little China\".",
+    "question": "Which director is from the US, Wayne Wang or W. D. Richter?",
+    "answer": "W. D. Richter",
+    "target": "Wayne Wang"
+  },
+  {
+    "id": 5936,
+    "context": "Andrei Platonov (Russian: Андре́й Плато́нов , ] ; August 28 [O.S. August 16] 1899 – January 5, 1951) was the pen name of Andrei Platonovich Klimentov (Russian: Андре́й Плато́нович Климе́нтов ), a Soviet Russian writer, playwright, and poet, whose works anticipate existentialism. Although Platonov was a Communist, most of his works were banned in his own lifetime for their skeptical attitude toward collectivization and other Stalinist policies, as well as for its experimental, avant-garde form. His famous works include the novels \"The Foundation Pit\" (Котлован) and \"\" (Чевенгур)\n\nJohn Edward Masefield, OM ( ; 1 June 1878 – 12 May 1967) English poet and writer, was Poet Laureate of the United Kingdom from 1930. Among his best known works are the children's novels \"The Midnight Folk\" and \"The Box of Delights\", and the poems \"The Everlasting Mercy\" and \"Sea-Fever\".",
+    "question": "Who died first, Andrei Platonov or John Masefield?",
+    "answer": "Andrei Platonov",
+    "target": "John Masefield"
+  }
+]

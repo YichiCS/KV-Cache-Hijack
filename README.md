@@ -33,7 +33,10 @@ a matching `--device` list to the CLI commands.
 ```text
 .data/
   datasets/
-    hotpotqa_divaco_50.json      # 50-sample demo dataset
+    hotpotqa_200.json            # 200-sample HotPotQA dataset (demo default)
+    squad_200.json               # 200-sample SQuAD dataset
+    medqa_200.json               # 200-sample MedQA dataset
+    pubmedqa_200.json            # 200-sample PubMedQA dataset
 assets/
   instruction_question.txt      # System prompt used for attack and evaluation
 scripts/
@@ -70,13 +73,16 @@ Each sample used by the attack should contain:
 Samples with an empty `target` are skipped. During optimization, only the first
 target token is used.
 
-The repository includes a small demo dataset:
+The repository includes four ready-to-use datasets, each with 200 samples:
 
 ```text
-.data/datasets/hotpotqa_divaco_50.json
+.data/datasets/hotpotqa_200.json
+.data/datasets/squad_200.json
+.data/datasets/medqa_200.json
+.data/datasets/pubmedqa_200.json
 ```
 
-It contains 50 HotPotQA-style samples and can be used directly with `--dataset`.
+Any of them can be used directly with `--dataset`.
 
 ## Run an Attack
 
@@ -104,7 +110,7 @@ One worker process is launched per listed GPU.
 bash scripts/demo.sh
 ```
 
-The script runs attack on `.data/datasets/hotpotqa_divaco_50.json` with
+The script runs attack on `.data/datasets/hotpotqa_200.json` with
 `RATIO=0.1`, then re-evaluates the generated attack with `vanilla`, `random`,
 `epic`, and `cacheblend`.
 
