@@ -1,9 +1,9 @@
-# HIJACKKV: New Threat in Position-Independent KV Cache Reuse
+## HIJACKKV: New Threat in Position-Independent KV Cache Reuse
 
 <p>
-  <img src="assets/available.png" alt="Artifact Available" height="32">
-  <img src="assets/functional.png" alt="Artifact Functional" height="32">
-  <img src="assets/reproduced.png" alt="Results Reproduced" height="32">
+  <img src="assets/available.png" alt="Artifact Available" height="64">
+  <img src="assets/functional.png" alt="Artifact Functional" height="64">
+  <img src="assets/reproduced.png" alt="Results Reproduced" height="64">
 </p>
 
 [[ArXiv]](https://arxiv.org/abs/2607.19957)
