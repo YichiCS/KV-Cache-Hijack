@@ -8,7 +8,7 @@ from types import SimpleNamespace
 
 import torch
 import torch.multiprocessing as mp
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer
 
 ROOT = Path(__file__).resolve().parents[1]
 if str(ROOT) not in sys.path:
@@ -17,15 +17,24 @@ if str(ROOT) not in sys.path:
 from src.funcs.attack import HijackKV, run_attack_sample
 from src.funcs.evaluate import run_evaluate_sample
 from src.funcs.metrics import load_tokenizer, summarize_records
-from src.utils import cleanup_gpu, dump_json, release_gpu_memory, save_loss_curve_plot
+from src.utils import (
+    cleanup_gpu,
+    dump_json,
+    enable_determinism,
+    release_gpu_memory,
+    request_determinism,
+    save_loss_curve_plot,
+)
+from src.utils.llm import load_model
 
 
 def parse_args():
     parser = argparse.ArgumentParser(description="Run HijackKV and generate attack results")
     parser.add_argument("--dataset", type=str, required=True)
     parser.add_argument("--device", type=str, default="0")
-    parser.add_argument("--instruction_path", type=str, default="assets/instruction_question.txt")
+    parser.add_argument("--instruction_path", type=str, default="data/prompts/instruction_question.txt")
     parser.add_argument("--model", type=str, default="meta-llama/Llama-3.1-8B-Instruct")
+    parser.add_argument("--dtype", choices=["bfloat16", "float16", "float32"], default="bfloat16")
     parser.add_argument("--cache_ratio", type=float, default=0.3)
     parser.add_argument("--chunk_size", type=int, default=32)
     parser.add_argument("--max_new_tokens", type=int, default=5)
@@ -41,13 +50,21 @@ def parse_args():
     parser.add_argument("--eval_recomp_ratio", type=float, default=None)
     parser.add_argument("--eval_recomp_method", type=str, default=None, choices=["vanilla", "random", "epic", "cacheblend"])
     parser.add_argument("--max_samples", type=int, default=200)
-    parser.add_argument("--output_dir", type=str, default=".data/results")
+    parser.add_argument("--seed", type=int, default=0)
+    parser.add_argument("--early_stop_patience", type=int, default=0)
+    parser.add_argument("--deterministic", action="store_true")
+    parser.add_argument("--gcg_keep_best", action="store_true")
+    parser.add_argument("--output_dir", type=str, default=".results")
     args = parser.parse_args()
 
     if args.max_samples is not None and args.max_samples <= 0:
         raise ValueError("--max_samples must be a positive integer.")
     if args.tau < 0:
         raise ValueError("--tau must be non-negative.")
+    if args.early_stop_patience < 0:
+        raise ValueError("--early_stop_patience must be non-negative.")
+    if args.deterministic:
+        request_determinism()
     if args.eval_recomp_ratio is None:
         args.eval_recomp_ratio = args.gcg_recomp_ratio
     if args.eval_recomp_method is None:
@@ -69,12 +86,10 @@ def parse_args():
 
 
 def _run_tasks(rank, device, tasks, total_tasks, args):
+    if getattr(args, "deterministic", False):
+        enable_determinism(args.seed)
     tokenizer = AutoTokenizer.from_pretrained(args.model)
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        dtype=torch.float16,
-        device_map=device,
-    ).eval()
+    model = load_model(args.model, device, dtype=getattr(torch, args.dtype))
     attacker = HijackKV(model=model, tokenizer=tokenizer, device=device, args=args)
 
     result = []
@@ -101,6 +116,8 @@ def _run_tasks(rank, device, tasks, total_tasks, args):
                 f"[Worker {rank}] {device} | "
                 f"{task_idx + 1}/{total_tasks} | id={sample['id']} | "
                 f"loss={attack_result['loss']:.4f} | step={attack_result['best_step'] + 1}"
+                f" | steps={attack_result['steps_run']}"
+                f" | hit={attack_result['hit_step'] + 1 if attack_result['hit_step'] is not None else '-'}"
             )
 
             result.append({
@@ -114,8 +131,11 @@ def _run_tasks(rank, device, tasks, total_tasks, args):
                 "gcg_loss": attack_result["loss"],
                 "gcg_prefix_txt": tokenizer.decode(attack_result["best_ids"].squeeze(0), skip_special_tokens=False),
                 "gcg_prefix_ids": attack_result["best_ids"][0].tolist(),
+                "steps_run": attack_result["steps_run"],
+                "hit_step": attack_result["hit_step"],
                 "selected_topk_mean": attack_result["selected_topk_mean"],
                 "selected_topk_var": attack_result["selected_topk_var"],
+                "hit_curve": attack_result["hit_curve"],
                 "_loss_curve": attack_result["loss_curve"],
             })
 

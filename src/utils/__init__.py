@@ -1,9 +1,33 @@
 import gc
 import json
+import os
 from pathlib import Path
 from typing import Any, TextIO
 
 import torch
+
+def request_determinism():
+    """Set the cuBLAS workspace before any CUDA context exists.
+
+    Must run before the first cuBLAS handle is created, so call it while parsing
+    arguments rather than next to the model.
+    """
+    os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
+
+
+def enable_determinism(seed=0):
+    """Pin every kernel this process will run to a reproducible algorithm.
+
+    Attention forward is already bit-exact, but SDPA backward reduces with
+    atomics: repeated gradients for one prefix differ by ~1-3% of their scale,
+    which reshuffles the top-k proposals and makes runs diverge. The deterministic
+    path costs about 40% of the (batch-1) gradient pass, under 2% of a GCG step.
+    """
+    request_determinism()
+    torch.use_deterministic_algorithms(True)
+    torch.backends.cudnn.benchmark = False
+    torch.manual_seed(seed)
+
 
 def print_gpu_memory(device):
     device_id = int(device.split(":")[-1])
@@ -89,8 +113,10 @@ def save_loss_curve_plot(curves, output_path):
 
 __all__ = [
     "cleanup_gpu",
+    "enable_determinism",
     "dump_json",
     "print_gpu_memory",
     "release_gpu_memory",
+    "request_determinism",
     "save_loss_curve_plot",
 ]

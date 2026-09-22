@@ -208,4 +208,12 @@ __marimo__/
 
 
 # USENIX
-.data/results
+.results
+.ae
+
+# Audit (local verification only; not part of the released source)
+AUDIT.md
+audit_results/
+scripts/audit_model.py
+scripts/benchmark_cache.py
+tests/
