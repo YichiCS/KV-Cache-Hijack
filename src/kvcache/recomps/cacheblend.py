@@ -1,246 +1,191 @@
+"""Sparse recomputation with absolute-position masks and owned cache storage."""
 import math
+from importlib import import_module
 
 import torch
 
-from transformers import Cache, CacheLayerMixin, DynamicCache
-from transformers.masking_utils import create_causal_mask
+from src.kvcache import cache_clone, cache_expand, cache_concat, cache_from_layers
 
 
 def _next_layer_budget(remaining_budget, remaining_layers, available_tokens):
     if remaining_budget <= 0 or remaining_layers <= 0 or available_tokens <= 0:
         return 0
-    # Keep the remaining budget feasible for later layers while carrying any unused
-    # budget forward automatically.
     return min(available_tokens, math.ceil(remaining_budget / remaining_layers))
 
 
-class _MutableFullLayer(CacheLayerMixin):
-    is_compileable = False
-    is_sliding = False
-
-    def __init__(self, keys, values):
-        super().__init__()
-        self.keys = keys
-        self.values = values
-        self.device = keys.device
-        self.dtype = keys.dtype
-        self.max_cache_len = keys.shape[2]
-        self.is_initialized = True
-
-    def lazy_initialization(self, key_states, value_states):
-        raise RuntimeError("Mutable cache layers are initialized eagerly.")
-
-    def update(self, key_states, value_states, cache_kwargs=None):
-        if cache_kwargs is None or "cache_position" not in cache_kwargs:
-            raise ValueError("CacheBlend cache update requires cache_position.")
-        cache_position = cache_kwargs["cache_position"]
-        self.keys.index_copy_(2, cache_position, key_states)
-        self.values.index_copy_(2, cache_position, value_states)
-        return self.keys, self.values
-
-    def get_mask_sizes(self, cache_position):
-        return self.max_cache_len, 0
-
-    def get_seq_length(self):
-        return self.max_cache_len
-
-    def get_max_cache_shape(self):
-        return self.max_cache_len
-
-
-class _MutableFullCache(Cache):
-    def __init__(self, layers):
-        super().__init__(layers=layers)
-
-    def __iter__(self):
-        for layer in self.layers:
-            yield layer.keys, layer.values, None
+def _validate(model, cache, picm, ratio):
+    if not math.isfinite(ratio) or not 0 <= ratio <= 1:
+        raise ValueError(f"Recomputation ratio must be finite and in [0, 1], got {ratio}.")
+    if len(cache.layers) != len(model.model.layers) or not cache.layers:
+        raise ValueError("Cache must contain one initialized layer per model layer.")
+    if cache.layers[0].keys.shape[2] == 0:
+        raise ValueError("Recomputation requires a non-empty cache.")
+    if len(picm.cache_group['context'].layers) != len(cache.layers):
+        raise ValueError("Context and cache layer counts must match.")
 
 
 def _get_backend(model):
-    if model.config.model_type == "qwen3":
-        from transformers.models.qwen3.modeling_qwen3 import (
-            ALL_ATTENTION_FUNCTIONS,
-            apply_rotary_pos_emb,
-            create_sliding_window_causal_mask,
-        )
-
-        return ALL_ATTENTION_FUNCTIONS, apply_rotary_pos_emb, create_sliding_window_causal_mask
-    if model.config.model_type == "llama":
-        from transformers.models.llama.modeling_llama import ALL_ATTENTION_FUNCTIONS, apply_rotary_pos_emb
-
-        return ALL_ATTENTION_FUNCTIONS, apply_rotary_pos_emb, None
-    raise ValueError(f"CacheBlend only supports llama/qwen3, got model_type={model.config.model_type}.")
-
-
-def _get_attention_fn(attn_registry, attn):
-    impl = attn.config._attn_implementation
-    if impl not in attn_registry.valid_keys():
-        raise ValueError(f"Unsupported attention implementation: {impl}")
-    return attn_registry[impl]
-
-
-def _build_full_cache(model, malicious_cache, picm, batch_size):
-    return _MutableFullCache(
-        [
-            _MutableFullLayer(
-                keys=torch.cat(
-                    [
-                        context_layer.keys if batch_size == 1 else context_layer.keys.expand(batch_size, -1, -1, -1),
-                        malicious_layer.keys,
-                    ],
-                    dim=2,
-                ),
-                values=torch.cat(
-                    [
-                        context_layer.values if batch_size == 1 else context_layer.values.expand(batch_size, -1, -1, -1),
-                        malicious_layer.values,
-                    ],
-                    dim=2,
-                ),
-            )
-            for context_layer, malicious_layer in zip(picm.cache_group["context"].layers, malicious_cache.layers)
-        ]
+    kind = model.config.model_type
+    if kind not in {"llama", "qwen3", "mistral", "ministral"}:
+        raise ValueError(f"Unsupported recomputation model_type={kind}.")
+    module = import_module(f"transformers.models.{kind}.modeling_{kind}")
+    impl = model.config._attn_implementation
+    # Arbitrarily selected query positions require an explicit 4-D mask.
+    if impl not in {"sdpa", "eager"}:
+        raise ValueError(f"Sparse recomputation requires sdpa or eager attention, got {impl}.")
+    return module.apply_rotary_pos_emb, module.ALL_ATTENTION_FUNCTIONS.get_interface(
+        impl, module.eager_attention_forward
     )
 
 
+def _build_full_cache(model, malicious_cache, picm, batch_size):
+    return cache_from_layers((
+        torch.cat((context.keys.expand(batch_size, -1, -1, -1), layer.keys), dim=2),
+        torch.cat((context.values.expand(batch_size, -1, -1, -1), layer.values), dim=2),
+    ) for context, layer in zip(picm.cache_group['context'].layers, malicious_cache.layers, strict=True))
+
+
 def _get_input_embeds(model, picm, batch_size, device):
-    with torch.no_grad():
-        input_embeds = model.get_input_embeddings()(picm.ids_group["cache"])
-    if input_embeds.device != device:
-        input_embeds = input_embeds.to(device)
-    return input_embeds.expand(batch_size, -1, -1)
+    # Cache only immutable embeddings for this sample; the model is frozen.
+    if not hasattr(picm, '_recomp_embeds'):
+        with torch.no_grad():
+            picm._recomp_embeds = model.get_input_embeddings()(picm.ids_group['cache']).detach()
+    return picm._recomp_embeds.to(device).expand(batch_size, -1, -1)
 
 
 def _finalize_cache(full_cache, context_length):
-    result = DynamicCache()
-    for layer_idx, layer in enumerate(full_cache.layers):
-        result.update(layer.keys[:, :, context_length:, :], layer.values[:, :, context_length:, :], layer_idx)
-    return result
+    return cache_from_layers((layer.keys[:, :, context_length:, :], layer.values[:, :, context_length:, :])
+                        for layer in full_cache.layers)
 
 
-def recompute_cacheblend(model, malicious_cache, picm, ratio=0.15, return_stats=False):
-    layers = malicious_cache.layers
-    if not layers:
-        raise ValueError("CacheBlend requires a non-empty malicious cache.")
-    if ratio <= 0:
-        raise ValueError(f"CacheBlend requires ratio > 0, got {ratio}.")
-    cache_length = layers[0].keys.shape[2]
-    if cache_length <= 0:
-        raise ValueError("CacheBlend requires cache_length > 0.")
-    num_layers = len(layers)
+def _gather(x, indices, dim):
+    shape = [indices.shape[0]] + [1] * (x.ndim - 1)
+    shape[dim] = indices.shape[1]
+    expanded = list(x.shape)
+    expanded[dim] = indices.shape[1]
+    return x.gather(dim, indices.reshape(shape).expand(expanded))
+
+
+def _update(layer, keys, values, positions):
+    indices = positions[:, None, :, None].expand_as(keys)
+    # Input caches are never mutated. During backward, functional scatter avoids
+    # invalidating tensors saved by attention in earlier layers.
+    if torch.is_grad_enabled():
+        layer.keys = layer.keys.scatter(2, indices, keys)
+        layer.values = layer.values.scatter(2, indices, values)
+    else:
+        layer.keys.scatter_(2, indices, keys)
+        layer.values.scatter_(2, indices, values)
+    return layer.keys, layer.values
+
+
+def _window(model, layer):
+    attn = layer.self_attn
+    if model.config.model_type == 'mistral':
+        return model.config.sliding_window
+    return getattr(attn, 'sliding_window', None)
+
+
+def _mask(positions, key_positions, dtype, window=None):
+    # Query positions may be sparse and differ between candidate batches.
+    allowed = key_positions[None, None, :] <= positions[:, :, None]
+    if window is not None:
+        allowed &= key_positions[None, None, :] > positions[:, :, None] - window
+    return torch.zeros(allowed.shape, dtype=dtype, device=positions.device).masked_fill_(
+        ~allowed, torch.finfo(dtype).min
+    ).unsqueeze(1)
+
+
+def _project(layer, hidden_states, cos, sin, apply_rope, need_query=True):
+    attn = layer.self_attn
+    shape = (*hidden_states.shape[:-1], -1, attn.head_dim)
+    keys = attn.k_proj(hidden_states).view(shape)
+    values = attn.v_proj(hidden_states).view(shape).transpose(1, 2)
+    if hasattr(attn, 'k_norm'):
+        keys = attn.k_norm(keys)
+    keys = keys.transpose(1, 2)
+    if need_query:
+        queries = attn.q_proj(hidden_states).view(shape)
+        if hasattr(attn, 'q_norm'):
+            queries = attn.q_norm(queries)
+        queries = queries.transpose(1, 2)
+    else:
+        queries = keys  # RoPE is identical for Q/K; Q result is discarded.
+    queries, keys = apply_rope(queries, keys, cos, sin)
+    return queries, keys, values
+
+
+def _finish_layer(model, layer, residual, queries, keys, values, mask, attention_fn):
+    attn = layer.self_attn
+    output, _ = attention_fn(
+        attn, queries, keys, values, mask,
+        dropout=0.0 if not attn.training else attn.attention_dropout,
+        scaling=attn.scaling, sliding_window=_window(model, layer),
+    )
+    hidden = residual + attn.o_proj(output.reshape(*residual.shape[:-1], -1).contiguous())
+    return hidden + layer.mlp(layer.post_attention_layernorm(hidden))
+
+
+def recompute_cacheblend(model, malicious_cache, picm, ratio=0.15, return_stats=False, *, include_context=False):
+    _validate(model, malicious_cache, picm, ratio)
+    apply_rope, attention_fn = _get_backend(model)
+    first = malicious_cache.layers[0].keys
+    batch_size, _, cache_length, _ = first.shape
+    num_layers = len(malicious_cache.layers)
     max_budget = cache_length * num_layers
-    total_budget = min(max_budget, math.ceil(max_budget * ratio))
-    if total_budget <= 0:
-        raise ValueError(f"CacheBlend selected zero tokens: cache_length={cache_length}, ratio={ratio}.")
-    attn_registry, apply_rope, sliding_mask_fn = _get_backend(model)
-    batch_size = layers[0].keys.shape[0]
-    device = layers[0].keys.device
-    context_length = picm.cache_group["context"].layers[0].keys.shape[2]
-    full_cache = _build_full_cache(model, malicious_cache, picm, batch_size)
-    hidden_states = _get_input_embeds(model, picm, batch_size, device)
-    positions = torch.arange(context_length, context_length + cache_length, device=device)
-    base_model = model.model
-    model_layers = base_model.layers
-    attn_fns = [_get_attention_fn(attn_registry, layer.self_attn) for layer in model_layers]
-    selected_by_layer = [] if return_stats else None
-    actual_layer_counts = [] if return_stats else None
-    remaining_budget = total_budget
-
-    for layer_idx, layer in enumerate(model_layers):
-        if not positions.numel():
-            if selected_by_layer is not None:
-                selected_by_layer.append(positions)
-                actual_layer_counts.append(0)
-            continue
-        keep_count = _next_layer_budget(
-            remaining_budget=remaining_budget,
-            remaining_layers=len(model_layers) - layer_idx,
-            available_tokens=positions.numel(),
-        )
-        residual = hidden_states
-        hidden_states = layer.input_layernorm(hidden_states)
-        position_ids = positions.unsqueeze(0).expand(batch_size, -1)
-        cos, sin = base_model.rotary_emb(hidden_states, position_ids=position_ids)
-        attn = layer.self_attn
-        query_states = attn.q_proj(hidden_states).view(*hidden_states.shape[:-1], -1, attn.head_dim)
-        key_states = attn.k_proj(hidden_states).view(*hidden_states.shape[:-1], -1, attn.head_dim)
-        value_states = attn.v_proj(hidden_states).view(*hidden_states.shape[:-1], -1, attn.head_dim)
-        if hasattr(attn, "q_norm"):
-            query_states = attn.q_norm(query_states)
-        if hasattr(attn, "k_norm"):
-            key_states = attn.k_norm(key_states)
-        query_states = query_states.transpose(1, 2)
-        key_states = key_states.transpose(1, 2)
-        value_states = value_states.transpose(1, 2)
-        query_states, key_states = apply_rope(query_states, key_states, cos, sin)
-        scores = (key_states.float() - full_cache.layers[layer_idx].keys.index_select(2, positions).float()).pow(2).mean(dim=(0, 1, 3))
-        keep_count = min(int(keep_count), scores.numel())
-        if keep_count == 0:
-            positions = positions[:0]
-            if selected_by_layer is not None:
-                selected_by_layer.append(positions)
-                actual_layer_counts.append(0)
-            hidden_states = hidden_states[:, :0, :]
-            continue
-        chosen = (
-            torch.arange(scores.numel(), device=device)
-            if keep_count == scores.numel()
-            else torch.sort(torch.topk(scores, k=keep_count, largest=True, sorted=False).indices).values
-        )
-        remaining_budget -= keep_count
-        positions = positions.index_select(0, chosen)
-        if selected_by_layer is not None:
-            selected_by_layer.append(positions)
-            actual_layer_counts.append(keep_count)
-        if not positions.numel():
-            hidden_states = hidden_states[:, :0, :]
-            continue
-        residual = residual.index_select(1, chosen)
-        hidden_states = hidden_states.index_select(1, chosen)
-        position_ids = position_ids.index_select(1, chosen)
-        query_states = query_states.index_select(2, chosen)
-        key_states = key_states.index_select(2, chosen)
-        value_states = value_states.index_select(2, chosen)
-        key_states, value_states = full_cache.update(key_states, value_states, layer_idx, {"cache_position": positions})
-        attn_mask = create_causal_mask(
-            config=model.config,
-            input_embeds=hidden_states,
-            attention_mask=None,
-            cache_position=positions,
-            past_key_values=full_cache,
-            position_ids=position_ids,
-        )
-        if getattr(layer, "attention_type", None) == "sliding_attention":
-            if sliding_mask_fn is None:
-                raise ValueError("Sliding attention is only supported for qwen3.")
-            attn_mask = sliding_mask_fn(
-                config=model.config,
-                input_embeds=hidden_states,
-                attention_mask=None,
-                cache_position=positions,
-                past_key_values=full_cache,
-                position_ids=position_ids,
-            )
-        attn_output, _ = attn_fns[layer_idx](
-            attn,
-            query_states,
-            key_states,
-            value_states,
-            attn_mask,
-            dropout=0.0 if not attn.training else attn.attention_dropout,
-            scaling=attn.scaling,
-            sliding_window=getattr(attn, "sliding_window", None),
-        )
-        hidden_states = residual + attn.o_proj(attn_output.reshape(*hidden_states.shape[:-1], -1).contiguous())
-        hidden_states = hidden_states + layer.mlp(layer.post_attention_layernorm(hidden_states))
-    result = _finalize_cache(full_cache, context_length)
+    total_budget = math.ceil(max_budget * ratio)
+    context_length = picm.cache_group['context'].get_seq_length()
+    if ratio in (0, 1):
+        result = (cache_clone(malicious_cache) if ratio == 0 else
+                  cache_expand(picm.cache_group['benign'], batch_size))
+        if include_context:
+            result = cache_concat([cache_expand(picm.cache_group['context'], batch_size), result])
+        counts = [cache_length if ratio == 1 else 0] * num_layers
+        positions = torch.arange(counts[0], device=first.device).expand(batch_size, -1)
+        selected = [positions] * num_layers
+    else:
+        full_cache = _build_full_cache(model, malicious_cache, picm, batch_size)
+        hidden = _get_input_embeds(model, picm, batch_size, first.device)
+        positions = torch.arange(context_length, context_length + cache_length, device=first.device).expand(batch_size, -1)
+        key_positions = torch.arange(context_length + cache_length, device=first.device)
+        # RoPE depends on positions, not hidden values. Gather as the set shrinks.
+        cos, sin = model.model.rotary_emb(hidden, position_ids=positions)
+        remaining = total_budget
+        counts, selected = [], []
+        masks = {}
+        for idx, layer in enumerate(model.model.layers):
+            keep = _next_layer_budget(remaining, num_layers - idx, positions.shape[1])
+            counts.append(keep)
+            if keep == 0:
+                if return_stats:
+                    selected.append(positions[:, :0])
+                continue
+            residual = hidden
+            hidden = layer.input_layernorm(hidden)
+            queries, keys, values = _project(layer, hidden, cos, sin, apply_rope, idx < num_layers - 1)
+            if keep < positions.shape[1]:
+                with torch.no_grad():
+                    old = _gather(full_cache.layers[idx].keys, positions, 2)
+                    scores = (keys.float() - old.float()).square().mean(dim=(1, 3))
+                    chosen = scores.topk(keep, dim=1, sorted=False).indices.sort(dim=1).values
+                positions = positions.gather(1, chosen)
+                residual = _gather(residual, chosen, 1)
+                queries, keys, values = (_gather(x, chosen, 2) for x in (queries, keys, values))
+                cos, sin = (_gather(x, chosen, 1) for x in (cos, sin))
+                masks.clear()
+            remaining -= keep
+            if return_stats:
+                selected.append(positions - context_length)
+            keys, values = _update(full_cache.layers[idx], keys, values, positions)
+            # The final hidden state is unused: only K/V are returned.
+            if idx < num_layers - 1:
+                window = _window(model, layer)
+                if window not in masks:
+                    masks[window] = _mask(positions, key_positions, hidden.dtype, window)
+                hidden = _finish_layer(model, layer, residual, queries, keys, values, masks[window], attention_fn)
+        result = full_cache if include_context else _finalize_cache(full_cache, context_length)
     if not return_stats:
         return result
-    return result, {
-        "total_budget": total_budget,
-        "realized_budget": sum(actual_layer_counts),
-        "max_budget": max_budget,
-        "layer_counts": actual_layer_counts,
-        "selected_by_layer": [positions.sub(context_length) for positions in selected_by_layer],
-    }
+    return result, dict(total_budget=total_budget, realized_budget=sum(counts), max_budget=max_budget,
+                        layer_counts=counts,
+                        selected_by_layer=[p[0] if batch_size == 1 else p for p in selected])

@@ -1,7 +1,7 @@
 set -euo pipefail
 
-DATASET=".data/datasets/hotpotqa_200.json"
-OUTPUT_DIR=".data/results"
+DATASET="data/datasets/hotpotqa_200.json"
+OUTPUT_DIR=".results"
 RATIO=0.1
 METHODS=(vanilla random epic cacheblend)
 DEVICE=0,1,2,3

@@ -4,25 +4,33 @@ from types import SimpleNamespace
 
 import torch
 from tqdm import tqdm
-from transformers import AutoModelForCausalLM, AutoTokenizer
+from transformers import AutoTokenizer
 
 from src.funcs.attack import HijackKV
 from src.funcs.metrics import metric, same_tokenizer, summarize_records
 from src.kvcache import PICacheManager, cache_concat
 from src.kvcache.recomps import cache_recomputation
-from src.utils import dump_json
-from src.utils.llm import greedy_decode
+from src.utils import dump_json, enable_determinism
+from src.utils.llm import greedy_decode, load_model
 
 
 def run_evaluate_sample(attacker, prefix_ids, tokenizer, args):
     with torch.no_grad():
         malicious_cache, _ = attacker.build_malicious_cache(prefix_ids=prefix_ids)
+        random_positions = None
+        if args.eval_recomp_method == "random":
+            # Drawn from the sample's seeded stream so a re-evaluation of the same
+            # saved prefixes reproduces exactly, unlike the global RNG.
+            random_positions = attacker.sample_random_positions(
+                attacker.cache_embeds.shape[1], args.eval_recomp_ratio,
+            )
         recomp_cache = cache_recomputation(
             model=attacker.model,
             malicious_cache=malicious_cache,
             picm=attacker.picm,
             ratio=args.eval_recomp_ratio,
             method=args.eval_recomp_method,
+            random_positions=random_positions,
         )
         return greedy_decode(
             model=attacker.model,
@@ -52,6 +60,8 @@ def next_eval_metrics_path(
 
 
 def run_evaluate_file(args):
+    if getattr(args, "deterministic", False):
+        enable_determinism(getattr(args, "seed", 0))
     dataset_path = Path(args.dataset)
     device = args.device if args.device.startswith("cuda:") else f"cuda:{args.device}"
 
@@ -90,11 +100,7 @@ def run_evaluate_file(args):
     args.nlp = not same_tokenizer(args.model, source_model) if source_model else False
     
     tokenizer = AutoTokenizer.from_pretrained(args.model)
-    model = AutoModelForCausalLM.from_pretrained(
-        args.model,
-        dtype=torch.float16,
-        device_map=device,
-    ).eval()
+    model = load_model(args.model, device, dtype=getattr(torch, args.dtype))
 
     decode_args_dict = dict(source_args)
     decode_args_dict.update(
@@ -105,6 +111,7 @@ def run_evaluate_file(args):
         tau=args.tau,
         eval_recomp_ratio=args.eval_recomp_ratio,
         eval_recomp_method=args.eval_recomp_method,
+        seed=getattr(args, "seed", 0),
     )
     
     decode_args = SimpleNamespace(**decode_args_dict)
@@ -158,6 +165,7 @@ def run_evaluate_file(args):
         "args": {
             "source_dataset": str(dataset_path),
             "model": args.model,
+            "dtype": args.dtype,
             "device": device,
             "instruction_path": args.instruction_path,
             "eval_recomp_ratio": args.eval_recomp_ratio,

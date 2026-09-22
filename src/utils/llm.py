@@ -1,4 +1,22 @@
 import torch
+from transformers import AutoConfig, AutoModelForCausalLM, DynamicCache, MinistralConfig
+
+
+def load_model(name, device, dtype=torch.bfloat16):
+    config = AutoConfig.from_pretrained(name)
+    # The 2410 checkpoint still advertises Mistral, which ignores layer_types.
+    # Ministral uses the same parameter names and honors hybrid attention.
+    if config.model_type == "mistral" and getattr(config, "layer_types", None):
+        revision = getattr(config, "_commit_hash", None)
+        data = config.to_dict()
+        data.pop("model_type", None)
+        data["architectures"] = ["MinistralForCausalLM"]
+        config = MinistralConfig.from_dict(data)
+        config._commit_hash = revision
+    return AutoModelForCausalLM.from_pretrained(
+        name, config=config, dtype=dtype, device_map=device, attn_implementation="sdpa",
+    ).eval().requires_grad_(False)
+
 
 def tokenizer_template(tokenizer, sample, args):
     system_prompt = args.system_prompt
@@ -33,12 +51,19 @@ def build_kv_cache(
             input_ids=input_ids,
             inputs_embeds=input_embeds, 
             use_cache=use_cache,
+            # Preserve all positions even for sliding-window models. The model's
+            # attention mask still enforces the window; cache transforms need the
+            # full sequence rather than a rolling, truncated cache.
+            past_key_values=DynamicCache() if use_cache else None,
             return_dict=return_dict, 
         )
         return outputs.past_key_values
 
 
 def greedy_decode(model, tokenizer, input_ids, cache, args):
+    from src.kvcache import cache_clone
+
+    cache = cache_clone(cache)
     eos_id = model.generation_config.eos_token_id
     stop_ids = set()
     tau = float(getattr(args, "tau", 0.0))
@@ -67,6 +92,7 @@ def greedy_decode(model, tokenizer, input_ids, cache, args):
                 input_ids=next_input_ids,
                 past_key_values=cache,
                 use_cache=True,
+                logits_to_keep=1,
             )
             cache = outputs.past_key_values
             next_token_logits = outputs.logits[:, -1, :]

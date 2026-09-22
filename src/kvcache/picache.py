@@ -2,6 +2,7 @@ import math
 
 import torch
 from transformers import DynamicCache
+from transformers.cache_utils import DynamicLayer
 
 from src.utils.llm import (
     build_kv_cache,
@@ -10,78 +11,64 @@ from src.utils.llm import (
 
 
 
+def cache_from_layers(pairs):
+    """Wrap K/V tensors without DynamicLayer.update's initial empty cat copy.
+
+    Each wrapper owns its layer metadata; tensor storage and autograd edges are
+    preserved. This adapter is tested against the pinned Transformers version.
+    """
+    cache = DynamicCache()
+    for keys, values in pairs:
+        layer = DynamicLayer()
+        layer.keys, layer.values = keys, values
+        layer.dtype, layer.device = keys.dtype, keys.device
+        layer.is_initialized = True
+        cache.layers.append(layer)
+    return cache
+
+
 def cache_clone(cache):
-    cache_copy = DynamicCache()
-    for layer_idx, (key, value, _) in enumerate(cache):
-        cache_copy.update(
-            key_states=key,
-            value_states=value,
-            layer_idx=layer_idx,
-        )
-    return cache_copy
+    """Copy the append-only container, sharing tensors (not a deep tensor clone).
+
+    DynamicCache updates replace tensors via cat; views are safe for append/crop.
+    Callers performing in-place tensor writes must allocate their own storage.
+    All utilities use full, untruncated caches with positions starting at zero.
+    """
+    return cache_from_layers((layer.keys, layer.values) for layer in cache.layers)
+
+
+def cache_slice(cache, start=0, end=None):
+    return cache_from_layers((layer.keys[:, :, start:end, :], layer.values[:, :, start:end, :])
+                        for layer in cache.layers)
 
 
 def cache_split(cache, k):
-    cache_a = DynamicCache()
-    cache_b = DynamicCache()
-
-    for layer_idx, (key, value, _) in enumerate(cache):
-        cache_a.update(
-            key_states=key[:, :, :k, :],
-            value_states=value[:, :, :k, :],
-            layer_idx=layer_idx,
-        )
-        cache_b.update(
-            key_states=key[:, :, k:, :],
-            value_states=value[:, :, k:, :],
-            layer_idx=layer_idx,
-        )
-
-    return cache_a, cache_b
+    return cache_slice(cache, end=k), cache_slice(cache, start=k)
 
 
 def cache_expand(cache, batch_size):
-    expanded_cache = DynamicCache()
-    for layer_idx, (key, value, _) in enumerate(cache):
-        expanded_cache.update(
-            key_states=key.expand(batch_size, -1, -1, -1),
-            value_states=value.expand(batch_size, -1, -1, -1),
-            layer_idx=layer_idx,
-        )
-    return expanded_cache
+    return cache_from_layers((layer.keys.expand(batch_size, -1, -1, -1),
+                         layer.values.expand(batch_size, -1, -1, -1)) for layer in cache.layers)
 
 
 def cache_concat(cache_list):
     if not cache_list:
         raise ValueError("cache_concat requires at least one cache.")
-
-    cache = DynamicCache()
-    num_layers = len(list(cache_list[0]))
-
-    resolved = [list(item) for item in cache_list]
-    for layer_idx in range(num_layers):
-        keys = [cache_item[layer_idx][0] for cache_item in resolved]
-        values = [cache_item[layer_idx][1] for cache_item in resolved]
-        cache.update(
-            key_states=torch.cat(keys, dim=2),
-            value_states=torch.cat(values, dim=2),
-            layer_idx=layer_idx,
-        )
-    return cache
+    num_layers = len(cache_list[0].layers)
+    if any(len(cache.layers) != num_layers for cache in cache_list):
+        raise ValueError("Cannot concatenate caches with different layer counts.")
+    return cache_from_layers((
+        torch.cat([cache.layers[i].keys for cache in cache_list], dim=2),
+        torch.cat([cache.layers[i].values for cache in cache_list], dim=2),
+    ) for i in range(num_layers))
 
 
 def cache_merge(cache_a, cache_b, mask):
-    merged_cache = DynamicCache()
-    for layer_idx, (layer_a, layer_b, layer_mask) in enumerate(zip(cache_a, cache_b, mask)):
-        key_a, value_a = layer_a[:2]
-        key_b, value_b = layer_b[:2]
-        layer_mask = layer_mask.to(key_a.device)
-        merged_cache.update(
-            key_states=torch.where(layer_mask, key_a, key_b),
-            value_states=torch.where(layer_mask, value_a, value_b),
-            layer_idx=layer_idx,
-        )
-    return merged_cache
+    def merged():
+        for a, b, m in zip(cache_a.layers, cache_b.layers, mask, strict=True):
+            m = m.to(a.keys.device)
+            yield torch.where(m, a.keys, b.keys), torch.where(m, a.values, b.values)
+    return cache_from_layers(merged())
 
 class PICacheManager:
     def __init__(self, sample, model, tokenizer, device, args):
@@ -109,14 +96,26 @@ class PICacheManager:
         self.cache_group = self.cache_precompute()
     
     def cache_locate(self, context, context_wp, args):
-        context_end = context_wp.find(context) + len(context)
+        context_start = context_wp.find(context)
+        if not context or context_start < 0:
+            raise ValueError("Non-empty context must appear in the rendered chat template.")
+        if args.chunk_size <= 0 or not 0 < args.cache_ratio <= 1:
+            raise ValueError("chunk_size must be positive and cache_ratio must be in (0, 1].")
+        context_end = context_start + len(context)
         ids_wp = self.tokenizer(context_wp, return_tensors="pt", add_special_tokens=False)
-        len_contex_ids = ids_wp.char_to_token(0, context_end - 1) + 1
+        # Offset mappings handle trailing whitespace not assigned to a token.
+        while context_end > context_start and ids_wp.char_to_token(0, context_end - 1) is None:
+            context_end -= 1
+        last_token = ids_wp.char_to_token(0, context_end - 1)
+        if last_token is None:
+            raise ValueError("Could not locate context tokens; a fast tokenizer is required.")
+        len_contex_ids = last_token + 1
         
         num_chunks = len_contex_ids // args.chunk_size
         num_cache_chunks = min(num_chunks, math.ceil((len_contex_ids * args.cache_ratio) / args.chunk_size))
         
-        assert num_cache_chunks > 0
+        if num_cache_chunks <= 0:
+            raise ValueError("Context is shorter than chunk_size; use a smaller chunk_size.")
         
         cache_end = num_chunks * args.chunk_size
         cache_begin = (num_chunks - num_cache_chunks) * args.chunk_size
